@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.ProgressBar;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -142,6 +143,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
         if (view.getId() == R.id.nextButton){
             this.showNextQuestion();
+            ((ProgressBar) findViewById(R.id.progressBar)).incrementProgressBy(1);
         }
     }
 
@@ -151,6 +153,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
             Collections.shuffle(questions);
             currentIndex = 0;
             Toast.makeText(this, "Fsio, rodau iš naujo random tvarka", Toast.LENGTH_LONG).show();
+
+            ((ProgressBar) findViewById(R.id.progressBar)).setProgress(0);
         }
         showQuestion(questions.get(currentIndex));
 

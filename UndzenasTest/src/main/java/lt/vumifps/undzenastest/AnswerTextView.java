@@ -4,6 +4,7 @@ import android.content.Context;
 import android.graphics.Color;
 import android.util.AttributeSet;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 /**
@@ -47,6 +48,7 @@ public class AnswerTextView extends TextView implements View.OnClickListener {
             this.setBackgroundColor(Color.GREEN);
         } else {
             this.setBackgroundColor(Color.RED);
+
         }
 
     }

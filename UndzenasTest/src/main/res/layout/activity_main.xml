@@ -49,10 +49,19 @@
         android:id="@+id/nextButton"
         android:layout_width="fill_parent"
         android:layout_height="40dp"
-        android:text="RODYK DAR"
+        android:text="@string/moar"
         android:layout_alignParentBottom="true">
     </Button>
 
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_gravity="left|center_vertical"
+        android:visibility="visible"
+        android:max="@integer/qsMax"
+        android:progress="0" />
 
 
 </LinearLayout>
