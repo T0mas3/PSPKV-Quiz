@@ -1,6 +1,7 @@
 package lt.vumifps.undzenastest;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.util.TypedValue;
@@ -34,8 +35,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
     ScrollView mainScrollView;
 
     int currentIndex;
-
-
+    public static int resultCount = 0;
+    public final static String EXTRA_MESSAGE = "lt.vumifps.undzenastest.MESSAGE";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,7 +51,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
             JSONArray questionsJsonArray = new JSONArray(questionsJsonString);
 
-            for (int i = 0; i < questionsJsonArray.length(); i++){
+            for (int i = 0; i < questionsJsonArray.length(); i++) {
 
                 try {
                     questions.add(new Question(questionsJsonArray.getJSONObject(i)));
@@ -80,7 +81,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     }
 
 
-    private void showQuestion(Question question){
+    private void showQuestion(Question question) {
 
         TextView questionsTextView = (TextView) this.findViewById(R.id.questionTextView);
         questionsTextView.setText(question.getQuestion());
@@ -103,7 +104,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
     }
 
-    private AnswerTextView getAnswerTextView(Answer answer){
+    private AnswerTextView getAnswerTextView(Answer answer) {
 
         AnswerTextView answerTextView = new AnswerTextView(this);
         answerTextView.setAnswer(answer);
@@ -141,7 +142,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     @Override
     public void onClick(View view) {
 
-        if (view.getId() == R.id.nextButton){
+        if (view.getId() == R.id.nextButton) {
             this.showNextQuestion();
             ((ProgressBar) findViewById(R.id.progressBar)).incrementProgressBy(1);
         }
@@ -149,15 +150,19 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
     private void showNextQuestion() {
         currentIndex++;
-        if (currentIndex+1 > questions.size()){
+        if (currentIndex + 1 > questions.size()) {
             Collections.shuffle(questions);
             currentIndex = 0;
             Toast.makeText(this, "Fsio, rodau iš naujo random tvarka", Toast.LENGTH_LONG).show();
-
-            ((ProgressBar) findViewById(R.id.progressBar)).setProgress(0);
+            ProgressBar progressBar = (ProgressBar) findViewById(R.id.progressBar);
+            progressBar.setProgress(0);
+            Intent resultsIntent = new Intent(this, ResultsActivity.class);
+            String results = resultCount + "/" + progressBar.getMax();
+            resultsIntent.putExtra(EXTRA_MESSAGE,results);
+            startActivity(resultsIntent);
+            finish();
         }
+
         showQuestion(questions.get(currentIndex));
-
-
     }
 }

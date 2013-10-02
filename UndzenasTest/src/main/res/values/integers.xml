@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources><integer name="qsMax">60</integer></resources>
+<resources>
+    <integer name="qsMax">60</integer>
+</resources>

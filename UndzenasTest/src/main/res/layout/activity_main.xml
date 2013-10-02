@@ -61,7 +61,7 @@
         android:layout_gravity="left|center_vertical"
         android:visibility="visible"
         android:max="@integer/qsMax"
-        android:progress="0" />
+        android:progress="1" />
 
 
 </LinearLayout>

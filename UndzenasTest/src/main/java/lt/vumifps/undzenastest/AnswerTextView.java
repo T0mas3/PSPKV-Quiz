@@ -32,6 +32,7 @@ public class AnswerTextView extends TextView implements View.OnClickListener {
 
     public void setCorrect(boolean correct) {
         this.correct = correct;
+        MainActivity.resultCount++;
     }
 
     public void setAnswer(Answer answer){
@@ -46,6 +47,8 @@ public class AnswerTextView extends TextView implements View.OnClickListener {
 
         if (this.correct){
             this.setBackgroundColor(Color.GREEN);
+            MainActivity.resultCount++;
+
         } else {
             this.setBackgroundColor(Color.RED);
 
