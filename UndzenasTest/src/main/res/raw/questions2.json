@@ -1,0 +1,422 @@
+[
+ {
+    "question" : "Kuri iš žemiau pateiktų motyvacijos teorijų turi ryšį su gerovės veiksniais (hygiene factors) ir dirbti skatinančiais veiksniais (motivating agents):",
+    "cor" : "Herzberg’o teorija",
+    "uncor1" : "X teorija",
+    "uncor2" : "Y teorija",
+    "uncor3" : "Maslow’o poreikių hierarchija"
+ },
+ {
+    "question" : "Jūs esate didelio statybų projekto vadovas. Jau esate numatę darbus ir rengiate darbų grafiką. Jums reikės iškasti pamatų duobę prieš betonuojant pastato pamatus. Kokia yra šių darbų priklausomybė",
+    "cor" : "privalomoji (mandatory)",
+    "uncor1" : "švelnioji",
+    "uncor2" : "išorinė (external)",
+    "uncor3" : "laisvai pasirenkama (discretionary)"
+ },
+ {
+    "question" : "Kurio iš žemiau išvardintų dalykų nebūna projekto apimties apraše (project scope statement)",
+    "cor" : "prioriteto tvarka sudėliotų projekto rizikos veiksnių sąrašo",
+    "uncor1" : "preliminaraus siekiamų rezultatų sąrašo",
+    "uncor2" : "kuriamo produkto trumpo aprašo",
+    "uncor3" : "projekto tikslų santraukos"
+ },
+ {
+    "question" : "Kuris iš žemiau išvardintų dalykų nėra pirkimų planavimo proceso įeities duomenys",
+    "cor" : "tiekėjų pasiūlymai",
+    "uncor1" : "suskaidytų darbų lentelė (WBS)",
+    "uncor2" : "projekto apimties aprašas (scope statement)",
+    "uncor3" : "įmonės organizaciniai dokumentai (enterprise organizational process assets)"
+ },
+ {
+    "question" : "Kurį iš žemiau nurodytų dalykų reikėtų įtraukti į rizikos valdymo planą",
+    "cor" : "rizikos veiksnių tikimybės ir poveikio projektui dydžio lentelę",
+    "uncor1" : "reakcijos į rizikos veiksnius planą",
+    "uncor2" : "pagrindinių rizikos veiksnių sąrašą",
+    "uncor3" : "prioriteto tvarka išdėstytų rizikos veiksnių sąrašą"
+ },
+ {
+    "question" : "Kurioje projektų valdymo procesų grupėje rengiamas darbų grafikas",
+    "cor" : "planavimo",
+    "uncor1" : " inicijavimo",
+    "uncor2" : "vykdymo",
+    "uncor3" : "užbaigimo"
+ },
+ {
+    "question" : "Kuris iš žemiau pateiktų sakinių yra teisingas, kai kalbama apie organizacijos kokybės taisykles (quality policy)",
+    "cor" : "kokybės taisyklės - tai organizacijos bendrosios nuostatos ir gairės kokybės klausimais.",
+    "uncor1" : "kokybės taisykles paprastai paskelbia projekto vadovas",
+    "uncor2" : "organizacijos kokybės taisyklės yra svarbesnės už kitus kokybės standartus",
+    "uncor3" : "kokybės taisyklės įvardina išorinius kokybės reglamentus, kurie gali turėti įtakos projektui"
+ },
+ {
+    "question" : "Jūs jau esate įvardinę būtinus projekto tikslams pasiekti darbus ir sudarę darbų išdėstymo eilės tvarka PDM (Precedence Diagramming Method) diagramą. Toliau jums reikia įvertinti darbų trukmes. Kas turi didžiausią įtaką vertinant kiekvieno darbo trukmę",
+    "cor" : "darbui skirti ištekliai",
+    "uncor1" : "organizacijos struktūra (tipas)",
+    "uncor2" : "ankstesnis darbas, nurodytas PDM diagramoje",
+    "uncor3" : "laikas, kada projekto eigoje darbas turi būti daromas"
+ },
+ {
+    "question" : "Kuris iš žemiau išvardintų dalykų yra projekto biudžeto rengimo proceso rezultatas",
+    "cor" : "projekto etapams paskirstytos lėšos (cost baseline)",
+    "uncor1" : "darbų kainų įverčiai",
+    "uncor2" : "lėšų apjungimas (cost aggregation)",
+    "uncor3" : "atliktų darbų dydis"
+ },
+ {
+    "question" : "Kuris iš žemiau išvardintų dalykų nėra kliūtis efektyviam komunikavimui",
+    "cor" : "atidus klausymasis",
+    "uncor1" : "pašalinė su projektu nesusijusi informacija",
+    "uncor2" : "prasti rašymo įgūdžiai",
+    "uncor3" : "žargono naudojimas, kuris klausytojui nėra žinomas"
+ },
+ {
+    "question" : "Kuris iš žemiau išvardintų dalykų nėra reikalingas vertinant darbui atlikti reikalingus išteklius",
+    "cor" : "pareigybių (etatų) sąrašas",
+    "uncor1" : "įmonės organizaciniai dokumentai (enterprise organizational process assets)",
+    "uncor2" : "išteklių buvimas",
+    "uncor3" : "darbų sąrašas ir jų charakteristikos"
+ },
+ {
+    "question" : "Kuris iš žemiau išvardintų dalykų nėra įeities duomenys reakcijos į rizikos veiksnius planavimui",
+    "cor" : "susitarimai dėl rizikos sandoriuose",
+    "uncor1" : "už rizikos veiksnius atsakingi asmenys",
+    "uncor2" : "rizikos veiksnių slenksčiai (svoriai)",
+    "uncor3" : "rizikos veiksnių priežastys"
+ },
+ {
+    "question" : "Kuris iš žemiau išvardintų būdų ar priemonių nėra naudojamas nustatant projekto darbų eilę",
+    "cor" : "ekspertų nuomonė",
+    "uncor1" : "PDM (Precedence Diagramming Method, stačiakampių) diagrama",
+    "uncor2" : "darbų priklausomybės nustatymas",
+    "uncor3" : "šablonai"
+ },
+ {
+    "question" : "Kuriame procese kaip įeities duomenys yra reikalingi įmonės aplinkos duomenys (enterprise environmental factors), įmonės organizaciniai dokumentai (organizational process assets) ir projekto valdymo plane nurodyti darbams atlikti reikiami ištekliai",
+    "cor" : "žmoniškųjų išteklių planavimo",
+    "uncor1" : "projekto grupės plėtros",
+    "uncor2" : "projekto grupės sudarymo",
+    "uncor3" : " informacijos platinimo"
+ },
+ {
+    "question" : "Jūs esate naujo produkto kūrimo projekto vadovas. Rizikos veiksnių įvardinimo metu jūs pastebėjote veiksnį, galintį sukelti rimtą pavojų projektui. Todėl nusprendėte sumažinti reikalavimus naujam produktui, kad išvengtumėte pastebėto rimto rizikos veiksnio. Koks tai reakcijos į riziką būdas",
+    "cor" : "rizikos vengimas",
+    "uncor1" : " rizikos prisiėmimas",
+    "uncor2" : "rizikos mažinimas",
+    "uncor3" : "rizikos nukreipimas kitiems"
+ },
+ {
+    "question" : "Kuris iš žemiau išvardintų dalykų nėra įeities duomenys darbų grafiko rengimo procesui",
+    "cor" : "darbų grafiko etapai (baseline)",
+    "uncor1" : "išteklių kalendoriai (kada užimti, kada laisvi)",
+    "uncor2" : "darbų sąrašas",
+    "uncor3" : "projekto darbų sekos diagramos"
+ },
+ {
+    "question" : "Jūs rengiate savo projekto darbų grafiką ir pastebite, kad vieno iš darbų vėliausias pradžios laikas yra ankstesnis už jo anksčiausią pradžios laiką. Sakoma, kad toks darbas turi",
+    "cor" : "neigiamą svyravimo dydį laike",
+    "uncor1" : "delsimo laiką",
+    "uncor2" : "svyravimo dydį (float) laike lygų nuliui",
+    "uncor3" : "laisvąjį svyravimo dydį laike"
+ },
+ {
+    "question" : "Kurio proceso rezultatas yra vertinimo kriterijai",
+    "cor" : "sandorių planavimo",
+    "uncor1" : "prašymo tiekėjams teikti pasiūlymus",
+    "uncor2" : "tiekėjų atrankos",
+    "uncor3" : "pirkimų planavimo"
+ },
+ {
+    "question" : "Rizikos veiksniai, atsirandantys įgyvendinant reakcijos į rizikos veiksnius planą, yra vadinami",
+    "cor" : "antriniais",
+    "uncor1" : "liekamaisiais",
+    "uncor2" : "išoriniais",
+    "uncor3" : "atsitiktiniais"
+ },
+ {
+    "question" : "Kuris iš žemiau išvardintų individo poreikių yra minimas Maslow’o sukurtoje žmogaus poreikių hierarchijos teorijoje",
+    "cor" : "saugumas",
+    "uncor1" : "alga",
+    "uncor2" : "atsakomybė",
+    "uncor3" : "darbo sąlygos"
+ },
+ {
+    "question" : "Kam skirsite pagrindinį dėmesį vadovaudami projektui, kuriame su tiekėju yra sudarytas laiko ir medžiagų apmokėjimo (T&M) tipo sandoris",
+    "cor" : "projekto darbų grafikui (schedule)",
+    "uncor1" : "projekto apimčiai (scope)",
+    "uncor2" : "tiekėjo patikimumui",
+    "uncor3" : "tiekėjo medžiagų kainai"
+ },
+ {
+    "question" : "Jūs esate projekto vadovas leidybos kompanijoje. Sudarydami projekto darbų grafiką pastebėjote, kad jame yra daug kritinių kelių. Kuris iš žemiau pateiktų teiginių geriausiai tinka tokiam projektui:",
+    "cor" : "projekto rizika yra didesnė, nes esant daug kritinių kelių jo valdymas yra sudėtingesnis",
+    "uncor1" : "jūsų atlikti kritinio kelio skaičiavimai yra neteisingi, nes projektas gali turėti tik vieną kritinį kelią",
+    "uncor2" : "projektui valdyti reikia mažiau pastangų, nei esant tik vienam kritiniam keliui",
+    "uncor3" : "kritiniai keliai sueina į tą patį projekto tašką"
+ },
+ {
+    "question" : "Kuris iš žemiau išvardintų dalykų yra naudojamas Pirkimų planavimo procese?",
+    "cor" : "ekspertų nuomonė",
+    "uncor1" : "standartiniai blankai (formos)",
+    "uncor2" : "atrankos (screening) sistema",
+    "uncor3" : "tiekėjų konferencija"
+ },
+ {
+    "question" : "Kuri priemonė yra naudingiausia atliekant rizikos veiksnių poveikio projektui analizę?",
+    "cor" : "sprendimų medžio diagramos",
+    "uncor1" : "Pareto diagramos",
+    "uncor2" : "tinklinės diagramos",
+    "uncor3" : "besišakojančios (fishbone) diagramos"
+ },
+ {
+    "question" : "Jūs esate įmonės išteklių planavimo (ERP) sistemos diegimo projekto vadovas ir siekiate įvardinti galimus šio projekto rizikos veiksnius. Kokios priemonės ar veiksmo tam nereikėtų naudoti?",
+    "cor" : "sistemos darbo bandymo (benchmarking)",
+    "uncor1" : "apklausos",
+    "uncor2" : "kolektyvinio svarstymo",
+    "uncor3" : "Delfi metodo"
+ },
+ {
+    "question" : "Kuris iš teiginių nėra teisingas, kalbant apie suskaidytų darbų lentelę (WBS)?",
+    "cor" : "WBS yra unikalius vardus turinčių projekto darbų sąrašas, kurie turi būti atlikti nurodyta eilės tvarka",
+    "uncor1" : "WBS gali būti naudojamas išteklių poreikiui įvertinti",
+    "uncor2" : "WBS yra į smulkius darbus suskaidytas projektas, kurie gali būti lengvai įvertinami",
+    "uncor3" : "WBS’e atsispindi projekto apimtis, nes jame nurodomi visi reikiami atlikti darbai;"
+ },
+ {
+    "question" : "Kada projekto vadovas turi didžiausią įtaką projekto kainai?",
+    "cor" : "projekto planavimo stadijoje",
+    "uncor1" : "rengiant projekto nuostatus",
+    "uncor2" : "stebint projekto išlaidų nuokrypį",
+    "uncor3" : "projekto vykdymo stadijoje"
+ },
+ {
+    "question" : "Kokiais argumentais reikėtų remtis tikrinant visas daromas prielaidas?",
+    "cor" : "prielaidos pagrįstumu ir poveikio projektui lygiu",
+    "uncor1" : "poveikio projektui lygiu",
+    "uncor2" : "prielaidos prioritetu",
+    "uncor3" : "prielaidos pagrįstumu ir tikimybe"
+ },
+ {
+    "question" : "Jūs esate naujos įrangos kūrimo projekto vadovas. Dalis įrangos komponentų bus kuriami savo organizacijos jėgomis, o kiti bus perkami iš tiekėjo. Jūs pateikiate tiekėjui komponentų sąrašą, kuriuos jis turės sukurti sudarius sandorį. Kaip šis dokumentas yra vadinamas?",
+    "cor" : "darbo užduotis (SOW – Statement Of Work)",
+    "uncor1" : "kainos prašymas (a bid)",
+    "uncor2" : "pasiūlymas (proposal)",
+    "uncor3" : "projekto apimties aprašas (scope statement)"
+ },
+ {
+    "question" : "Vieno iš jūsų projekto darbų (užduoties) anksčiausias pradžios laikas yra 9-ta savaitė, anksčiausias pabaigos laikas 15-ta savaitė, vėliausias pradžios laikas 12-ta savaitė ir vėliausias pabaigos laikas 18-ta savaitė. Koks yra šio darbo laiko svyravimo dydis?",
+    "cor" : "3",
+    "uncor1" : "6",
+    "uncor2" : "9",
+    "uncor3" : "12"
+ },
+ {
+    "question" : "Jūs svarstote klausimą, ką projekte galėtumėte pasidaryti patys ir ką reikėtų pirkti. Į kokį veiksnį jūs mažiausiai kreipsite dėmesį?",
+    "cor" : "ar yra reikalingi išoriniai tiekėjai",
+    "uncor1" : "neplatintinos (jautrios) projekto detalės",
+    "uncor2" : "darbų kaina, jei juos darysite patys",
+    "uncor3" : "jūsų organizacijos vidiniai ištekliai"
+ },
+ {
+    "question" : "Kuri iš žemiau išvardintų priemonių nėra naudojama atliekant kokybinę rizikos analizę?",
+    "cor" : "pareigų paskirstymo lentelė",
+    "uncor1" : "rizikos duomenų kokybės įvertinimas",
+    "uncor2" : "projekto prielaidų tikrinimas",
+    "uncor3" : "pagal tikimybę ir poveikio projektui lygį surikiuotų rizikos veiksnių lentelė"
+ },
+ {
+    "question" : "Kas yra kokybės planavimo proceso rezultatas?",
+    "cor" : "kokybės valdymo planas",
+    "uncor1" : "kokybės taisyklės (policy)",
+    "uncor2" : "kokybės kaina",
+    "uncor3" : "kokybės tikrinimo matavimai"
+ },
+ {
+    "question" : "Kuris iš žemiau nurodytų dalykų nėra įeities duomenys rizikos valdymo planavimo procesui?",
+    "cor" : "rizikos veiksnių sąrašas",
+    "uncor1" : "įmonės organizaciniai dokumentai (enterprise organizational process assets)",
+    "uncor2" : "įmonės aplinkos duomenys (enterprise environmental factors)",
+    "uncor3" : "projekto valdymo planas"
+ },
+ {
+    "question" : "Jūs esate įrangos kūrimo projekto vadovas ir manote, jei įranga bus sukurta mažesnėmis sąnaudomis, užsakovai bus labai dėkingi. Tokiai idėjai parengti skiriate kažkiek laiko ir norite nustatyti idealų įrangos dydį. Koks tinkamiausias būdas idėjai patikrinti?",
+    "cor" : "atlikti eksperimentus",
+    "uncor1" : "poveikio analizė",
+    "uncor2" : "kainos-naudos analizė",
+    "uncor3" : "rizikos duomenų kokybės vertinimas"
+ },
+ {
+    "question" : "Jūsų kompanija pasirašė fiksuotos kainos sandorį su užsakovu. Pagal sandorio užduotį jūs turite sukurti naują programinės įrangos modulį. Atsižvelgiant į sandorio tipą, kuris iš žemiau išvardintų dalykų reikalauja didžiausio dėmesio?",
+    "cor" : "projekto apimtis (scope)",
+    "uncor1" : "kokybė",
+    "uncor2" : "baigimo terminas",
+    "uncor3" : "išteklių buvimas"
+ },
+ {
+    "question" : "Kuriame procese yra naudojami visi šie būdai ar priemonės kaip analogiškasis vertinimas, vertinimas iš viršaus į apačią, projektų valdymo programinė įranga, tiekėjų prašomos kainos (a bid) analizė, kokybės kaina?",
+    "cor" : "projekto kainos vertinimo",
+    "uncor1" : "išlaidų planavimo",
+    "uncor2" : "išlaidų kontroliavimo",
+    "uncor3" : "darbams reikiamų išteklių dydžio vertinimo"
+ },
+ {
+    "question" : "Kuris iš žemiau pateiktų sakinių geriausiai apibrėžia rizikos veiksnių sąrašą (registrą)?",
+    "cor" : "tai išsamiai apibūdintų projekto rizikos veiksnių masyvas",
+    "uncor1" : "tai rizikos veiksnių, turinčių didžiausią tikimybę ir poveikio projektui lygį, sąrašas",
+    "uncor2" : "tai centrinis dokumentas, kuriame projekto grupės nariai gali įvardinti (nurodyti) rizikos veiksnius",
+    "uncor3" : "tai komercinė duomenų bazė, kurioje yra pramoniniai rizikos veiksnių analizės standartai"
+ },
+ {
+    "question" : "Kuriems asmenims yra skirti pirkimų planavimo procese parengti pirkimo dokumentai?",
+    "cor" : "galimiems tiekėjams;",
+    "uncor1" : "akcininkams",
+    "uncor2" : "užsakovui (pirkėjui)",
+    "uncor3" : "projekto vadovui"
+ },
+ {
+    "question" : "Kuris sakinys geriausiai apibūdina išlaidų plano (cost baseline) sąvoką projekte?",
+    "cor" : "išlaidų planas yra projektui patvirtintų lėšų paskirstymas laike ir naudojamas projekto išlaidoms kontroliuoti;",
+    "uncor1" : "išlaidų planas reiškia visas projekto eigoje padarytas išlaidas",
+    "uncor2" : "išlaidų planas yra nekintamas dydis, kuris reiškia projekto kainos įvertį projekto pradžioje",
+    "uncor3" : "išlaidų planas naudojamas planavimo procese vertinant projekto darbų kainas"
+ },
+ {
+    "question" : "Kuriems rizikos veiksniams ypač svarbu parengti reakcijos į juos planus projekte?",
+    "cor" : "aukštą tikimybę ir aukštą poveikio projektui lygį turintiems rizikos veiksniams",
+    "uncor1" : "visiems aukštą poveikio projektui lygį turintiems rizikos veiksniams",
+    "uncor2" : "aukštą tikimybę ir vidutinį poveikio projektui lygį turintiems rizikos veiksniams",
+    "uncor3" : "visiems įvardintiems rizikos veiksniams"
+ },
+ {
+    "question" : "Kuris iš žemiau išvardintų dalykų yra komunikacijų planavimo proceso įeities duomenys?",
+    "cor" : "apribojimai;",
+    "uncor1" : "komunikavimo įgūdžiai",
+    "uncor2" : "informacijos paieškos sistemos",
+    "uncor3" : "komunikacijų valdymo planas"
+ },
+ {
+    "question" : "Kas daroma darbų apibrėžimo procese?",
+    "cor" : "apibūdinami WBS’e nurodyti darbai (ką, kaip reikėtų daryti)",
+    "uncor1" : "įvardinamos priklausomybės tarp suskaidytų darbų lentelėje (WBS) nurodytų darbų",
+    "uncor2" : "rengiamas WBS’e nurodytų darbų vykdymo grafikas",
+    "uncor3" : "įvertinamas kiekvienam WBS’e nurodytam darbui atlikti reikalingas laiko kiekis"
+ },
+ {
+    "question" : "Kuris iš žemiau išvardintų dalykų nėra naudojamas kokybės planavimo procese?",
+    "cor" : "statistinė atranka",
+    "uncor1" : "veikimo bandymai (benchmarking)",
+    "uncor2" : "sekų diagramos (flowcharting)",
+    "uncor3" : "kainos-naudos analizė"
+ },
+ {
+    "question" : "Kodėl projekto apimties apibrėžimo metu svarbu peržiūrėti dokumentuotas prielaidas?",
+    "cor" : "nedokumentuotos arba nepagrįstos prielaidos gali turėti įtakos projekto darbų apimčiai",
+    "uncor1" : "prielaidos įneša suvaržymus projekto grupei",
+    "uncor2" : "dokumentuotų prielaidų peržiūra padeda įvardinti galimus projekto rizikos veiksnius",
+    "uncor3" : "dokumentuotų prielaidų peržiūra naudinga rengiant projekto planą"
+ },
+ {
+    "question" : "Jūs, dėliodami projekto darbus eilės tvarka, naudojate rodyklinės diagramos metodą (ADM – Arrow Diagramming Method). Kuris iš žemiau nurodytų teiginių nėra teisingas kalbant apie ADM?",
+    "cor" : "ADM metode darbai nurodomi stačiakampiuose, kurie jungiami rodyklėmis",
+    "uncor1" : "ADM dar yra nurodomas kaip AOA (Activity-On-Arrow)",
+    "uncor2" : "naudojant ADM, galimi darbai gali būti nurodomi punktyrine linija",
+    "uncor3" : "ADM naudojamas tik pabaigos-pradžios pobūdžio priklausomybės darbams"
+ },
+ {
+    "question" : "Jūs laimėjote konkursą projektui vykdyti. Projekto trukmė yra treji metai, ir jūs pasižadėjote užsakovui įdiegti naują įrangą ir procesus. Reikiamiems darbams atlikti pasirašėte 1,2 mln. Lt sandorį. Taip pat sandoryje suderėjote, kad atlikus darbus greičiau nei planuota, jūs gausite papildomai 200 000 Lt. Kokio tipo sandorį jūs sudarėte?",
+    "cor" : "fiksuotos kainos su paskatinamuoju priedu (FPIF - Fixed Price Incentive Fee)",
+    "uncor1" : "grynai fiksuotos kainos (FFP - Firm Fixed Price)",
+    "uncor2" : "išlaidas padengiantįjį su paskatinamuoju priedu (CPIF - Cost Plus Incentive Fee)",
+    "uncor3" : "išlaidas padengiantįjį su fiksuoto dydžio priedu (CPFF - Cost Plus Fixed Fee)"
+ },
+ {
+    "question" : "Ką visų pirma reikia atlikti rizikos veiksnių įvardinimo procese?",
+    "cor" : "įvardinti ir dokumentuoti galimus rizikos veiksnius",
+    "uncor1" : "kiekybiškai įvertinti rizikos veiksnius",
+    "uncor2" : "įvardinti rizikos veiksnių priežastis",
+    "uncor3" : "parengti reakcijos į kiekvieną įvardintą rizikos veiksnį strategiją"
+ },
+ {
+    "question" : "Projekto vykdymo metu jums prireikė papildomo vadybininko specifiniams darbams koordinuoti. Projekto pradžioje tokios pareigos nebuvo numatytos. Reikalingas tarpinis vadybinis lygmuo tarp jūsų, kaip projekto vadovo, ir specifinius darbus atliekančios grupelės. Kuris iš žemiau nurodytų veiksmų būtų labiausiai tinkamas?",
+    "cor" : "komunikacijų valdymo plano modifikavimas",
+    "uncor1" : "visos projekto grupės pertvarkymas",
+    "uncor2" : "potvarkio, kad tos grupelės narių visi el. laiškai būtų siunčiami jums per naująjį vadybininką, paskelbimas",
+    "uncor3" : "visos projekto grupės narių susirinkimo sušaukimas ir naujo grupės nario pristatymas"
+ },
+ {
+    "question" : "Jūs esate elektroninių įrenginių įmonės projektų vadovas ir vadovaujate naujos įrangos, kurią numatote pasiūlyti savo pirkėjams, kūrimo projektui. Projekto galimiems rizikos veiksniams įvardinti jūs galite naudoti visus žemiau nurodytus būdus ar priemones, išskyrus",
+    "cor" : "rizikos duomenų kokybės vertinimą",
+    "uncor1" : "apklausas",
+    "uncor2" : "Išikavos (Ishikawa) diagramas",
+    "uncor3" : "prielaidų analizę"
+ },
+ {
+    "question" : "Jūs vertinate savo projekto darbų trukmes ir paprašėte ekspertų grupės, kad jie pateiktų projekto kažkurio etapo trukmės blogiausią, geriausią ir labiausiai tikėtiną scenarijus. Kai grupė baigė darbą, jūs apskaičiavote gautų trijų įverčių vidurkį ir gavote naują trukmės įvertį. Kokio tipo vertinimą jūs naudojote?",
+    "cor" : "trijų taškų",
+    "uncor1" : "nepriklausomų specialistų įvertį (should-cost)",
+    "uncor2" : "analogiškajį",
+    "uncor3" : "parametrinį"
+ },
+ {
+    "question" : "Naujo inventoriaus diegimo projekte daliai darbų atlikti jūs sudarėte sandorį su tiekėju lentynoms prekių sandėlyje įrengti. Sutarėte tiekėjui mokėti 40 Lt už darbo valandą ir padengti jo išlaidas už lentynas ir kitas detales. Kokio tipo sandorį jūs sudarėte?",
+    "cor" : "laiko ir medžiagų apmokėjimo (T&M - Time and Material)",
+    "uncor1" : "išlaidas padengiantįjį su fiksuoto dydžio priedu (CPFF - Cost Plus Fixed Fee)",
+    "uncor2" : "grynai fiksuotos kainos (FFP - Firm Fixed Price)",
+    "uncor3" : "išlaidas padengiantįjį su paskatinamuoju priedu (CPIF - Cost Plus Incentive Fee)"
+ },
+ {
+    "question" : "Pagal Herzberg’o teoriją visi žemiau išvardinti dalykai priklauso gerovės veiksniams (hygiene factors), išskyrus",
+    "cor" : "savirealizaciją (self-actualization)",
+    "uncor1" : "algą",
+    "uncor2" : "pareigas",
+    "uncor3" : "darbo sąlygas"
+ },
+ {
+    "question" : "Kuris kainos vertinimo būdas naudoja projekto charakteristikas ir matematinį modelį įverčiams gauti?",
+    "cor" : "parametrinio modeliavimo",
+    "uncor1" : "tiekėjų pasiūlymų analizės",
+    "uncor2" : "vertinimo iš apačios į viršų",
+    "uncor3" : "analogiškąjį"
+ },
+ {
+    "question" : "Kuris iš žemiau išvardintų dalykų nėra pirkimų planavimo proceso įeities duomenys?",
+    "cor" : "tinkamų tiekėjų sąrašas",
+    "uncor1" : "projekto apimties aprašas",
+    "uncor2" : "suskaidytų darbų lentelė (WBS)",
+    "uncor3" : "rinkos sąlygos"
+ },
+ {
+    "question" : "Jūs esate įmonės resursų planavimo (ERP) sistemos diegimo projekto vadovas. Keletas projekto grupės narių atkreipė jūsų dėmesį, kad jiems nesuteikiama reikiama informacija apie projekto stovį. Kokius projekto dokumentus reikia peržiūrėti?",
+    "cor" : "komunikacijų valdymo planą",
+    "uncor1" : "projekto valdymo planą",
+    "uncor2" : "reakcijos į rizikos veiksnius planą",
+    "uncor3" : "projekto apimties valdymo planą"
+ },
+ {
+    "question" : "Remdamiesi savo projekto suskaidytų darbų lentele (WBS), jūs parengėte detalizuotų darbų sąrašą. Koks turėtų būti kitas jūsų žingsnis?",
+    "cor" : "nustatyti priklausomybes tarp darbų ir surikiuoti juos atlikimo eilės tvarka",
+    "uncor1" : "vertinti kiekvieno darbo trukmę",
+    "uncor2" : "rengti projekto darbų grafiką, remiantis detalizuotų darbų sąrašu",
+    "uncor3" : "atnaujinti projekto nuostatus, įtraukiant į juos detalizuotų darbų sąrašą"
+ },
+ {
+    "question" : "Kas yra šių dviejų procesų - darbų eilės nustatymo ir darbų trukmės vertinimo - bendras rezultatas?",
+    "cor" : "atnaujinti darbų atributai",
+    "uncor1" : "projekto darbų grafikas",
+    "uncor2" : "trijų taškų įverčiai",
+    "uncor3" : "darbų trukmės įverčiai"
+ },
+ {
+    "question" : "Kuris iš žemiau nurodytų dalykų nėra darbų trukmės vertinimo proceso įeities duomenys?",
+    "cor" : "atsargų fondo analizė",
+    "uncor1" : "darbų sąrašas",
+    "uncor2" : "rizikos veiksnių sąrašas (registras)",
+    "uncor3" : "išteklių sąrašas"
+ },
+ {
+    "question" : "Kuris iš žemiau išvardintų dalykų yra įeities duomenys abiems procesams: darbų eilės nustatymo ir darbų trukmės vertinimo?",
+    "cor" : "darbų sąrašas",
+    "uncor1" : "suskaidytų darbų lentelė (WBS)",
+    "uncor2" : "projekto darbų grafikas",
+    "uncor3" : "projekto valdymo planas"
+ }
+]

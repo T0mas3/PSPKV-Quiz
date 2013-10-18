@@ -19,7 +19,7 @@ public class ResultsActivity extends Activity {
         setContentView(R.layout.activity_results);
 
         Intent intent = getIntent();
-        String result = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
+        String result = intent.getStringExtra(StartingActivity.EXTRA_MESSAGE);
         TextView textView = (TextView) findViewById(R.id.resultText);
         textView.setTextSize(20);
         textView.setText(result);
@@ -29,7 +29,7 @@ public class ResultsActivity extends Activity {
     public void restartQuiz(View view) {
 
         MainActivity.resultCount = 0;
-        startActivity(new Intent(this,MainActivity.class));
+        startActivity(new Intent(this,StartingActivity.class));
         finish();
 
     }

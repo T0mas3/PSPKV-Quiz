@@ -36,7 +36,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
     int currentIndex;
     public static int resultCount = 0;
-    public final static String EXTRA_MESSAGE = "lt.vumifps.undzenastest.MESSAGE";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,8 +46,11 @@ public class MainActivity extends Activity implements View.OnClickListener {
         String questionsJsonString = "";
         questions = new LinkedList<Question>();
 
+        Intent intent = getIntent();
+        int testNumber = intent.getIntExtra("raw_data_number",0);
+
         try {
-            questionsJsonString = loadQuestionsJsonString();
+            questionsJsonString = loadQuestionsJsonString(testNumber);
 
             JSONArray questionsJsonArray = new JSONArray(questionsJsonString);
 
@@ -122,8 +125,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
         return answerTextView;
     }
 
-    private String loadQuestionsJsonString() throws IOException {
-        InputStream is = getResources().openRawResource(R.raw.questions);
+    private String loadQuestionsJsonString(int testNumber) throws IOException {
+        InputStream is = getResources().openRawResource(testNumber);
         Writer writer = new StringWriter();
         char[] buffer = new char[1024];
         try {
@@ -153,12 +156,12 @@ public class MainActivity extends Activity implements View.OnClickListener {
         if (currentIndex + 1 > questions.size()) {
             Collections.shuffle(questions);
             currentIndex = 0;
-            Toast.makeText(this, "Fsio, rodau iš naujo random tvarka", Toast.LENGTH_LONG).show();
+            //Toast.makeText(this, "Fsio, rodau iš naujo random tvarka", Toast.LENGTH_LONG).show();
             ProgressBar progressBar = (ProgressBar) findViewById(R.id.progressBar);
             progressBar.setProgress(0);
             Intent resultsIntent = new Intent(this, ResultsActivity.class);
             String results = resultCount + "/" + progressBar.getMax();
-            resultsIntent.putExtra(EXTRA_MESSAGE,results);
+            resultsIntent.putExtra(StartingActivity.EXTRA_MESSAGE,results);
             startActivity(resultsIntent);
             finish();
         }
