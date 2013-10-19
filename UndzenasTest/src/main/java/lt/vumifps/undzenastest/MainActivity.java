@@ -12,7 +12,6 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.ScrollView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -43,7 +42,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main);
 
-        String questionsJsonString = "";
+        String questionsJsonString;
         questions = new LinkedList<Question>();
 
         Intent intent = getIntent();
@@ -74,6 +73,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
         answerLayout = (LinearLayout) this.findViewById(R.id.answersLinearLayout);
         mainScrollView = (ScrollView) this.findViewById(R.id.mainScrollView);
+        Button homeButton = (Button) this.findViewById(R.id.homeButton);
+        homeButton.setOnClickListener(this);
 
         Button nextButton = (Button) this.findViewById(R.id.nextButton);
         nextButton.setOnClickListener(this);
@@ -89,9 +90,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
         TextView questionsTextView = (TextView) this.findViewById(R.id.questionTextView);
         questionsTextView.setText(question.getQuestion());
 
-        LinkedList<AnswerTextView> answerTextViews = new LinkedList<AnswerTextView>();
-
-
         LinkedList<Answer> answers = question.getAnswers();
         Collections.shuffle(answers);
 
@@ -101,8 +99,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
         for (Answer answer : answers) {
             AnswerTextView answerTextView = getAnswerTextView(answer);
             answerLayout.addView(answerTextView);
-            answerTextViews.add(answerTextView);
-
         }
 
     }
@@ -145,9 +141,20 @@ public class MainActivity extends Activity implements View.OnClickListener {
     @Override
     public void onClick(View view) {
 
-        if (view.getId() == R.id.nextButton) {
-            this.showNextQuestion();
-            ((ProgressBar) findViewById(R.id.progressBar)).incrementProgressBy(1);
+        switch (view.getId()){
+            case R.id.nextButton:
+
+                this.showNextQuestion();
+                ((ProgressBar) findViewById(R.id.progressBar)).incrementProgressBy(1);
+
+                break;
+
+
+            case R.id.homeButton:
+                this.finish();
+                Intent homeIntent = new Intent(this, StartingActivity.class);
+                startActivity(homeIntent);
+                break;
         }
     }
 
