@@ -36,6 +36,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     TextView progressTextView;
 
     int currentIndex;
+    int numberOfQuestions;
     public static int resultCount = 0;
 
     @Override
@@ -74,11 +75,13 @@ public class MainActivity extends Activity implements View.OnClickListener {
         }
 
         currentIndex = 0;
+        numberOfQuestions = questions.size();
 
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
+        progressBar.setMax(numberOfQuestions);
         progressTextView = (TextView) findViewById(R.id.progressTextView);
 
-        progressTextView.setText(getProgressText(progressBar.getMax(), currentIndex+1));
+        progressTextView.setText(getProgressText(numberOfQuestions, currentIndex+1));
 
 
         answerLayout = (LinearLayout) this.findViewById(R.id.answersLinearLayout);
@@ -176,14 +179,14 @@ public class MainActivity extends Activity implements View.OnClickListener {
             //Toast.makeText(this, "Fsio, rodau iš naujo random tvarka", Toast.LENGTH_LONG).show();
             progressBar.setProgress(0);
             Intent resultsIntent = new Intent(this, ResultsActivity.class);
-            String results = resultCount + "/" + progressBar.getMax();
+            String results = resultCount + "/" + numberOfQuestions;
             resultsIntent.putExtra(StartingActivity.EXTRA_MESSAGE,results);
             startActivity(resultsIntent);
             finish();
         } else {
             showQuestion(questions.get(currentIndex));
 
-            progressTextView.setText(getProgressText(progressBar.getMax(), currentIndex+1));
+            progressTextView.setText(getProgressText(numberOfQuestions, currentIndex+1));
         }
     }
 

@@ -86,7 +86,6 @@
             style="?android:attr/progressBarStyleHorizontal"
             android:layout_marginBottom="2dp"
             android:layout_gravity="center_vertical"
-            android:max="@integer/qsMax"
             android:progress="1" />
 
         <TextView
