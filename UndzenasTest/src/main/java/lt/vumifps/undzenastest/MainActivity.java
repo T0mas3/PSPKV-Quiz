@@ -32,6 +32,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
     LinearLayout answerLayout;
     ScrollView mainScrollView;
+    ProgressBar progressBar;
+    TextView progressTextView;
 
     int currentIndex;
     public static int resultCount = 0;
@@ -71,6 +73,14 @@ public class MainActivity extends Activity implements View.OnClickListener {
             e.printStackTrace();
         }
 
+        currentIndex = 0;
+
+        progressBar = (ProgressBar) findViewById(R.id.progressBar);
+        progressTextView = (TextView) findViewById(R.id.progressTextView);
+
+        progressTextView.setText(getProgressText(progressBar.getMax(), currentIndex+1));
+
+
         answerLayout = (LinearLayout) this.findViewById(R.id.answersLinearLayout);
         mainScrollView = (ScrollView) this.findViewById(R.id.mainScrollView);
         Button homeButton = (Button) this.findViewById(R.id.homeButton);
@@ -80,7 +90,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
         nextButton.setOnClickListener(this);
         Collections.shuffle(questions);
 
-        currentIndex = 0;
         showQuestion(questions.get(0));
     }
 
@@ -145,7 +154,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
             case R.id.nextButton:
 
                 this.showNextQuestion();
-                ((ProgressBar) findViewById(R.id.progressBar)).incrementProgressBy(1);
+                progressBar.incrementProgressBy(1);
 
                 break;
 
@@ -160,19 +169,26 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
     private void showNextQuestion() {
         currentIndex++;
-        if (currentIndex + 1 > questions.size()) {
+
+        if (currentIndex+1 > questions.size()) {
             Collections.shuffle(questions);
             currentIndex = 0;
             //Toast.makeText(this, "Fsio, rodau iš naujo random tvarka", Toast.LENGTH_LONG).show();
-            ProgressBar progressBar = (ProgressBar) findViewById(R.id.progressBar);
             progressBar.setProgress(0);
             Intent resultsIntent = new Intent(this, ResultsActivity.class);
             String results = resultCount + "/" + progressBar.getMax();
             resultsIntent.putExtra(StartingActivity.EXTRA_MESSAGE,results);
             startActivity(resultsIntent);
             finish();
-        }
+        } else {
+            showQuestion(questions.get(currentIndex));
 
-        showQuestion(questions.get(currentIndex));
+            progressTextView.setText(getProgressText(progressBar.getMax(), currentIndex+1));
+        }
+    }
+
+
+    private String getProgressText(int total, int current) {
+        return current + " / " + total;
     }
 }
