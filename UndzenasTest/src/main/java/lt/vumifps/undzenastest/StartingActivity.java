@@ -7,12 +7,8 @@ import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 
-/**
- * Created by Nastute on 13.10.17.
- */
-public class StartingActivity extends Activity implements View.OnClickListener{
 
-    public final static String EXTRA_MESSAGE = "lt.vumifps.undzenastest.MESSAGE";
+public class StartingActivity extends Activity implements View.OnClickListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,17 +25,17 @@ public class StartingActivity extends Activity implements View.OnClickListener{
 
     @Override
     public void onClick(View view) {
-    int raw_data_number= 0;
+    int raw_data_number;
         if (view.getId() == R.id.button_test1) {
             Intent intent = new Intent(this,MainActivity.class);
             raw_data_number = R.raw.questions;
-            intent.putExtra("raw_data_number",raw_data_number);
+            intent.putExtra(MainActivity.JSON_RES_ID_KEY, raw_data_number);
             startActivity(intent);
         }
         if (view.getId() == R.id.button_test2) {
             Intent intent = new Intent(this,MainActivity.class);
             raw_data_number = R.raw.questions2;
-            intent.putExtra("raw_data_number",raw_data_number);
+            intent.putExtra(MainActivity.JSON_RES_ID_KEY, raw_data_number);
             startActivity(intent);
             finish();
         }

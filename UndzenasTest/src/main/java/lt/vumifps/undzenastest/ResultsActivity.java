@@ -7,10 +7,9 @@ import android.view.View;
 import android.view.Window;
 import android.widget.TextView;
 
-/**
- * Created by Nastute on 13.10.2.
- */
 public class ResultsActivity extends Activity {
+
+    public static final String RESULTS_KEY = "results";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +18,7 @@ public class ResultsActivity extends Activity {
         setContentView(R.layout.activity_results);
 
         Intent intent = getIntent();
-        String result = intent.getStringExtra(StartingActivity.EXTRA_MESSAGE);
+        String result = intent.getStringExtra(ResultsActivity.RESULTS_KEY);
         TextView textView = (TextView) findViewById(R.id.resultText);
         textView.setTextSize(20);
         textView.setText(result);

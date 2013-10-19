@@ -18,6 +18,7 @@ import java.util.LinkedList;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 
+    public static final String JSON_RES_ID_KEY = "json_res_id";
     LinkedList<Question> questions;
 
     LinearLayout answerLayout;
@@ -37,7 +38,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
 
         Intent intent = getIntent();
-        int testNumber = intent.getIntExtra("raw_data_number",0);
+        int testNumber = intent.getIntExtra(MainActivity.JSON_RES_ID_KEY, 0);
         TestLoader testLoader = new TestLoader(this);
         questions = testLoader.loadQuestions(testNumber);
 
@@ -132,7 +133,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
             progressBar.setProgress(0);
             Intent resultsIntent = new Intent(this, ResultsActivity.class);
             String results = resultCount + "/" + numberOfQuestions;
-            resultsIntent.putExtra(StartingActivity.EXTRA_MESSAGE,results);
+            resultsIntent.putExtra(ResultsActivity.RESULTS_KEY, results);
             startActivity(resultsIntent);
             finish();
         } else {
@@ -141,7 +142,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
             progressTextView.setText(getProgressText(numberOfQuestions, currentIndex+1));
         }
     }
-
 
     private String getProgressText(int total, int current) {
         return current + " / " + total;
