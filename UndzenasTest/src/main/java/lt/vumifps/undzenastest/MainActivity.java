@@ -13,16 +13,6 @@ import android.widget.ProgressBar;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import org.json.JSONArray;
-import org.json.JSONException;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.Reader;
-import java.io.StringWriter;
-import java.io.Writer;
 import java.util.Collections;
 import java.util.LinkedList;
 
@@ -45,34 +35,11 @@ public class MainActivity extends Activity implements View.OnClickListener {
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main);
 
-        String questionsJsonString;
-        questions = new LinkedList<Question>();
 
         Intent intent = getIntent();
         int testNumber = intent.getIntExtra("raw_data_number",0);
-
-        try {
-            questionsJsonString = loadQuestionsJsonString(testNumber);
-
-            JSONArray questionsJsonArray = new JSONArray(questionsJsonString);
-
-            for (int i = 0; i < questionsJsonArray.length(); i++) {
-
-                try {
-                    questions.add(new Question(questionsJsonArray.getJSONObject(i)));
-                } catch (JSONException ex) {
-                    ex.printStackTrace();
-                }
-
-
-            }
-
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
+        TestLoader testLoader = new TestLoader(this);
+        questions = testLoader.loadQuestions(testNumber);
 
         currentIndex = 0;
         numberOfQuestions = questions.size();
@@ -133,22 +100,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         return answerTextView;
     }
 
-    private String loadQuestionsJsonString(int testNumber) throws IOException {
-        InputStream is = getResources().openRawResource(testNumber);
-        Writer writer = new StringWriter();
-        char[] buffer = new char[1024];
-        try {
-            Reader reader = new BufferedReader(new InputStreamReader(is, "UTF-8"));
-            int n;
-            while ((n = reader.read(buffer)) != -1) {
-                writer.write(buffer, 0, n);
-            }
-        } finally {
-            is.close();
-        }
 
-        return writer.toString();
-    }
 
     @Override
     public void onClick(View view) {
