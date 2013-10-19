@@ -27,7 +27,6 @@ public class ResultsActivity extends Activity {
 
     public void restartQuiz(View view) {
 
-        MainActivity.resultCount = 0;
         startActivity(new Intent(this,StartingActivity.class));
         finish();
 

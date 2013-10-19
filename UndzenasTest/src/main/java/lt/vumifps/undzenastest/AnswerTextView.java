@@ -7,13 +7,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-/**
- * Created by tomas on 9/29/13.
- */
+import java.util.LinkedList;
 
 public class AnswerTextView extends TextView implements View.OnClickListener {
 
     boolean correct;
+
+    LinkedList<OnClickListener> onClickListeners = new LinkedList<OnClickListener>();
+
 
     public AnswerTextView(Context context) {
         super(context);
@@ -32,7 +33,6 @@ public class AnswerTextView extends TextView implements View.OnClickListener {
 
     public void setCorrect(boolean correct) {
         this.correct = correct;
-        MainActivity.resultCount++;
     }
 
     public void setAnswer(Answer answer){
@@ -42,16 +42,33 @@ public class AnswerTextView extends TextView implements View.OnClickListener {
 
     }
 
+
+    @Override
+    public void setOnClickListener(OnClickListener l) {
+
+        if (l != this){
+            this.onClickListeners.add(l);
+        } else {
+            super.setOnClickListener(l);
+        }
+
+    }
+
     @Override
     public void onClick(View view) {
 
+        for (View.OnClickListener onClickListener: this.onClickListeners){
+
+            if (onClickListener != this){
+                onClickListener.onClick(this);
+            }
+        }
+
         if (this.correct){
             this.setBackgroundColor(Color.GREEN);
-            MainActivity.resultCount++;
 
         } else {
             this.setBackgroundColor(Color.RED);
-
         }
 
     }

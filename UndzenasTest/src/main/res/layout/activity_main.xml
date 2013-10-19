@@ -89,6 +89,16 @@
             android:progress="1" />
 
         <TextView
+            android:id="@+id/scoreTextView"
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="2dp"
+            android:layout_marginBottom="2dp"
+            android:textColor="@color/sea_green"
+            android:textAlignment="center"/>
+
+        <TextView
             android:id="@+id/progressTextView"
             android:layout_height="fill_parent"
             android:layout_width="wrap_content"

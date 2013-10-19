@@ -18,17 +18,21 @@ import java.util.LinkedList;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 
+    private enum QuestionState {Unanswered, Correct, Wrong}
+
     public static final String JSON_RES_ID_KEY = "json_res_id";
     LinkedList<Question> questions;
 
     LinearLayout answerLayout;
     ScrollView mainScrollView;
     ProgressBar progressBar;
-    TextView progressTextView;
+    private TextView progressTextView, scoreTextView;
 
     int currentIndex;
     int numberOfQuestions;
-    public static int resultCount = 0;
+    int correctCount = 0;
+
+    QuestionState questionState = QuestionState.Unanswered;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +40,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main);
 
+        this.questionState = QuestionState.Unanswered;
 
         Intent intent = getIntent();
         int testNumber = intent.getIntExtra(MainActivity.JSON_RES_ID_KEY, 0);
@@ -48,9 +53,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
         progressBar.setMax(numberOfQuestions);
         progressTextView = (TextView) findViewById(R.id.progressTextView);
-
         progressTextView.setText(getProgressText(numberOfQuestions, currentIndex+1));
 
+        scoreTextView = (TextView) findViewById(R.id.scoreTextView);
+        scoreTextView.setText(getcurrentScoreText(correctCount));
 
         answerLayout = (LinearLayout) this.findViewById(R.id.answersLinearLayout);
         mainScrollView = (ScrollView) this.findViewById(R.id.mainScrollView);
@@ -66,6 +72,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
 
     private void showQuestion(Question question) {
+
+        this.questionState = QuestionState.Unanswered;
 
         TextView questionsTextView = (TextView) this.findViewById(R.id.questionTextView);
         questionsTextView.setText(question.getQuestion());
@@ -98,6 +106,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
         answerTextView.setLayoutParams(linearLayoutParams);
 
+        answerTextView.setOnClickListener(this);
+
         return answerTextView;
     }
 
@@ -105,6 +115,19 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
     @Override
     public void onClick(View view) {
+
+        if (view instanceof AnswerTextView){
+            AnswerTextView answerTextView = (AnswerTextView) view;
+            if (this.questionState == QuestionState.Unanswered){
+                if (answerTextView.isCorrect()){
+                    this.questionState = QuestionState.Correct;
+                    correctCount++;
+                    scoreTextView.setText(getcurrentScoreText(correctCount));
+                } else {
+                    this.questionState = QuestionState.Wrong;
+                }
+            }
+        }
 
         switch (view.getId()){
             case R.id.nextButton:
@@ -132,7 +155,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
             //Toast.makeText(this, "Fsio, rodau iš naujo random tvarka", Toast.LENGTH_LONG).show();
             progressBar.setProgress(0);
             Intent resultsIntent = new Intent(this, ResultsActivity.class);
-            String results = resultCount + "/" + numberOfQuestions;
+            String results = correctCount + "/" + numberOfQuestions;
             resultsIntent.putExtra(ResultsActivity.RESULTS_KEY, results);
             startActivity(resultsIntent);
             finish();
@@ -145,5 +168,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
     private String getProgressText(int total, int current) {
         return current + " / " + total;
+    }
+
+    private String getcurrentScoreText(int current) {
+        return "[" + current + "]";
     }
 }
