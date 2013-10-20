@@ -4,19 +4,13 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <Button
-        android:layout_width="fill_parent"
-        android:layout_height="50dp"
-        android:text="@string/Testas1"
-        android:id="@+id/button_test1"
-        android:layout_gravity="center"
-        android:layout_margin="20dp" />
 
-    <Button
-        android:layout_width="fill_parent"
+    <ListView
+        android:id="@+id/quizzesListView"
         android:layout_height="wrap_content"
-        android:text="@string/Testas2"
-        android:id="@+id/button_test2"
-        android:layout_margin="20dp" />
+        android:layout_width="fill_parent">
+    </ListView>
+
+
 
 </LinearLayout>

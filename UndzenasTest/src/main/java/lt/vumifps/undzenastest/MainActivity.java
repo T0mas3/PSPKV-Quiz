@@ -21,7 +21,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private enum QuestionState {Unanswered, Correct, Wrong}
 
     public static final String JSON_RES_ID_KEY = "json_res_id";
-    LinkedList<Question> questions;
+    Quiz quiz;
 
     LinearLayout answerLayout;
     ScrollView mainScrollView;
@@ -45,10 +45,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
         Intent intent = getIntent();
         int testNumber = intent.getIntExtra(MainActivity.JSON_RES_ID_KEY, 0);
         TestLoader testLoader = new TestLoader(this);
-        questions = testLoader.loadQuestions(testNumber);
+        quiz = testLoader.loadSingleQuiz(testNumber);
 
         currentIndex = 0;
-        numberOfQuestions = questions.size();
+        numberOfQuestions = quiz.getNumberOfquestions();
 
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
         progressBar.setMax(numberOfQuestions);
@@ -65,9 +65,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
         Button nextButton = (Button) this.findViewById(R.id.nextButton);
         nextButton.setOnClickListener(this);
-        Collections.shuffle(questions);
+        quiz.shuffleQuestions();
 
-        showQuestion(questions.get(0));
+        showQuestion(quiz.getQuestion(0));
     }
 
 
@@ -149,8 +149,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private void showNextQuestion() {
         currentIndex++;
 
-        if (currentIndex+1 > questions.size()) {
-            Collections.shuffle(questions);
+        if (currentIndex+1 > quiz.getNumberOfquestions()) {
+            quiz.shuffleQuestions();
             currentIndex = 0;
             //Toast.makeText(this, "Fsio, rodau iš naujo random tvarka", Toast.LENGTH_LONG).show();
             progressBar.setProgress(0);
@@ -160,7 +160,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
             startActivity(resultsIntent);
             finish();
         } else {
-            showQuestion(questions.get(currentIndex));
+            showQuestion(quiz.getQuestion(currentIndex));
 
             progressTextView.setText(getProgressText(numberOfQuestions, currentIndex+1));
         }

@@ -2,8 +2,8 @@ package lt.vumifps.undzenastest;
 
 import android.content.Context;
 
-import org.json.JSONArray;
 import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -12,6 +12,7 @@ import java.io.InputStreamReader;
 import java.io.Reader;
 import java.io.StringWriter;
 import java.io.Writer;
+import java.lang.reflect.Field;
 import java.util.LinkedList;
 
 public class TestLoader {
@@ -41,24 +42,35 @@ public class TestLoader {
     }
 
 
-    public LinkedList<Question> loadQuestions(int resourceId){
+    public LinkedList<Quiz> loadAllQuizzes(){
 
-        String questionsJsonString;
-        LinkedList<Question> questions = new LinkedList<Question>();
+        LinkedList<Quiz> quizzes = new LinkedList<Quiz>();
 
-        try {
-            questionsJsonString = loadQuestionsJsonString(resourceId);
+        Field[] fields = R.raw.class.getFields();
+        for (Field field : fields) {
 
-            JSONArray questionsJsonArray = new JSONArray(questionsJsonString);
+            try {
+                int rid = field.getInt(field);
 
-            for (int i = 0; i < questionsJsonArray.length(); i++) {
+                quizzes.add(this.loadSingleQuiz(rid));
 
-                try {
-                    questions.add(new Question(questionsJsonArray.getJSONObject(i)));
-                } catch (JSONException ex) {
-                    ex.printStackTrace();
-                }
+            } catch (IllegalAccessException e) {
+                e.printStackTrace();
             }
+        }
+
+
+        return quizzes;
+    }
+
+    public Quiz loadSingleQuiz(int resId){
+        try {
+
+            String jsonString = loadQuestionsJsonString(resId);
+
+            JSONObject quizJsonObject = new JSONObject(jsonString);
+
+            return new Quiz(quizJsonObject, resId);
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -66,6 +78,6 @@ public class TestLoader {
             e.printStackTrace();
         }
 
-        return questions;
+        return null;
     }
 }
