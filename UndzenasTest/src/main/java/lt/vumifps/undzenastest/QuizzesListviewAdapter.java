@@ -5,6 +5,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.TextView;
 
 import java.util.LinkedList;
@@ -15,6 +17,7 @@ public class QuizzesListViewAdapter extends ArrayAdapter {
 
     Activity activity;
     LinkedList<Quiz> quizzes;
+    private OnQuizListItemClickListener onQuizListItemClickListener;
 
 
     public QuizzesListViewAdapter(Activity activity, LinkedList<Quiz> quizzes){
@@ -28,7 +31,7 @@ public class QuizzesListViewAdapter extends ArrayAdapter {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
 
-        ViewHolder viewHolder;
+        final ViewHolder viewHolder;
 
         if (convertView == null) {
 
@@ -38,21 +41,38 @@ public class QuizzesListViewAdapter extends ArrayAdapter {
             viewHolder = new ViewHolder();
             if (convertView != null) {
                 viewHolder.titleTextView = (TextView) convertView.findViewById(R.id.titleTextView);
+                viewHolder.shouldRandomizeCheckbox = (CheckBox) convertView.findViewById(R.id.randomizeCheckBox);
+                viewHolder.startButton = (Button) convertView.findViewById(R.id.startButton);
                 convertView.setTag(viewHolder);
             }
 
-        }else{
+        } else {
 
             viewHolder = (ViewHolder) convertView.getTag();
         }
 
-        Quiz currentQuiz = quizzes.get(position);
+        final Quiz currentQuiz = quizzes.get(position);
 
         if(currentQuiz != null) {
             viewHolder.titleTextView.setText(currentQuiz.getTitle());
+
+                View.OnClickListener startOnClickListener = new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        if (onQuizListItemClickListener != null) {
+                            onQuizListItemClickListener.onQuizClick(currentQuiz.getResourceId(), viewHolder.shouldRandomizeCheckbox.isChecked());
+                        }
+                    }
+                };
+
+            viewHolder.startButton.setOnClickListener(startOnClickListener);
         }
 
         return convertView;
+    }
+
+    public void setOnQuizListItemClickListener(OnQuizListItemClickListener l){
+        this.onQuizListItemClickListener = l;
     }
 
     @Override
@@ -62,6 +82,8 @@ public class QuizzesListViewAdapter extends ArrayAdapter {
 
     static class ViewHolder {
         TextView titleTextView;
+        CheckBox shouldRandomizeCheckbox;
+        Button startButton;
     }
 
 }

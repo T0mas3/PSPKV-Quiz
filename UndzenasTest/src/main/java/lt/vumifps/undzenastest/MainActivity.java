@@ -18,6 +18,9 @@ import java.util.LinkedList;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 
+    public static final String SHOULD_RANDOMIZE_KEY = "should_randomize";
+    private boolean shouldRandomize;
+
     private enum QuestionState {Unanswered, Correct, Wrong}
 
     public static final String JSON_RES_ID_KEY = "json_res_id";
@@ -44,6 +47,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
         Intent intent = getIntent();
         int testNumber = intent.getIntExtra(MainActivity.JSON_RES_ID_KEY, 0);
+        shouldRandomize = intent.getBooleanExtra(MainActivity.SHOULD_RANDOMIZE_KEY, false);
         TestLoader testLoader = new TestLoader(this);
         quiz = testLoader.loadSingleQuiz(testNumber);
 
@@ -65,7 +69,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
         Button nextButton = (Button) this.findViewById(R.id.nextButton);
         nextButton.setOnClickListener(this);
-        quiz.shuffleQuestions();
+        if (shouldRandomize) {
+            quiz.shuffleQuestions();
+        }
+
 
         showQuestion(quiz.getQuestion(0));
     }
@@ -150,7 +157,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
         currentIndex++;
 
         if (currentIndex+1 > quiz.getNumberOfquestions()) {
-            quiz.shuffleQuestions();
+            if (shouldRandomize) {
+                quiz.shuffleQuestions();
+            }
+
             currentIndex = 0;
             //Toast.makeText(this, "Fsio, rodau iš naujo random tvarka", Toast.LENGTH_LONG).show();
             progressBar.setProgress(0);

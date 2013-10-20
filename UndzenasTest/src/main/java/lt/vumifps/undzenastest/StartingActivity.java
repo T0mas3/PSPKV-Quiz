@@ -3,15 +3,13 @@ package lt.vumifps.undzenastest;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.view.Window;
-import android.widget.AdapterView;
 import android.widget.ListView;
 
 import java.util.LinkedList;
 
 
-public class StartingActivity extends Activity implements AdapterView.OnItemClickListener {
+public class StartingActivity extends Activity implements OnQuizListItemClickListener {
 
     LinkedList<Quiz> quizzes;
 
@@ -26,21 +24,19 @@ public class StartingActivity extends Activity implements AdapterView.OnItemClic
 
         ListView quizzesListView = (ListView) this.findViewById(R.id.quizzesListView);
         QuizzesListViewAdapter quizzesListViewAdapter = new QuizzesListViewAdapter(this, quizzes);
+        quizzesListViewAdapter.setOnQuizListItemClickListener(this);
         quizzesListView.setAdapter(quizzesListViewAdapter);
-
-        quizzesListView.setOnItemClickListener(this);
-
     }
 
 
     @Override
-    public void onItemClick(AdapterView<?> adapterView, View view, int index, long l) {
-
+    public void onQuizClick(int resId, boolean shouldRandomize) {
         Intent intent = new Intent(this,MainActivity.class);
 
-        intent.putExtra(MainActivity.JSON_RES_ID_KEY, this.quizzes.get(index).getResourceId());
+        intent.putExtra(MainActivity.JSON_RES_ID_KEY, resId);
+        intent.putExtra(MainActivity.SHOULD_RANDOMIZE_KEY, shouldRandomize);
         startActivity(intent);
         finish();
-
     }
+
 }
