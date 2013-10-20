@@ -13,12 +13,16 @@ import android.widget.ProgressBar;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.util.Collections;
 import java.util.LinkedList;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 
     public static final String SHOULD_RANDOMIZE_KEY = "should_randomize";
+    public static final String QUIZ_JSON_KEY = "quiz_json";
     private boolean shouldRandomize;
 
     private enum QuestionState {Unanswered, Correct, Wrong}
@@ -48,36 +52,41 @@ public class MainActivity extends Activity implements View.OnClickListener {
         Intent intent = getIntent();
         int testNumber = intent.getIntExtra(MainActivity.JSON_RES_ID_KEY, 0);
         shouldRandomize = intent.getBooleanExtra(MainActivity.SHOULD_RANDOMIZE_KEY, false);
-        TestLoader testLoader = new TestLoader(this);
-        quiz = testLoader.loadSingleQuiz(testNumber);
+        String quizJsonString= intent.getStringExtra(MainActivity.QUIZ_JSON_KEY);
 
-        currentIndex = 0;
-        numberOfQuestions = quiz.getNumberOfquestions();
+        try {
+            JSONObject quizJsonObject = new JSONObject(quizJsonString);
+            quiz = new Quiz(quizJsonObject, testNumber);
 
-        progressBar = (ProgressBar) findViewById(R.id.progressBar);
-        progressBar.setMax(numberOfQuestions);
-        progressTextView = (TextView) findViewById(R.id.progressTextView);
-        progressTextView.setText(getProgressText(numberOfQuestions, currentIndex+1));
+            currentIndex = 0;
+            numberOfQuestions = quiz.getNumberOfquestions();
 
-        scoreTextView = (TextView) findViewById(R.id.scoreTextView);
-        scoreTextView.setText(getcurrentScoreText(correctCount));
+            progressBar = (ProgressBar) findViewById(R.id.progressBar);
+            progressBar.setMax(numberOfQuestions);
+            progressTextView = (TextView) findViewById(R.id.progressTextView);
+            progressTextView.setText(getProgressText(numberOfQuestions, currentIndex+1));
 
-        answerLayout = (LinearLayout) this.findViewById(R.id.answersLinearLayout);
-        mainScrollView = (ScrollView) this.findViewById(R.id.mainScrollView);
-        Button homeButton = (Button) this.findViewById(R.id.homeButton);
-        homeButton.setOnClickListener(this);
+            scoreTextView = (TextView) findViewById(R.id.scoreTextView);
+            scoreTextView.setText(getcurrentScoreText(correctCount));
 
-        Button nextButton = (Button) this.findViewById(R.id.nextButton);
-        nextButton.setOnClickListener(this);
-        if (shouldRandomize) {
-            quiz.shuffleQuestions();
+            answerLayout = (LinearLayout) this.findViewById(R.id.answersLinearLayout);
+            mainScrollView = (ScrollView) this.findViewById(R.id.mainScrollView);
+            Button homeButton = (Button) this.findViewById(R.id.homeButton);
+            homeButton.setOnClickListener(this);
+
+            Button nextButton = (Button) this.findViewById(R.id.nextButton);
+            nextButton.setOnClickListener(this);
+            if (shouldRandomize) {
+                quiz.shuffleQuestions();
+            }
+
+            showQuestion(quiz.getQuestion(0));
+
+
+        } catch (JSONException e) {
+            e.printStackTrace();
         }
-
-
-        showQuestion(quiz.getQuestion(0));
     }
-
-
     private void showQuestion(Question question) {
 
         this.questionState = QuestionState.Unanswered;

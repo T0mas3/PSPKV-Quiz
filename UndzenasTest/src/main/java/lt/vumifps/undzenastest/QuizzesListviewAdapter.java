@@ -29,7 +29,7 @@ public class QuizzesListViewAdapter extends ArrayAdapter {
 
 
     @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
+    public View getView(final int position, View convertView, ViewGroup parent) {
 
         final ViewHolder viewHolder;
 
@@ -60,7 +60,7 @@ public class QuizzesListViewAdapter extends ArrayAdapter {
                     @Override
                     public void onClick(View view) {
                         if (onQuizListItemClickListener != null) {
-                            onQuizListItemClickListener.onQuizClick(currentQuiz.getResourceId(), viewHolder.shouldRandomizeCheckbox.isChecked());
+                            onQuizListItemClickListener.onQuizClick(position, currentQuiz.getResourceId(), viewHolder.shouldRandomizeCheckbox.isChecked());
                         }
                     }
                 };

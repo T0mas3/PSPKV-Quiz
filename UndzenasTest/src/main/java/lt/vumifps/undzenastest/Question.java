@@ -1,9 +1,9 @@
 package lt.vumifps.undzenastest;
 
-        import org.json.JSONException;
-        import org.json.JSONObject;
+import org.json.JSONException;
+import org.json.JSONObject;
 
-        import java.util.LinkedList;
+import java.util.LinkedList;
 
 /**
  * Created by tomas on 9/29/13.
@@ -38,7 +38,30 @@ public class Question {
         return answers.get(i);
     }
 
+
     public LinkedList<Answer> getAnswers() {
         return answers;
+    }
+
+    public JSONObject toJson() {
+
+        JSONObject jsonObject = new JSONObject();
+        try {
+            jsonObject.put("question", this.question);
+            int i = 1;
+            for (Answer answer : answers) {
+
+                if (answer.getCorrect()) {
+                    jsonObject.put("cor", answer.getText());
+                } else {
+                    jsonObject.put("uncor" + i, answer.getText());
+                    i++;
+                }
+            }
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        return jsonObject;
     }
 }

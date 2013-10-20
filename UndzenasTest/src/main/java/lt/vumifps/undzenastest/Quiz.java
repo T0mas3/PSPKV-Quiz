@@ -42,6 +42,26 @@ public class Quiz {
 
     }
 
+    public JSONObject toJson(){
+        JSONObject jsonObject = new JSONObject();
+        try {
+            jsonObject.put("title", this.getTitle());
+
+            JSONArray jsonArray = new JSONArray();
+            for (Question question : questions) {
+                jsonArray.put(question.toJson());
+            }
+
+
+            jsonObject.put("questions", jsonArray);
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        return jsonObject;
+    }
+
     public int getNumberOfquestions(){
         return questions.size();
     }
