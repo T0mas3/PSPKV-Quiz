@@ -1,418 +1,418 @@
 {
    "title":"Pirmas testas",
    "questions":[
-      {
-         "question":"Ko privaloma laikytis vykdant projektus",
-         "cor":"reglamentu? (teise?s aktu? reikalavimu?, taisykliu?)",
-         "uncor1":"standartu? (tam tikru? etalonu?, rekomendaciju?, normu?)",
-         "uncor2":"ir reglamentu?, ir standartu?",
-         "uncor3":"nei reglamentu?, nei standartu?"
+    {
+      "question": "Ko privaloma laikytis vykdant projektus",
+      "cor": "reglamentų (teisės aktų reikalavimų, taisyklių)",
+      "uncor1": "standartų (tam tikrų etalonų, rekomendacijų, normų)",
+      "uncor2": "ir reglamentų, ir standartų",
+      "uncor3": "nei reglamentų, nei standartų"
       },
       {
-         "question":"Ka? reis?kia programa, kai kalbama apie projektus",
-         "cor":"keliu? koordinuojamu? projektu? grupe?",
-         "uncor1":"viena? projekta?, kuriuo siekiama tam tikru? tikslu?",
-         "uncor2":"numatomu? rezultatu? rinkini?, kurie pade?tu? pasiekti specifinius projekto tikslus",
-         "uncor3":"viena? projekta?, padalinta? i? smulkesnes, lengviau valdomas dalis"
+      "question": "Ką reiškia programa, kai kalbama apie projektus",
+      "cor": "kelių koordinuojamų projektų grupę",
+      "uncor1": "vieną projektą, kuriuo siekiama tam tikrų tikslų",
+      "uncor2": "numatomų rezultatų rinkinį, kurie padėtų pasiekti specifinius projekto tikslus",
+      "uncor3": "vieną projektą, padalintą į smulkesnes, lengviau valdomas dalis"
       },
       {
-         "question":"Kuris is? teiginiu? yra teisingas, kai projekto BCR (Benefit Cost Ratio – naudos ir kainos santykis) didesnis uz? 1",
-         "cor":"is?laidos projektui yra maz?esne?s uz? numatoma? gauti nauda?",
-         "uncor1":"projektas yra ypatingai rizikingas",
-         "uncor2":"is?laidos projektui neatsipirks",
-         "uncor3":"projekto vykdymas lenkia numatyta? darbu? grafika?"
+      "question": "Kuris iš teiginių yra teisingas, kai projekto BCR (Benefit Cost Ratio – naudos ir kainos santykis) didesnis už 1",
+      "cor": "išlaidos projektui yra mažesnės už numatomą gauti naudą",
+      "uncor1": "projektas yra ypatingai rizikingas",
+      "uncor2": "išlaidos projektui neatsipirks",
+      "uncor3": "projekto vykdymas lenkia numatytą darbų grafiką"
       },
       {
-         "question":"Projekto vadovo ir akcininku? bendravimo efektyvumui yra svarbu?s visi z?emiau is?vardinti veiksniai, is?skyrus",
-         "cor":"akcininku? tiesiogiai teikiama finansine? parama projektui",
-         "uncor1":"akcininku? inde?lis rengiant projekto apimti? (reikalavimus)",
-         "uncor2":"akcininku? teikiama informacija grindz?iant projekto poreiki?",
-         "uncor3":"akcininku? poreikiu? suvokimas yra bu?tina projekto se?kme?s sa?lyga"
+      "question": "Projekto vadovo ir akcininkų bendravimo efektyvumui yra svarbūs visi žemiau išvardinti veiksniai, išskyrus",
+      "cor": "akcininkų tiesiogiai teikiama finansinė parama projektui",
+      "uncor1": "akcininkų indėlis rengiant projekto apimtį (reikalavimus)",
+      "uncor2": "akcininkų teikiama informacija grindžiant projekto poreikį",
+      "uncor3": "akcininkų poreikių suvokimas yra būtina projekto sėkmės sąlyga"
       },
       {
-         "question":"Kuriuo projekto metu akcininku? galimybe?s daryti i?taka? galutiniams projekto rezultatams yra didesne?s",
-         "cor":"ankstesniame projekto etape",
-         "uncor1":"ve?lesniame projekto etape",
-         "uncor2":"bet kuriuo projekto metu",
-         "uncor3":"ankstesniame projekto etape, tac?iau jos dide?ja projekto eigoje"
+      "question": "Kuriuo projekto metu akcininkų galimybės daryti įtaką galutiniams projekto rezultatams yra didesnės",
+      "cor": "ankstesniame projekto etape",
+      "uncor1": "vėlesniame projekto etape",
+      "uncor2": "bet kuriuo projekto metu",
+      "uncor3": "ankstesniame projekto etape, tačiau jos didėja projekto eigoje"
       },
       {
-         "question":"Ju?su? organizacija duotu metu vykdo keturis skirtingus projektus. Atsiradus naujam svarbiam uz?sakymui, vadovybe? nutare? laikinai stabdyti viena? is? ju? ir jo is?teklius skirti naujam projektui. Vykdytu? projektu? BCR (Benefit Cost Ratio – naudos ir kainos santykis) rodikliai yra tokie: A projekto - 1.2, B projekto – 0.7, C projekto – 1.0, D projekto – 0.8. Remiantis vien s?ia informacija, kuri? projekta? ju?s siu?lytume?te laikinai sustabdyti",
-         "cor":"B projekta?",
-         "uncor1":"A projekta?",
-         "uncor2":"C projekta?",
-         "uncor3":"D projekta?"
+      "question": "Jūsų organizacija duotu metu vykdo keturis skirtingus projektus. Atsiradus naujam svarbiam užsakymui, vadovybė nutarė laikinai stabdyti vieną iš jų ir jo išteklius skirti naujam projektui. Vykdytų projektų BCR (Benefit Cost Ratio – naudos ir kainos santykis) rodikliai yra tokie: A projekto - 1.2, B projekto – 0.7, C projekto – 1.0, D projekto – 0.8. Remiantis vien šia informacija, kurį projektą jūs siūlytumėte laikinai sustabdyti",
+      "cor": "B projektą",
+      "uncor1": "A projektą",
+      "uncor2": "C projektą",
+      "uncor3": "D projektą"
       },
       {
-         "question":"Projekto sponsoriui (re?me?jui) ju?s turite pateikti preliminaria? projekto kaina?. Galutine? projekto apimtis (reikalavimai) dar ne?ra ais?ki, tac?iau ju?s manote, kad projektas yra labai panas?us i? ju?su? organizacijoje vykdyta? prae?jusiais metais. Kuri? kainos vertinimo bu?da? ju?s naudosite",
-         "cor":"analogis?kojo vertinimo",
-         "uncor1":"parametrinio modeliavimo",
-         "uncor2":"vertinima? is? apac?ios i? virs?u?",
-         "uncor3":"Monte Karlo analize?"
+      "question": "Projekto sponsoriui (rėmėjui) jūs turite pateikti preliminarią projekto kainą. Galutinė projekto apimtis (reikalavimai) dar nėra aiški, tačiau jūs manote, kad projektas yra labai panašus į jūsų organizacijoje vykdytą praėjusiais metais. Kurį kainos vertinimo būdą jūs naudosite",
+      "cor": "analogiškojo vertinimo",
+      "uncor1": "parametrinio modeliavimo",
+      "uncor2": "vertinimą iš apačios į viršų",
+      "uncor3": "Monte Karlo analizę"
       },
       {
-         "question":"Ju?s vertinate naujo namo statybos projekta? ir manote, kad statybos atsieis 1750000 Lt. Remiantis esamais nekilnojamojo turto rinkos duomenimis, realu, kad pastatyta? nama? i?manoma parduoti uz? 2300000 Lt. Koks yra s?io projekto BCR (Benefit Cost Ratio – naudos ir kainos santykis)",
-         "cor":"1.31",
-         "uncor1":"0.24",
-         "uncor2":"0.76",
-         "uncor3":"55"
+      "question": "Jūs vertinate naujo namo statybos projektą ir manote, kad statybos atsieis 1750000 Lt. Remiantis esamais nekilnojamojo turto rinkos duomenimis, realu, kad pastatytą namą įmanoma parduoti už 2300000 Lt. Koks yra šio projekto BCR (Benefit Cost Ratio – naudos ir kainos santykis)",
+      "cor": "1.31",
+      "uncor1": "0.24",
+      "uncor2": "0.76",
+      "uncor3": "55"
       },
       {
-         "question":"Kas paprastai bu?na projekto nuostatuose",
-         "cor":"projekto poreikis",
-         "uncor1":"suskaidytu? darbu? lentele? (WBS)",
-         "uncor2":"apimties (reikalavimu?) apras?as",
-         "uncor3":"galutinis darbu? grafikas"
+      "question": "Kas paprastai būna projekto nuostatuose",
+      "cor": "projekto poreikis",
+      "uncor1": "suskaidytų darbų lentelė (WBS)",
+      "uncor2": "apimties (reikalavimų) aprašas",
+      "uncor3": "galutinis darbų grafikas"
       },
       {
-         "question":"Kas ne?ra projekto inicijavimo proceso rezultatas",
-         "cor":"projekto apimties (reikalavimu?) apras?as",
-         "uncor1":"projekto nuostatai",
-         "uncor2":"formalus projekto patvirtinimas",
-         "uncor3":"projekto apimties (reikalavimu?) metmenys"
+      "question": "Kas nėra projekto inicijavimo proceso rezultatas",
+      "cor": "projekto apimties (reikalavimų) aprašas",
+      "uncor1": "projekto nuostatai",
+      "uncor2": "formalus projekto patvirtinimas",
+      "uncor3": "projekto apimties (reikalavimų) metmenys"
       },
       {
-         "question":"Nauju? medicininiu? tyrimu? projektui buvo parengti nuostatai. Kas juos ture?tu? patvirtinti",
-         "cor":"organizacijos vadovybe?s narys",
-         "uncor1":"projekto grupe?",
-         "uncor2":"akcininkai",
-         "uncor3":"projekto vadovas"
+      "question": "Naujų medicininių tyrimų projektui buvo parengti nuostatai. Kas juos turėtų patvirtinti",
+      "cor": "organizacijos vadovybės narys",
+      "uncor1": "projekto grupė",
+      "uncor2": "akcininkai",
+      "uncor3": "projekto vadovas"
       },
       {
-         "question":"Kuri? is? lentele?je parodytu? projektu? ju?s rekomenduotume?te vykdyti? // IRR (Internal Rate of Return, vidine?s gra?z?os norma)\nA: Atsipirkimas(m?n.) - 38 IRR - 25%\nB: Atsipirkimas(m?n.) - 24 IRR - 25%\nC: Atsipirkimas(m?n.) - 28 IRR - 18%\nD: Atsipirkimas(m?n.) - 24 IRR - 12%\nD: Atsipirkimas(m?n.) - 36 IRR - 21%",
-         "cor":"projekta? B",
-         "uncor1":"projekta? A",
-         "uncor2":"projekta? C",
-         "uncor3":"projekta? D"
+      "question": "Kurį iš lentelėje parodytų projektų jūs rekomenduotumėte vykdyti? // IRR (Internal Rate of Return, vidinės grąžos norma)\nA: Atsipirkimas(mėn.) - 38 IRR - 25%\nB: Atsipirkimas(mėn.) - 24 IRR - 25%\nC: Atsipirkimas(mėn.) - 28 IRR - 18%\nD: Atsipirkimas(mėn.) - 24 IRR - 12%\nD: Atsipirkimas(mėn.) - 36 IRR - 21%",
+      "cor": "projektą B",
+      "uncor1": "projektą A",
+      "uncor2": "projektą C",
+      "uncor3": "projektą D"
       },
       {
-         "question":"Ju?s esate vadovas projekto, kurio atsipirkimo periodas yra 13 me?nesiu?. Kuris is? teiginiu? yra teisingas?",
-         "cor":"per 13 me?n. atsipirks i? projekta? investuotos le?s?os",
-         "uncor1":"projektas gali bu?ti uz?baigtas per 13 me?n.",
-         "uncor2":"projektas prade?s duoti pajamas po 13 me?n.",
-         "uncor3":"projektas prade?s duoti pelna? 13-ta? me?nesi?"
+      "question": "Jūs esate vadovas projekto, kurio atsipirkimo periodas yra 13 mėnesių. Kuris iš teiginių yra teisingas?",
+      "cor": "per 13 mėn. atsipirks į projektą investuotos lėšos",
+      "uncor1": "projektas gali būti užbaigtas per 13 mėn.",
+      "uncor2": "projektas pradės duoti pajamas po 13 mėn.",
+      "uncor3": "projektas pradės duoti pelną 13-tą mėnesį"
       },
       {
-         "question":"Yra trys projektai, viena? is? kuriu? galite pasirinkti. Projekto A rodiklis IRR (Internal Rate of Return – vidine?s gra?z?os norma) yra 23%, projekto B – 18% ir projekto C – 6%. Kuris projektas yra patraukliausias?",
-         "cor":"projektas A",
-         "uncor1":"projektas B",
-         "uncor2":"projektas C",
-         "uncor3":"nepakanka informacijos tokiam sprendimui priimti"
+      "question": "Yra trys projektai, vieną iš kurių galite pasirinkti. Projekto A rodiklis IRR (Internal Rate of Return – vidinės grąžos norma) yra 23%, projekto B – 18% ir projekto C – 6%. Kuris projektas yra patraukliausias?",
+      "cor": "projektas A",
+      "uncor1": "projektas B",
+      "uncor2": "projektas C",
+      "uncor3": "nepakanka informacijos tokiam sprendimui priimti"
       },
       {
-         "question":"Apribojimas gali bu?ti apibu?dinamas kaip",
-         "cor":"aplinkybe?, ribojanti projekto grupe?s pasirinkimo galimybes",
-         "uncor1":"rezultatai, kurie turi bu?ti gauti uz?baigus projekta?",
-         "uncor2":"prielaida, kuri gali is?s?aukti projekto susiaurinima?",
-         "uncor3":"priemone?, kuria siekiama sumaz?inti projekto apimties (reikalavimu?) keitimus"
+      "question": "Apribojimas gali būti apibūdinamas kaip",
+      "cor": "aplinkybė, ribojanti projekto grupės pasirinkimo galimybes",
+      "uncor1": "rezultatai, kurie turi būti gauti užbaigus projektą",
+      "uncor2": "prielaida, kuri gali iššaukti projekto susiaurinimą",
+      "uncor3": "priemonė, kuria siekiama sumažinti projekto apimties (reikalavimų) keitimus"
       },
       {
-         "question":"mone?s aplinkos duomenys naudojami rengiant projekto nuostatus ir daugelyje kitokiu? procesu?. Kuris is? z?emiau is?vardintu? dalyku? yra i?mone?s aplinkos duomuo?",
-         "cor":"komercine? (skelbimu?, c?ekiu?, kt.) duomenu? baze?",
-         "uncor1":"bendrosios komunikavimo taisykle?s",
-         "uncor2":"informacijos apie kompanijos projektus duomenu? baze?",
-         "uncor3":"problemu? ir defektu? sprendimo taisykle?s"
+      "question": "monės aplinkos duomenys naudojami rengiant projekto nuostatus ir daugelyje kitokių procesų. Kuris iš žemiau išvardintų dalykų yra įmonės aplinkos duomuo?",
+      "cor": "komercinė (skelbimų, čekių, kt.) duomenų bazė",
+      "uncor1": "bendrosios komunikavimo taisyklės",
+      "uncor2": "informacijos apie kompanijos projektus duomenų bazė",
+      "uncor3": "problemų ir defektų sprendimo taisyklės"
       },
       {
-         "question":"Kalbant apie projekto is?laidas, teisinga yra tai, kad",
-         "cor":"paprastai is?laidos yra maz?esne?s projekto pradz?ioje",
-         "uncor1":"paprastai is?laidos yra didesne?s projekto pabaigoje",
-         "uncor2":"paprastai is?laidos yra didesne?s projekto pradz?ioje",
-         "uncor3":"is?laidos be perstojo auga viso projekto metu, kol nepasiekiama uz?baigimo faze?"
+      "question": "Kalbant apie projekto išlaidas, teisinga yra tai, kad",
+      "cor": "paprastai išlaidos yra mažesnės projekto pradžioje",
+      "uncor1": "paprastai išlaidos yra didesnės projekto pabaigoje",
+      "uncor2": "paprastai išlaidos yra didesnės projekto pradžioje",
+      "uncor3": "išlaidos be perstojo auga viso projekto metu, kol nepasiekiama užbaigimo fazė"
       },
       {
-         "question":"Ju?su? organizacijos vadovybe? planuoja vykdyti keturis projektus kitais metais. De?l ribotu? is?tekliu? prade?ti visus projektus vienu metu nei?manoma. Projektai charakterizuojami taip (NPV - Net Present Value):\nA: Atsipirkimo periodas(m?n.) - 20 NPV - 30000 Lt\nB: Atsipirkimo periodas(m?n.) 24 NPV - 27500 Lt\nC: Atsipirkimo periodas(m?n.) - 18 NPV 25000 Lt\nD: Atsipirkimo periodas(m?n.) -  36 NPV 30000 Lt",
-         "cor":"projekta? A",
-         "uncor1":"projekta? B",
-         "uncor2":"projekta? C",
-         "uncor3":"projekta? D"
+      "question": "Jūsų organizacijos vadovybė planuoja vykdyti keturis projektus kitais metais. Dėl ribotų išteklių pradėti visus projektus vienu metu neįmanoma. Projektai charakterizuojami taip (NPV - Net Present Value):\nA: Atsipirkimo periodas(mėn.) - 20 NPV - 30000 Lt\nB: Atsipirkimo periodas(mėn.) 24 NPV - 27500 Lt\nC: Atsipirkimo periodas(mėn.) - 18 NPV 25000 Lt\nD: Atsipirkimo periodas(mėn.) -  36 NPV 30000 Lt",
+      "cor": "projektą A",
+      "uncor1": "projektą B",
+      "uncor2": "projektą C",
+      "uncor3": "projektą D"
       },
       {
-         "question":"Yra dvi pagrindine?s projektu? atrankos metodu? kategorijos (grupe?s). Kurios",
-         "cor":"nauda? vertinantys metodai ir matematinio modeliavimo metodai",
-         "uncor1":"nauda? vertinantys metodai ir is?laidu?-verte?s analize?s metodai",
-         "uncor2":"vertinimo balais metodai ir is?laidu?-verte?s analize?s metodai",
-         "uncor3":"vertinimo balais metodai ir daline?s optimizacijos metodai"
+      "question": "Yra dvi pagrindinės projektų atrankos metodų kategorijos (grupės). Kurios",
+      "cor": "naudą vertinantys metodai ir matematinio modeliavimo metodai",
+      "uncor1": "naudą vertinantys metodai ir išlaidų-vertės analizės metodai",
+      "uncor2": "vertinimo balais metodai ir išlaidų-vertės analizės metodai",
+      "uncor3": "vertinimo balais metodai ir dalinės optimizacijos metodai"
       },
       {
-         "question":"Kuriame projektu? valdymo procese naudojami projektu? atrankos metodai",
-         "cor":"projektu? nuostatu? rengimo",
-         "uncor1":"apimties planavimo",
-         "uncor2":"apimties apibre?z?imo",
-         "uncor3":"apimties patvirtinimo"
+      "question": "Kuriame projektų valdymo procese naudojami projektų atrankos metodai",
+      "cor": "projektų nuostatų rengimo",
+      "uncor1": "apimties planavimo",
+      "uncor2": "apimties apibrėžimo",
+      "uncor3": "apimties patvirtinimo"
       },
       {
-         "question":"Atliekant projektu? atranka?, vertinimo balais metodas suprantamas kaip",
-         "cor":"naudos matavimo metodas",
-         "uncor1":"eksperimentu? planas",
-         "uncor2":"sprendimo prie?mimo metodas",
-         "uncor3":"matematinis modelis"
+      "question": "Atliekant projektų atranką, vertinimo balais metodas suprantamas kaip",
+      "cor": "naudos matavimo metodas",
+      "uncor1": "eksperimentų planas",
+      "uncor2": "sprendimo priėmimo metodas",
+      "uncor3": "matematinis modelis"
       },
       {
-         "question":"Kuris is? z?emiau is?vardintu? dalyku? ne?ra naudojamas projektu? atrankos metu",
-         "cor":"jautrumo analize?",
-         "uncor1":"atsipirkimo periodas",
-         "uncor2":"naudos-kainos analize?",
-         "uncor3":"vertinimo balais modelis"
+      "question": "Kuris iš žemiau išvardintų dalykų nėra naudojamas projektų atrankos metu",
+      "cor": "jautrumo analizė",
+      "uncor1": "atsipirkimo periodas",
+      "uncor2": "naudos-kainos analizė",
+      "uncor3": "vertinimo balais modelis"
       },
       {
-         "question":"Organizacijos vadovybe? papras?e? ju?su? i?vertinti keturis potencialius projektus. Kuri? projekta? ju?s rekomenduotume?te",
-         "cor":"projekta? A, kurio BCR (Benefit Cost Ratio, naudos ir kainos santykis) yra 2.1",
-         "uncor1":"projekta? B, kurio BCR – 1.2",
-         "uncor2":"projekta? C, kurio BCR – -2.1",
-         "uncor3":"projekta? D, kurio BCR – 1.8"
+      "question": "Organizacijos vadovybė paprašė jūsų įvertinti keturis potencialius projektus. Kurį projektą jūs rekomenduotumėte",
+      "cor": "projektą A, kurio BCR (Benefit Cost Ratio, naudos ir kainos santykis) yra 2.1",
+      "uncor1": "projektą B, kurio BCR – 1.2",
+      "uncor2": "projektą C, kurio BCR – -2.1",
+      "uncor3": "projektą D, kurio BCR – 1.8"
       },
       {
-         "question":"Kuris is? is?vardintu? dalyku? ne?ra projektas",
-         "cor":"sa?skaitu? klientams uz? suteiktas paslaugas ras?ymas",
-         "uncor1":"nauju? sporto i?renginiu? statyba",
-         "uncor2":"gamybos darbu? paskirstymo sistemos diegimas",
-         "uncor3":"papildomos aparatine?s i?rangos bendrojo tinklo infrastruktu?rai pagerinti  diegimas"
+      "question": "Kuris iš išvardintų dalykų nėra projektas",
+      "cor": "sąskaitų klientams už suteiktas paslaugas rašymas",
+      "uncor1": "naujų sporto įrenginių statyba",
+      "uncor2": "gamybos darbų paskirstymo sistemos diegimas",
+      "uncor3": "papildomos aparatinės įrangos bendrojo tinklo infrastruktūrai pagerinti  diegimas"
       },
       {
-         "question":"Projektas apibu?dinamas kaip",
-         "cor":"ribotos trukme?s pastangos unikaliam produktui, paslaugai ar rezultatui gauti",
-         "uncor1":"grupe? susijusiu? veiklu? specifiniams verslo tikslams pasiekti",
-         "uncor2":"suplanuotos veiklos atlikti uz?duotims, kurios anksc?iau nebuvo atliktos",
-         "uncor3":"grupe? veiklu? keleto nuolatiniu? ir bendrai valdomu? funkciju? vykdymui"
+      "question": "Projektas apibūdinamas kaip",
+      "cor": "ribotos trukmės pastangos unikaliam produktui, paslaugai ar rezultatui gauti",
+      "uncor1": "grupė susijusių veiklų specifiniams verslo tikslams pasiekti",
+      "uncor2": "suplanuotos veiklos atlikti užduotims, kurios anksčiau nebuvo atliktos",
+      "uncor3": "grupė veiklų keleto nuolatinių ir bendrai valdomų funkcijų vykdymui"
       },
       {
-         "question":"Reglamentas (reikalavimai, taisykle?s) daz?niausiai suprantamas kaip",
-         "cor":"apribojimai",
-         "uncor1":"rizika",
-         "uncor2":"prielaida",
-         "uncor3":"rizikos veiksnys (priez?astis)"
+      "question": "Reglamentas (reikalavimai, taisyklės) dažniausiai suprantamas kaip",
+      "cor": "apribojimai",
+      "uncor1": "rizika",
+      "uncor2": "prielaida",
+      "uncor3": "rizikos veiksnys (priežastis)"
       },
       {
-         "question":"Ju?s dirbate projekto vadovu didele?je organizacijoje. Vadovybe? neseniai suz?inojo apie naujus pasaulinio pozicionavimo sistemos atradimus, kas i?galintu? ir ju?su? organizacija? teikti papildomas paslaugas klientams. Ju?su? papras?e? vadovauti nauju? paslaugu? ku?rimo projektui, ir organizacijos vadovybe? nori pristatyti nauja? paslauga? prekybos parodoje kitu? metu? pirma?ji? ketvirti?. Kokia s?io projekto inicijavimo priez?astis",
-         "cor":"technologiju? paz?anga",
-         "uncor1":"socialiniai poreikiai",
-         "uncor2":"verslo poreikiai",
-         "uncor3":"paklausa rinkoje"
+      "question": "Jūs dirbate projekto vadovu didelėje organizacijoje. Vadovybė neseniai sužinojo apie naujus pasaulinio pozicionavimo sistemos atradimus, kas įgalintų ir jūsų organizaciją teikti papildomas paslaugas klientams. Jūsų paprašė vadovauti naujų paslaugų kūrimo projektui, ir organizacijos vadovybė nori pristatyti naują paslaugą prekybos parodoje kitų metų pirmąjį ketvirtį. Kokia šio projekto inicijavimo priežastis",
+      "cor": "technologijų pažanga",
+      "uncor1": "socialiniai poreikiai",
+      "uncor2": "verslo poreikiai",
+      "uncor3": "paklausa rinkoje"
       },
       {
-         "question":"Ju?s esate didele?s gamybine?s linijos ple?tojimo projekto vadovas. Projektu norima i?diegti linijoje nauja? i?ranga?. Kuris is? z?emiau is?vardintu? dalyku? ne?ra prielaida, kuria? ju?s ture?tume?te dokumentuoti projekte",
-         "cor":"naujos i?rangos neteks diegti paskutine? me?nesio savaite?, nes tuo metu yra gamybos pikas",
-         "uncor1":"projekto planas yra tikslus ir is?samus",
-         "uncor2":"tieke?jas anksc?iau arba darbu? grafike numatytu laiku pristatys nauja? i?ranga?",
-         "uncor3":"laikantis darbo kru?vio normu?, atskiru? darbu? vadovai gale?s skirti savo darbuotojus naujai i?rangai testuoti"
+      "question": "Jūs esate didelės gamybinės linijos plėtojimo projekto vadovas. Projektu norima įdiegti linijoje naują įrangą. Kuris iš žemiau išvardintų dalykų nėra prielaida, kurią jūs turėtumėte dokumentuoti projekte",
+      "cor": "naujos įrangos neteks diegti paskutinę mėnesio savaitę, nes tuo metu yra gamybos pikas",
+      "uncor1": "projekto planas yra tikslus ir išsamus",
+      "uncor2": "tiekėjas anksčiau arba darbų grafike numatytu laiku pristatys naują įrangą",
+      "uncor3": "laikantis darbo krūvio normų, atskirų darbų vadovai galės skirti savo darbuotojus naujai įrangai testuoti"
       },
       {
-         "question":"Ju?su? organizacijos projektu? atrankos komitetas svarsto viena? is? siu?lomu? projektu?. Projekto kaina yra 1000000 Lt. Tikimasi, kad pirmus penkerius metus kasmetine?s pajamos bus 100000 Lt, o ve?lesniais metais – 200000 Lt. Koks yra s?io projekto atsipirkimo periodas",
-         "cor":"90 me?n",
-         "uncor1":"60 me?n.",
-         "uncor2":"84 me?n.",
-         "uncor3":"86 me?n."
+      "question": "Jūsų organizacijos projektų atrankos komitetas svarsto vieną iš siūlomų projektų. Projekto kaina yra 1000000 Lt. Tikimasi, kad pirmus penkerius metus kasmetinės pajamos bus 100000 Lt, o vėlesniais metais – 200000 Lt. Koks yra šio projekto atsipirkimo periodas",
+      "cor": "90 mėn",
+      "uncor1": "60 mėn.",
+      "uncor2": "84 mėn.",
+      "uncor3": "86 mėn."
       },
       {
-         "question":"Ju?s gavote tokia? informacija? apie keleta? potencialiu? projektu?:\n- projekto A rodiklis NPV (Net Present Value, grynoji dabartine? verte?) yra 30000 Lt; - projekto B NPV yra 185000 Lt;\n- projekto C NPV yra 275000 Lt;\n- projekto D NPV yra 95000 Lt.\nKuri? projekta? ju?s siu?lytume?te prade?ti visu? pirma",
-         "cor":"projekta? C",
-         "uncor1":"projekta? A",
-         "uncor2":"projekta? B",
-         "uncor3":"projekta? D"
+      "question": "Jūs gavote tokią informaciją apie keletą potencialių projektų:\n- projekto A rodiklis NPV (Net Present Value, grynoji dabartinė vertė) yra 30000 Lt; - projekto B NPV yra 185000 Lt;\n- projekto C NPV yra 275000 Lt;\n- projekto D NPV yra 95000 Lt.\nKurį projektą jūs siūlytumėte pradėti visų pirma",
+      "cor": "projektą C",
+      "uncor1": "projektą A",
+      "uncor2": "projektą B",
+      "uncor3": "projektą D"
       },
       {
-         "question":"Ju?s esate paskirtas naujos i?rangos diegimo projekto vadovu. Tokia i?ranga pade?tu? sutrumpinti klientu? uz?sakymu? i?vykdymo laika?. Projektas yra priklausomas nuo is?orinio tieke?jo, ar jis pristatys reikiama? diegti i?ranga? iki numatytos diege?ju? brigados atvykimo datos. Tieke?jo paslaugomis ju?s naudojote?s ir ankstesniuose projektuose, tode?l manote, kad jis pristatys i?ranga? paz?ade?tu laiku. Kieno pavyzdys visa tai yra",
-         "cor":"prielaidos",
-         "uncor1":"apribojimo",
-         "uncor2":"rezultatu?",
-         "uncor3":"darbu? rinkinio"
+      "question": "Jūs esate paskirtas naujos įrangos diegimo projekto vadovu. Tokia įranga padėtų sutrumpinti klientų užsakymų įvykdymo laiką. Projektas yra priklausomas nuo išorinio tiekėjo, ar jis pristatys reikiamą diegti įrangą iki numatytos diegėjų brigados atvykimo datos. Tiekėjo paslaugomis jūs naudojotės ir ankstesniuose projektuose, todėl manote, kad jis pristatys įrangą pažadėtu laiku. Kieno pavyzdys visa tai yra",
+      "cor": "prielaidos",
+      "uncor1": "apribojimo",
+      "uncor2": "rezultatų",
+      "uncor3": "darbų rinkinio"
       },
       {
-         "question":"Kuris is? teiginiu? yra teisingas kalbant apie griez?tojo (strong) matricos tipo organizacija?",
-         "cor":"joje projekto vadovui suteikiama didz?ioji dalis i?galiojimu?",
-         "uncor1":"tai yra tas pat, kaip ir siaurojo (tight) matricos tipo organizacija",
-         "uncor2":"joje projekto vadovui suteikiami visi i?galiojimai",
-         "uncor3":"joje projekto vadovas suprantamas kaip pavedimus operatyviai atliekantis asmuo (expeditor)"
+      "question": "Kuris iš teiginių yra teisingas kalbant apie griežtojo (strong) matricos tipo organizaciją",
+      "cor": "joje projekto vadovui suteikiama didžioji dalis įgaliojimų",
+      "uncor1": "tai yra tas pat, kaip ir siaurojo (tight) matricos tipo organizacija",
+      "uncor2": "joje projekto vadovui suteikiami visi įgaliojimai",
+      "uncor3": "joje projekto vadovas suprantamas kaip pavedimus operatyviai atliekantis asmuo (expeditor)"
       },
       {
-         "question":"Kuris kainos vertinimo bu?das labiausiai tike?tina yra naudojamas projekto apimties metmenu? rengimo metu",
-         "cor":"analogis?kasis",
-         "uncor1":"biudz?etinis",
-         "uncor2":"detalusis",
-         "uncor3":"pavyzdinis (definitive)"
+      "question": "Kuris kainos vertinimo būdas labiausiai tikėtina yra naudojamas projekto apimties metmenų rengimo metu",
+      "cor": "analogiškasis",
+      "uncor1": "biudžetinis",
+      "uncor2": "detalusis",
+      "uncor3": "pavyzdinis (definitive)"
       },
       {
-         "question":"Kuris is? z?emiau is?vardintu? dalyku? ne?ra bendroji priez?astis projektui inicijuoti",
-         "cor":"nepanaudoti organizacijos is?tekliai",
-         "uncor1":"paklausa rinkoje",
-         "uncor2":"specifiniai klientu? pageidavimai",
-         "uncor3":"atitikimo is?oriniams teise?s aktams reikalavimas"
+      "question": "Kuris iš žemiau išvardintų dalykų nėra bendroji priežastis projektui inicijuoti",
+      "cor": "nepanaudoti organizacijos ištekliai",
+      "uncor1": "paklausa rinkoje",
+      "uncor2": "specifiniai klientų pageidavimai",
+      "uncor3": "atitikimo išoriniams teisės aktams reikalavimas"
       },
       {
-         "question":"Ju?s rengiate preliminaru? projekto biudz?eta? (biudz?eto metmenis). Projekto kaina negali virs?yti 475000 Lt. Tode?l ju?s rengdami projekto plana? turite atsiz?velgti i? s?i? apribojima?. Koki? kainos vertinimo bu?da? ju?s naudosite",
-         "cor":"is? virs?aus i? apac?ia?",
-         "uncor1":"is? apac?ios i? virs?u?",
-         "uncor2":"parametrini?",
-         "uncor3":"tiesine?s regresijos"
+      "question": "Jūs rengiate preliminarų projekto biudžetą (biudžeto metmenis). Projekto kaina negali viršyti 475000 Lt. Todėl jūs rengdami projekto planą turite atsižvelgti į šį apribojimą. Kokį kainos vertinimo būdą jūs naudosite",
+      "cor": "iš viršaus į apačią",
+      "uncor1": "iš apačios į viršų",
+      "uncor2": "parametrinį",
+      "uncor3": "tiesinės regresijos"
       },
       {
-         "question":"I?mone?s organizaciniai dokumentai (enterprise organiztional process assets) yra i?eities duomenys projekto nuostatu? rengimo ir kitiems procesams. Kuris is? z?emiau is?vardintu? dalyku? ne?ra i?mone?s organizacinis dokumentas",
-         "cor":"i?mone?s organizacine? struktu?ra ir nuostatai",
-         "uncor1":"i?mone?s anksc?iau vykdytu? projektu? archyvas",
-         "uncor2":"i?mone?s kokybe?s kontrole?s katalogas (kontrolinis sa?ras?as)",
-         "uncor3":"i?mone?s nurodymai projektams uz?baigti"
+      "question": "Įmonės organizaciniai dokumentai (enterprise organiztional process assets) yra įeities duomenys projekto nuostatų rengimo ir kitiems procesams. Kuris iš žemiau išvardintų dalykų nėra įmonės organizacinis dokumentas",
+      "cor": "įmonės organizacinė struktūra ir nuostatai",
+      "uncor1": "įmonės anksčiau vykdytų projektų archyvas",
+      "uncor2": "įmonės kokybės kontrolės katalogas (kontrolinis sąrašas)",
+      "uncor3": "įmonės nurodymai projektams užbaigti"
       },
       {
-         "question":"Ju?su? papras?e? atrinkti viena? is? triju? projektu?, kurie charakterizuojami taip:\n- projekto A rodiklis NPV (Net Presnt Value, grynoji dabartine? verte?) yra 80 000 Lt ir projektui i?vykdyti reikia 5 metu?; \n- projekto B NPV yra 100 000 Lt ir projektui i?vykdyti reikia 2 metu?;\n- projekto C NPV yra 100 000 Lt ir projektui i?vykdyti reikia 3 metu?. Kuris is? projektu? yra perspektyviausias",
-         "cor":"projektas B",
-         "uncor1":"projektas A",
-         "uncor2":"projektas C",
-         "uncor3":"visi projektai yra perspektyvu?s"
+      "question": "Jūsų paprašė atrinkti vieną iš trijų projektų, kurie charakterizuojami taip:\n- projekto A rodiklis NPV (Net Presnt Value, grynoji dabartinė vertė) yra 80 000 Lt ir projektui įvykdyti reikia 5 metų; \n- projekto B NPV yra 100 000 Lt ir projektui įvykdyti reikia 2 metų;\n- projekto C NPV yra 100 000 Lt ir projektui įvykdyti reikia 3 metų. Kuris iš projektų yra perspektyviausias",
+      "cor": "projektas B",
+      "uncor1": "projektas A",
+      "uncor2": "projektas C",
+      "uncor3": "visi projektai yra perspektyvūs"
       },
       {
-         "question":"Kas rengia projekto nuostatus (charter)",
-         "cor":"nuo projekto nepriklausantis asmuo",
-         "uncor1":"projekto sponsorius",
-         "uncor2":"projekto vadovas",
-         "uncor3":"pagrindinis projekto akcininkas"
+      "question": "Kas rengia projekto nuostatus (charter)",
+      "cor": "nuo projekto nepriklausantis asmuo",
+      "uncor1": "projekto sponsorius",
+      "uncor2": "projekto vadovas",
+      "uncor3": "pagrindinis projekto akcininkas"
       },
       {
-         "question":"Ju?s darote pranes?ima? apie kolegos projekta? jam susirgus. Turimi duomenys rodo, kad i?vykdyta 30% projekto, o galutine? projekto kaina tike?tina bus dvigubai didesne?, nei planuota pradz?ioje. Kuris is? z?emiau is?vardintu? dalyku? ne?ra tokios situacijos priez?astis",
-         "cor":"netikusiai atlikta projekto atranka",
-         "uncor1":"neteisingas projekto planavimas",
-         "uncor2":"vykusiuose projekto stovio svarstymo susirinkimuose nebuvo stebimas projekto is?laidu? grafikas",
-         "uncor3":"nepakankami projekto grupe?s i?gu?dz?iai ir darbo nas?umas"
+      "question": "Jūs darote pranešimą apie kolegos projektą jam susirgus. Turimi duomenys rodo, kad įvykdyta 30% projekto, o galutinė projekto kaina tikėtina bus dvigubai didesnė, nei planuota pradžioje. Kuris iš žemiau išvardintų dalykų nėra tokios situacijos priežastis",
+      "cor": "netikusiai atlikta projekto atranka",
+      "uncor1": "neteisingas projekto planavimas",
+      "uncor2": "vykusiuose projekto stovio svarstymo susirinkimuose nebuvo stebimas projekto išlaidų grafikas",
+      "uncor3": "nepakankami projekto grupės įgūdžiai ir darbo našumas"
       },
       {
-         "question":"I?mone?s organizaciniai dokumentai (organizational process assets)",
-         "cor":"apras?o procesus ir procedu?ras, kuriu? i?mone? griez?tai laikosi savo darbe",
-         "uncor1":"tai kriterijus, pagal kuri? nustatomas i?moniu? konkurencingumas rinkoje",
-         "uncor2":"pristato i?mone?s struktu?ra? ir nuostatus",
-         "uncor3":"padeda i?vertinti, kokios krypties (tendenciju?) i?mone? laikosi rinkoje"
+      "question": "Įmonės organizaciniai dokumentai (organizational process assets)",
+      "cor": "aprašo procesus ir procedūras, kurių įmonė griežtai laikosi savo darbe",
+      "uncor1": "tai kriterijus, pagal kurį nustatomas įmonių konkurencingumas rinkoje",
+      "uncor2": "pristato įmonės struktūrą ir nuostatus",
+      "uncor3": "padeda įvertinti, kokios krypties (tendencijų) įmonė laikosi rinkoje"
       },
       {
-         "question":"Ju?s esate didele?s i?mone?s projekto vadovas. Ketinama kurti nauja? gamybai reikalingu? medz?iagu? planavimo (GRMP) sistema? ir i?diegti ja? iki metu? pabaigos. Dali? projekto darbu? sudarys senos sistemos duomenu? konvertavimas ir perke?limas i? nauja?ja? sistema?. Vienas is? ju?su? programuotoju? gerai z?ino sena?ja? sistema?. Kokia? prielaida? reike?tu? dokumentuoti s?iame projekte",
-         "cor":"sena?ja? sistema? gerai z?inantis programuotojas sutiks dalyvauti projekte",
-         "uncor1":"i?mone?s vadovybe? pritars naujos GRMP sistemos diegimui",
-         "uncor2":"nauja? GRMP sistema? reike?s i?diegti iki metu? pabaigos",
-         "uncor3":"se?kmingam duomenu? konvertavimai reike?s laikytis kokybe?s standartu?"
+      "question": "Jūs esate didelės įmonės projekto vadovas. Ketinama kurti naują gamybai reikalingų medžiagų planavimo (GRMP) sistemą ir įdiegti ją iki metų pabaigos. Dalį projekto darbų sudarys senos sistemos duomenų konvertavimas ir perkėlimas į naująją sistemą. Vienas iš jūsų programuotojų gerai žino senąją sistemą. Kokią prielaidą reikėtų dokumentuoti šiame projekte",
+      "cor": "senąją sistemą gerai žinantis programuotojas sutiks dalyvauti projekte",
+      "uncor1": "įmonės vadovybė pritars naujos GRMP sistemos diegimui",
+      "uncor2": "naują GRMP sistemą reikės įdiegti iki metų pabaigos",
+      "uncor3": "sėkmingam duomenų konvertavimai reikės laikytis kokybės standartų"
       },
       {
-         "question":"Kuris is? projekto kainos vertinimo bu?du? kitaip dar yra vadinamas analogis?kuoju",
-         "cor":"is? virs?aus i? apac?ia?",
-         "uncor1":"is? apac?ios i? virs?u?",
-         "uncor2":"parametrinis",
-         "uncor3":"pavyzdinis (definitive)"
+      "question": "Kuris iš projekto kainos vertinimo būdų kitaip dar yra vadinamas analogiškuoju",
+      "cor": "iš viršaus į apačią",
+      "uncor1": "iš apačios į viršų",
+      "uncor2": "parametrinis",
+      "uncor3": "pavyzdinis (definitive)"
       },
       {
-         "question":"Ju?s buvote paskirtas projekto vadovu didele?je aprangos gamybos i?mone?je. Jums pavede? sukurti naujos aprangos gamybos linija? kitoje s?alyje. Naujos aprangos debiuta? (pristatyma? pirma? karta?) i?mone? planuoja kitu? metu? konferencijoje. Projektas susije?s su ugniai atsparios aprangos gamyba. Gamybos procesui kitoje s?alyje prade?ti reike?s naujos i?rangos ir naujos chemine?s sude?ties medz?iagu?. Kas nepriskirtina projekto rezultatams",
-         "cor":"naujos aprangos debiutas (pristatymas pirma? karta?)",
-         "uncor1":"naujos chemine?s sude?ties medz?iaga",
-         "uncor2":"nauja gamybos i?ranga",
-         "uncor3":"nauja ugniai atspari apranga"
+      "question": "Jūs buvote paskirtas projekto vadovu didelėje aprangos gamybos įmonėje. Jums pavedė sukurti naujos aprangos gamybos liniją kitoje šalyje. Naujos aprangos debiutą (pristatymą pirmą kartą) įmonė planuoja kitų metų konferencijoje. Projektas susijęs su ugniai atsparios aprangos gamyba. Gamybos procesui kitoje šalyje pradėti reikės naujos įrangos ir naujos cheminės sudėties medžiagų. Kas nepriskirtina projekto rezultatams",
+      "cor": "naujos aprangos debiutas (pristatymas pirmą kartą)",
+      "uncor1": "naujos cheminės sudėties medžiaga",
+      "uncor2": "nauja gamybos įranga",
+      "uncor3": "nauja ugniai atspari apranga"
       },
       {
-         "question":"Ju?s esate didele?s gamybine?s i?mone?s projektu? vadovas ir rengiate naujo projekto preliminaru? biudz?eta?. Kurios is? z?emiau pateiktu? is?laidu? laikomos administracine?mis",
-         "cor":"patalpu? nuomos",
-         "uncor1":"mokymo is?laidos",
-         "uncor2":"pardave?jo mokestis",
-         "uncor3":"rangovu? algos"
+      "question": "Jūs esate didelės gamybinės įmonės projektų vadovas ir rengiate naujo projekto preliminarų biudžetą. Kurios iš žemiau pateiktų išlaidų laikomos administracinėmis",
+      "cor": "patalpų nuomos",
+      "uncor1": "mokymo išlaidos",
+      "uncor2": "pardavėjo mokestis",
+      "uncor3": "rangovų algos"
       },
       {
-         "question":"I?mone?je ju?s esate patyre?s projektu? vadovas. Jums kilo potencialaus projekto ide?ja. Ju?su? vertinimu projektas ture?tu? bu?ti se?kmingas, tac?iau jis yra susije?s su naujomis technologijomis, kuriu? ju?s gerai nez?inote. Koks ture?tu? bu?ti tolesnis ju?su? z?ingsnis",
-         "cor":"pras?yti sponsoriu? finansuoti galimybiu? studija? (feasibility study)",
-         "uncor1":"sudaryti naujo projekto darbuotoju? grupe?",
-         "uncor2":"nagrine?ti naujas technologijas kiekvienos projekto prastovos metu",
-         "uncor3":"rengti preliminaru? projekto apimties apras?a? (project scope statement)"
+      "question": "Įmonėje jūs esate patyręs projektų vadovas. Jums kilo potencialaus projekto idėja. Jūsų vertinimu projektas turėtų būti sėkmingas, tačiau jis yra susijęs su naujomis technologijomis, kurių jūs gerai nežinote. Koks turėtų būti tolesnis jūsų žingsnis",
+      "cor": "prašyti sponsorių finansuoti galimybių studiją (feasibility study)",
+      "uncor1": "sudaryti naujo projekto darbuotojų grupę",
+      "uncor2": "nagrinėti naujas technologijas kiekvienos projekto prastovos metu",
+      "uncor3": "rengti preliminarų projekto apimties aprašą (project scope statement)"
       },
       {
-         "question":"I?mone?s vadovybe? papras?e? ju?su? is?analizuoti projekta?, kurio ketinama imtis. Yra 75% tikimybe?, kad projektas atnes? 500000 Lt nauda?. Tac?iau yra ir 40% tikimybe? patirti 400000 Lt nuostoli?. Kokia yra projekto tike?tina nauda",
-         "cor":"215000Lt",
-         "uncor1":"100000Lt",
-         "uncor2":"185000Lt",
-         "uncor3":"325000Lt"
+      "question": "Įmonės vadovybė paprašė jūsų išanalizuoti projektą, kurio ketinama imtis. Yra 75% tikimybė, kad projektas atneš 500000 Lt naudą. Tačiau yra ir 40% tikimybė patirti 400000 Lt nuostolį. Kokia yra projekto tikėtina nauda",
+      "cor": "215000Lt",
+      "uncor1": "100000Lt",
+      "uncor2": "185000Lt",
+      "uncor3": "325000Lt"
       },
       {
-         "question":"Ju?s esate automobiliu? daliu? platinimo projekto vadovas. Analizuojate tris siu?lomus projektus. Projekto A rodiklis IRR (Internal Return Rate, vidine?s gra?z?os norma) yra 29%, projekto B – 45% ir projekto C – 38%. Kuri? projekta? ju?s rekomenduotume?te",
-         "cor":"projekta? B",
-         "uncor1":"projekta? A",
-         "uncor2":"projekta? C",
-         "uncor3":"ne? vieno"
+      "question": "Jūs esate automobilių dalių platinimo projekto vadovas. Analizuojate tris siūlomus projektus. Projekto A rodiklis IRR (Internal Return Rate, vidinės grąžos norma) yra 29%, projekto B – 45% ir projekto C – 38%. Kurį projektą jūs rekomenduotumėte",
+      "cor": "projektą B",
+      "uncor1": "projektą A",
+      "uncor2": "projektą C",
+      "uncor3": "nė vieno"
       },
       {
-         "question":"Ju?su? i?mone?s projektu? atrankos komitetas svarsto du projektus. Projektas A, manoma, kainuos 250000 Lt. Po to pirmais metais jis duos 100000 Lt pajamu?, o kiekvienais ve?lesniais metais - po 50000 Lt pajamu?. Jeigu projekto B atsipirkimo periodas (payback period) yra 26 me?nesiai, kuri? projekta? ju?s rekomenduotume?te",
-         "cor":"projekta? B, nes projekto A atsipirkimo periodas yra 48 me?nesiai",
-         "uncor1":"projekta? A, nes jo atsipirkimo periodas yra 12 me?nesiu?",
-         "uncor2":"projekta? A, nes jo atsipirkimo periodas yra 24 me?nesiai",
-         "uncor3":"bet kuri? is? s?iu? projektu?, nes ju? abieju? atsipirkimo periodas yra 26 me?nesiai"
+      "question": "Jūsų įmonės projektų atrankos komitetas svarsto du projektus. Projektas A, manoma, kainuos 250000 Lt. Po to pirmais metais jis duos 100000 Lt pajamų, o kiekvienais vėlesniais metais - po 50000 Lt pajamų. Jeigu projekto B atsipirkimo periodas (payback period) yra 26 mėnesiai, kurį projektą jūs rekomenduotumėte",
+      "cor": "projektą B, nes projekto A atsipirkimo periodas yra 48 mėnesiai",
+      "uncor1": "projektą A, nes jo atsipirkimo periodas yra 12 mėnesių",
+      "uncor2": "projektą A, nes jo atsipirkimo periodas yra 24 mėnesiai",
+      "uncor3": "bet kurį iš šių projektų, nes jų abiejų atsipirkimo periodas yra 26 mėnesiai"
       },
       {
-         "question":"Kada parametrinio modeliavimo bu?das duoda labiausiai patikimus projekto kainos i?verc?ius",
-         "cor":"kai anks?iau vykdyt? projekt? informacija (historical informatio), kuriais remiamasi vertinimo metu, yra tiksli",
-         "uncor1":"kai yra nedidele?s apimties projektas",
-         "uncor2":"kai projekto grupe?je yra daug z?moniu?",
-         "uncor3":"kai smulkiu? darbu? i?verc?iai, esantys i?mone?je, yra naudojami vertinant viso projekto kaina?"
+      "question": "Kada parametrinio modeliavimo būdas duoda labiausiai patikimus projekto kainos įverčius",
+      "cor": "kai anksčiau vykdytų projektų informacija (historical informatio), kuriais remiamasi vertinimo metu, yra tiksli",
+      "uncor1": "kai yra nedidelės apimties projektas",
+      "uncor2": "kai projekto grupėje yra daug žmonių",
+      "uncor3": "kai smulkių darbų įverčiai, esantys įmonėje, yra naudojami vertinant viso projekto kainą"
       },
       {
-         "question":"I?mone?s aplinkos duomenys (enterprise environmental factors) yra naudojami projekto nuostatu? rengimo procese ir daugelyje kitu? procesu?. Kuris is? z?emiau is?vardintu? dalyku? nepriklauso i?mone?s aplinkos duomenims",
-         "cor":"anksc?iau i?gytos patirties (lessons learned) duomenu? baze?",
-         "uncor1":"i?mone?s struktu?ra ir principai",
-         "uncor2":"valstybiniai ir pramoniniai standartai",
-         "uncor3":"rinkos sa?lygos"
+      "question": "Įmonės aplinkos duomenys (enterprise environmental factors) yra naudojami projekto nuostatų rengimo procese ir daugelyje kitų procesų. Kuris iš žemiau išvardintų dalykų nepriklauso įmonės aplinkos duomenims",
+      "cor": "anksčiau įgytos patirties (lessons learned) duomenų bazė",
+      "uncor1": "įmonės struktūra ir principai",
+      "uncor2": "valstybiniai ir pramoniniai standartai",
+      "uncor3": "rinkos sąlygos"
       },
       {
-         "question":"Kurie trys veiksniai tradicis?kai vadinami projekto „apribojimu? trijule“",
-         "cor":"laikas, kaina, apimtis",
-         "uncor1":"laikas, kaina, rizika",
-         "uncor2":"laikas, kaina, kokybe?",
-         "uncor3":"laikas, rizika, nas?umas"
+      "question": "Kurie trys veiksniai tradiciškai vadinami projekto „apribojimų trijule“",
+      "cor": "laikas, kaina, apimtis",
+      "uncor1": "laikas, kaina, rizika",
+      "uncor2": "laikas, kaina, kokybė",
+      "uncor3": "laikas, rizika, našumas"
       },
       {
-         "question":"NPV (Net Present Value, grynoji dabartine? verte?) suprantama kaip verte?, is?reiks?ta",
-         "cor":"atsiz?velgus i? diskonto norma?",
-         "uncor1":"esamuoju kursu (pinigu?)",
-         "uncor2":"vyraujanc?iu kursu",
-         "uncor3":"atsiz?velgus i? vidine? gra?z?os norma?"
+      "question": "NPV (Net Present Value, grynoji dabartinė vertė) suprantama kaip vertė, išreikšta",
+      "cor": "atsižvelgus į diskonto normą",
+      "uncor1": "esamuoju kursu (pinigų)",
+      "uncor2": "vyraujančiu kursu",
+      "uncor3": "atsižvelgus į vidinę grąžos normą"
       },
       {
-         "question":"Ju?su? i?mone? vertina tris projektus. Projekto A rodiklis NPV (Net Present Value, grynoji dabartine? verte?) yra 70 000 Lt, projekto B – 90 000 Lt ir projekto C – 20 000 Lt. I?mone?s projektu? atrankos komitetas nutare? vykdyti projekta? B. Kokia yra praleistu? galimybiu? kaina (opportunity cost)",
-         "cor":"90 000 Lt",
-         "uncor1":"20 000 LT",
-         "uncor2":"70 000 Lt",
-         "uncor3":"negalima nustatyti"
+      "question": "Jūsų įmonė vertina tris projektus. Projekto A rodiklis NPV (Net Present Value, grynoji dabartinė vertė) yra 70 000 Lt, projekto B – 90 000 Lt ir projekto C – 20 000 Lt. Įmonės projektų atrankos komitetas nutarė vykdyti projektą B. Kokia yra praleistų galimybių kaina (opportunity cost)",
+      "cor": "90 000 Lt",
+      "uncor1": "20 000 LT",
+      "uncor2": "70 000 Lt",
+      "uncor3": "negalima nustatyti"
       },
       {
-         "question":"Ju?s esate pas?to i?mone?s projekto vadovas. Jums pavede? vykdyti projekta?, kuris i?galintu? perkelti pas?to tvarkymo programine? i?ranga? is? nuomojamo didz?iojo tipo kompiuterio (mainframe) i? naujos platformos aplinka?. Tuo pac?iu maz?iausiomis sa?naudomis turi bu?ti pagerintas mine?tos programine?s i?rangos funkcionalumas. Preliminarus projekto biudz?etas buvo patvirtintas ir sponsorius informavo, kad didz?iojo kompiuterio nuomos sandorio terminas yra metu? pabaiga. Nauja sistema turi bu?ti i?diegta iki to laiko, kad didz?iojo kompiuterio nuomai nebereike?tu? papildomu? is?laidu?. Kuris is? ju?su? projekto apribojimu? yra pirmaeilis",
-         "cor":"laikas",
-         "uncor1":"kaina",
-         "uncor2":"projekto apimtis (scope)",
-         "uncor3":"kokybe?"
+      "question": "Jūs esate pašto įmonės projekto vadovas. Jums pavedė vykdyti projektą, kuris įgalintų perkelti pašto tvarkymo programinę įrangą iš nuomojamo didžiojo tipo kompiuterio (mainframe) į naujos platformos aplinką. Tuo pačiu mažiausiomis sąnaudomis turi būti pagerintas minėtos programinės įrangos funkcionalumas. Preliminarus projekto biudžetas buvo patvirtintas ir sponsorius informavo, kad didžiojo kompiuterio nuomos sandorio terminas yra metų pabaiga. Nauja sistema turi būti įdiegta iki to laiko, kad didžiojo kompiuterio nuomai nebereikėtų papildomų išlaidų. Kuris iš jūsų projekto apribojimų yra pirmaeilis",
+      "cor": "laikas",
+      "uncor1": "kaina",
+      "uncor2": "projekto apimtis (scope)",
+      "uncor3": "kokybė"
       },
       {
-         "question":"Ju?s formuojate savo projekto grupe?. Projektas yra sude?tingas ir jam i?vykdyti reikia maz?iausiai vieneriu? metu?. Projektas ture?s i?takos i?vairiems organizacijos padaliniams (rinkodaros, gamybos, realizavimo, IT). Projekto grupe? bus formuojama is? z?moniu?, dirbanc?iu? tuose padaliniuose. Kokio tipo grupe? yra geriausia s?iam projektui",
-         "cor":"matricos",
-         "uncor1":"funkcinio",
-         "uncor2":"projektinio",
-         "uncor3":"skaic?iuojamojo"
+      "question": "Jūs formuojate savo projekto grupę. Projektas yra sudėtingas ir jam įvykdyti reikia mažiausiai vienerių metų. Projektas turės įtakos įvairiems organizacijos padaliniams (rinkodaros, gamybos, realizavimo, IT). Projekto grupė bus formuojama iš žmonių, dirbančių tuose padaliniuose. Kokio tipo grupė yra geriausia šiam projektui",
+      "cor": "matricos",
+      "uncor1": "funkcinio",
+      "uncor2": "projektinio",
+      "uncor3": "skaičiuojamojo"
       },
       {
-         "question":"Ju?s esate programine?s i?rangos ku?rimo projekto vadovas ir turite keblumu? derindami siekiamus rezultatus su akcininkais. Po susirinkimo su akcininkais ju?s prie?jote is?vados, kad nei?manoma patenkinti visu? akcininku? pageidavimu?. Ka? ju?su? manymu reike?tu? daryti toliau",
-         "cor":"gauti sponsoriaus raštišk? sutikim? (patvirtinim?) d?l vis? siekiam? pagrindini? rezultat? iki darb? pradžios",
-         "uncor1":"susitikti su akcininkais ir is?siais?kinti, kurie is? ju? trauksis is? projekto",
-         "uncor2":"apgailestauti de?l to, kad ju?s negalite pasiekti visu? sutarimo, ir koncentruotis ties daugumos pagrindiniu? akcininku? poreikiais",
-         "uncor3":"surinkti ir is?analizuoti akcininku? pageidavimus ir i?gyvendinti tuos, kuriuos is?reis?ke? visi"
+      "question": "Jūs esate programinės įrangos kūrimo projekto vadovas ir turite keblumų derindami siekiamus rezultatus su akcininkais. Po susirinkimo su akcininkais jūs priėjote išvados, kad neįmanoma patenkinti visų akcininkų pageidavimų. Ką jūsų manymu reikėtų daryti toliau",
+      "cor": "gauti sponsoriaus raštišką sutikimą (patvirtinimą) dėl visų siekiamų pagrindinių rezultatų iki darbų pradžios",
+      "uncor1": "susitikti su akcininkais ir išsiaiškinti, kurie iš jų trauksis iš projekto",
+      "uncor2": "apgailestauti dėl to, kad jūs negalite pasiekti visų sutarimo, ir koncentruotis ties daugumos pagrindinių akcininkų poreikiais",
+      "uncor3": "surinkti ir išanalizuoti akcininkų pageidavimus ir įgyvendinti tuos, kuriuos išreiškė visi"
       },
       {
-         "question":"Ju?s esate naujos programine?s i?rangos ku?rimo savo organizacijai projekto vadovas. Z?inodami projekto tikslus ir uz?davinius, ju?s turite apibre?z?ti projektui reikiamus is?teklius. Kuris is? z?emiau is?vardintu? dalyku? ne?ra priskirtinas projekto is?tekliams",
-         "cor":"uz?duotys programine?s i?rangos moduliams sukurti",
-         "uncor1":"programine?s i?rangos ku?re?jams reikalingos tinklo jungtys",
-         "uncor2":"rangovai specialioms programavimo uz?duotims atlikti",
-         "uncor3":"projekto testavimo fazei reikalingu? papildomu? serveriu? i?rengimas"
+      "question": "Jūs esate naujos programinės įrangos kūrimo savo organizacijai projekto vadovas. Žinodami projekto tikslus ir uždavinius, jūs turite apibrėžti projektui reikiamus išteklius. Kuris iš žemiau išvardintų dalykų nėra priskirtinas projekto ištekliams",
+      "cor": "užduotys programinės įrangos moduliams sukurti",
+      "uncor1": "programinės įrangos kūrėjams reikalingos tinklo jungtys",
+      "uncor2": "rangovai specialioms programavimo užduotims atlikti",
+      "uncor3": "projekto testavimo fazei reikalingų papildomų serverių įrengimas"
       },
       {
-         "question":"Kuri is? z?emiau pateiktu? fraziu? ne?ra teisinga, kalbant apie projektu? gyvavimo cikla?",
-         "cor":"kiekvienas subprojektas (projekto dalis) turi tokias pa?ias fazes kaip ir viso projekto gyvavimo ciklas",
-         "uncor1":"ciklas ais?kiai is?skiria projekto pradz?ia? ir pabaiga?",
-         "uncor2":"ciklas apibu?dina darbus, kuriuos reikia atlikti kiekvienoje projekto faze?je",
-         "uncor3":"ciklas susieja projekta? su kitomis organizacijoje atliekamomis operacijomis"
+      "question": "Kuri iš žemiau pateiktų frazių nėra teisinga, kalbant apie projektų gyvavimo ciklą",
+      "cor": "kiekvienas subprojektas (projekto dalis) turi tokias pačias fazes kaip ir viso projekto gyvavimo ciklas",
+      "uncor1": "ciklas aiškiai išskiria projekto pradžią ir pabaigą",
+      "uncor2": "ciklas apibūdina darbus, kuriuos reikia atlikti kiekvienoje projekto fazėje",
+      "uncor3": "ciklas susieja projektą su kitomis organizacijoje atliekamomis operacijomis"
       },
       {
-         "question":"Ju?s parenge?te savo projekto kainos i?verti?. Kokios laikoma yra tokio i?verc?io tikslumo ribos",
-         "cor":"nuo -10% iki 25%",
-         "uncor1":"nuo -5% iki 10%",
-         "uncor2":"nuo -10% iki 10%",
-         "uncor3":"nuo -25% iki 75%"
+      "question": "Jūs parengėte savo projekto kainos įvertį. Kokios laikoma yra tokio įverčio tikslumo ribos",
+      "cor": "nuo -10% iki 25%",
+      "uncor1": "nuo -5% iki 10%",
+      "uncor2": "nuo -10% iki 10%",
+      "uncor3": "nuo -25% iki 75%"
       }
    ]
 }
