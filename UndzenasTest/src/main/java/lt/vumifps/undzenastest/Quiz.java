@@ -42,6 +42,12 @@ public class Quiz {
 
     }
 
+    public Quiz(String title) {
+        this.title = title;
+        questions = new LinkedList<Question>();
+        resourceId = -1;
+    }
+
     public JSONObject toJson(){
         JSONObject jsonObject = new JSONObject();
         try {
@@ -97,5 +103,9 @@ public class Quiz {
 
     public void setResourceId(int resourceId) {
         this.resourceId = resourceId;
+    }
+
+    public void addQuestion(Question question){
+        questions.add(question);
     }
 }

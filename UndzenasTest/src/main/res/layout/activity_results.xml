@@ -1,39 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 
-<LinearLayout
-    android:orientation="vertical"
+<RelativeLayout
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <TextView
+        android:id="@+id/resultMessageTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/Result"
-        android:id="@+id/text"
-        android:layout_gravity="center"
-        android:autoText="false"
+
         android:layout_marginTop="10dp"
-        android:gravity="center"
-        android:layout_marginBottom="10dp" />
+        android:gravity="center" />
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="389dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resultMessageTextView"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:id="@+id/resultText"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:layout_marginTop="15dp"
-        android:layout_marginBottom="15dp" />
+        android:layout_centerHorizontal="true"
+        android:id="@+id/resultText" />
 
     <Button
+        android:id="@+id/restartButton"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
         android:text="@string/again"
-        android:id="@+id/restartbutton"
+
         android:layout_gravity="center"
         android:onClick="restartQuiz" />
-</LinearLayout>
+
+    <Button
+        android:layout_above="@id/restartButton"
+        android:id="@+id/quizForUnansweredButton"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/quizforUnanswered"
+        android:layout_gravity="center"
+        android:onClick="quizForUnanswered" />
+
+
+</RelativeLayout>

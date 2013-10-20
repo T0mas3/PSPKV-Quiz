@@ -8,5 +8,7 @@
     <string name="again">Iš naujo</string>
     <string name="Result">Surinkta</string><string name="Testas1">Testas nr. 1</string><string name="Testas2">Testas nr. 2</string>
     <string name="shouldRandomize">Atsitiktine tvarka?</string>
+    <string name="wrongly_answered">Blogai atsakyti</string>
+    <string name="quizforUnanswered">Pakartoti su klaidingais</string>
 
 </resources>

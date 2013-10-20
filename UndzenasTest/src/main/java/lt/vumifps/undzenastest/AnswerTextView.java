@@ -12,7 +12,7 @@ import java.util.LinkedList;
 public class AnswerTextView extends TextView implements View.OnClickListener {
 
     boolean correct;
-
+    Answer answer;
     LinkedList<OnClickListener> onClickListeners = new LinkedList<OnClickListener>();
 
 
@@ -39,9 +39,13 @@ public class AnswerTextView extends TextView implements View.OnClickListener {
 
         this.correct = answer.getCorrect();
         this.setText(answer.getText());
+        this.answer = answer;
 
     }
 
+    public Answer getAnswer() {
+        return answer;
+    }
 
     @Override
     public void setOnClickListener(OnClickListener l) {

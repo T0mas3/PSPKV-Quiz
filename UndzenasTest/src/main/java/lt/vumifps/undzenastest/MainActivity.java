@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
 import android.view.Window;
@@ -28,7 +29,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private enum QuestionState {Unanswered, Correct, Wrong}
 
     public static final String JSON_RES_ID_KEY = "json_res_id";
-    Quiz quiz;
+    Quiz quiz, answeredWrong;
 
     LinearLayout answerLayout;
     ScrollView mainScrollView;
@@ -47,10 +48,12 @@ public class MainActivity extends Activity implements View.OnClickListener {
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main);
 
+        answeredWrong = new Quiz(getString(R.string.wrongly_answered));
+
         this.questionState = QuestionState.Unanswered;
 
         Intent intent = getIntent();
-        int testNumber = intent.getIntExtra(MainActivity.JSON_RES_ID_KEY, 0);
+        int testNumber = intent.getIntExtra(MainActivity.JSON_RES_ID_KEY, -1);
         shouldRandomize = intent.getBooleanExtra(MainActivity.SHOULD_RANDOMIZE_KEY, false);
         String quizJsonString= intent.getStringExtra(MainActivity.QUIZ_JSON_KEY);
 
@@ -141,12 +144,17 @@ public class MainActivity extends Activity implements View.OnClickListener {
                     scoreTextView.setText(getcurrentScoreText(correctCount));
                 } else {
                     this.questionState = QuestionState.Wrong;
+                    answeredWrong.addQuestion(answerTextView.getAnswer().getParent());
                 }
             }
         }
 
         switch (view.getId()){
             case R.id.nextButton:
+
+                if (this.questionState == QuestionState.Unanswered) {
+                    answeredWrong.addQuestion(quiz.getQuestion(currentIndex));
+                }
 
                 this.showNextQuestion();
                 progressBar.incrementProgressBy(1);
@@ -176,6 +184,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
             Intent resultsIntent = new Intent(this, ResultsActivity.class);
             String results = correctCount + "/" + numberOfQuestions;
             resultsIntent.putExtra(ResultsActivity.RESULTS_KEY, results);
+            resultsIntent.putExtra(ResultsActivity.WRONGLY_ANSWERED_QUESTIONS_JSON_KEY, this.answeredWrong.toJson().toString());
+            resultsIntent.putExtra(ResultsActivity.WAS_RANDOMIZED_KEY, this.shouldRandomize);
             startActivity(resultsIntent);
             finish();
         } else {
