@@ -1,0 +1,424 @@
+{
+[
+{
+    "question":"Projekto grupės plėtra (ugdymas) yra procesas, kuris vyksta:",
+    "cor":"viso projekto metu",
+    "uncor1":"pasibaigus projektui",
+    "uncor2":"prieš pradedant projektą",
+    "uncor3":"projekto pradžioje"
+},
+{
+    "question":"Jūs renkatės tiekėją, kuris, sudarius sandorį, turės atlikti dalį jūsų projekto darbų. Tačiau bėda ta, kad gavote tik du pasiūlymus ir abiejų jų kaina yra didesnė nei tikėjotės. Koks turėtų būti tolesnis jūsų žingsnis?",
+    "cor":"gauti tos darbų dalies nepriklausomų specialistų kainos įvertį",
+    "uncor1":"iš naujo paskelbti prašymą teikti pasiūlymus dėl tos darbų dalies atlikimo",
+    "uncor2":"pradėti derybas dėl sandorio sudarymo",
+    "uncor3":"priimti vieną iš tų dviejų pasiūlymų, remiantis kitokiu kriterijumi nei kaina"
+},
+{
+    "question":"Projekto valdymo planas, korekcinių ir prevencinių veiksmų patvirtinimai, prašymų daryti keitimus patvirtinimai, klaidų taisymų patvirtinimai, patikrinti klaidų ištaisymai ir administracinės projekto baigimo procedūros yra įeities duomenys procesui",
+    "cor":"projekto vykdymo valdymo",
+    "uncor1":"projekto valdymo plano rengimo",
+    "uncor2":"keitimų kontrolės sistemos",
+    "uncor3":"informacijos platinimo"
+},
+{
+    "question":"Projekto grupės valdymo planas, pareigos ir atsakomybė, įmonės organizaciniai dokumentai (organizational process assets) yra įeities duomenys proceso",
+    "cor":"projekto grupės sudarymo",
+    "uncor1":"projekto grupės plėtros (ugdymo)",
+    "uncor2":"žmoniškųjų išteklių planavimo",
+    "uncor3":"informacijos platinimo"
+},
+{
+    "question":"Kuris iš žemiau išvardintų dalykų reikalingas atrankos (screening) sistemai, norint naudoti ją tiekėjų atrankos procese?",
+    "cor":"dokumentuoti minimalūs reikalavimai potencialiems tiekėjams",
+    "uncor1":"potencialių tiekėjų sąrašas, surikiuotų eilės tvarka pagal svertąsias reikšmes, gaunamas sumuojant kiekvieno kriterijaus reikšmės ir jo svorio sandaugas",
+    "uncor2":"prašomų atlikti darbų kainos įvertis, parengtas nepriklausomų specialistų (should-cost)",
+    "uncor3":"rinkos kainų apžvalga tiekėjų prašomų kainų pagrįstumui įvertinti"
+},
+{
+    "question":"Kurio iš žemiau išvardintų dalykų užsakovai nenaudoja skelbdami prašymą tiekėjams teikti pasiūlymus?",
+    "cor":"sandorio derybų",
+    "uncor1":"reklamos",
+    "uncor2":"tiekėjų konferencijų",
+    "uncor3":"rangovų konferencijų"
+},
+{
+    "question":"Jūs esate projekto vadovas, dirbantis automobilių gamykloje. Jūsų projektas yra susijęs su naujo automobilio kūrimu. Jūs įvardinote keletą komponentų, kurių gamybą norėtumėte pavesti rangovui. Todėl norite susitikti su galimais tiekėjais, turinčiais reikalingų įgūdžių. Jūsų gamyklos pirkimų departamentas pateikė jums projektui potencialių tiekėjų sąrašą. Ką jūs turėtumėte daryti toliau?",
+    "cor":"išsiuntinėti pirkimo dokumentus departamento sąraše nurodytiems tiekėjams",
+    "uncor1":"viešai paskelbti savo reikalavimus ir laukti tiekėjų pasiūlymų",
+    "uncor2":"pakviesti departamento sąraše nurodytus tiekėjus deryboms",
+    "uncor3":"išsiuntinėti sandorio projekto (draft) kopijas departamento sąraše nurodytiems potencialiems tiekėjams"
+},
+{
+    "question":"Kuri iš žemiau išvardintų veiklų nėra sutinkama projekto vykdymo valdymo procese?",
+    "cor":"atliekamų darbų vertinimas, kad galima būtų įvardinti reikiamus korekcinius ar prevencinius veiksmus",
+    "uncor1":"vidinių ir išorinių komunikacijos kanalų valdymas",
+    "uncor2":"projekto rezultatų tvirtinimas",
+    "uncor3":"reakcijos į riziką veiksmų atlikimas"
+},
+{
+    "question":"Jūsų įmonė nori pavesti subrangovui atlikti dalį projekto darbų. Jis turės sukurti vieną iš galutinio produkto komponentų. Jūs kaip projekto vadovas turite atkreipti galimų subrangovų dėmesį. Koks tai procesas?",
+    "cor":"prašymas teikti pasiūlymus",
+    "uncor1":"pirkimų planavimas",
+    "uncor2":"sandorio planavimas",
+    "uncor3":"darbo užduoties (SOW) rengimas"
+},
+{
+    "question":"Jūs esate tiesioginio (on-line) sąskaitų apmokėjimo sistemos kūrimo projekto vadovas. Projekto internetinio tinklo (Web) didžiosios dalies kūrimą jūs nutarėte pavesti trečiajai šaliai. Susitikti su vienu iš potencialių tiekėjų sutarėte kitos savaitės pradžioje. Tačiau su projekto užsakovu glaudžiai bendradarbiaujantis akcininkas pranešė jums, kad užsakovo finansinė padėtis yra sunki ir projektas gali būti nutrauktas. Koks sprendimas dėl jūsų tolesnių veiksmų būtų geriausias?",
+    "cor":"atidėti susitikimą su potencialiu tiekėju vėlesniam laikui",
+    "uncor1":"atšaukti susitikimą, tačiau potencialiam tiekėjui nusiųsti projekto suskaidytų darbų lentelės (WBS) kopiją, kad jis peržiūrėtų ją",
+    "uncor2":"parengti suskaidytų darbų lentelės (WBS) metmenis projekto internetinio tinklo (Web) daliai kurti ir naudoti juos kaip svarstytiną klausimą susitikimuose",
+    "uncor3":"susitikti sutartu laiku, aptarti projekto darbų grafiko metmenis ir suplanuoti kitą susitikimą detaliam darbų grafikui vėlesniam laikotarpiui aptarti"
+},
+{
+    "question"Projekto grupės sudarymo (acquire) procese jūs, rinkdamiesi žmones, turėtumėte atsižvelgti į visus žemiau išvardintus įmonės aplinkos duomenis (enterprise environmental factors), išskyrus vieną iš jų:"",
+    "cor":"potencialaus grupės nario amžių",
+    "uncor1":"potencialaus grupės nario gebėjimus",
+    "uncor2":"potencialaus grupės nario patirtį",
+    "uncor3":"potencialaus grupės nario suinteresuotumą projektu"
+},
+{
+    "question":"Projektų valdymo informacinė sistema yra instrumentas, kuris nėra naudojamas",
+    "cor":"informacijos apie projekto eigą platinimui",
+    "uncor1":"projekto vykdymo valdymui",
+    "uncor2":"projekto plano rengimui",
+    "uncor3":"integruotajai keitimų kontrolei"
+},
+{
+    "question":"Po pertvarkos jūsų organizacijoje iš projekto grupės pasitraukė keletas narių. Jūs sušaukėte pasitarimą su asmenimis, kurie pakeitė pasitraukusius. Kurį iš žemiau išvardintų klausimų yra svarbiausia aptarti?",
+    "cor":"projekto apimtį",
+    "uncor1":"projekto biudžetą",
+    "uncor2":"grupės narių techninius gebėjimus",
+    "uncor3":"jūsų, kaip projekto vadovo, darbo stilių"
+},
+{
+    "question":"Kuriame iš žemiau nurodytų projekto procesų atsiranda apčiuopiami rezultatai, informacija apie darbų vykdymą, prašymai daryti pakeitimus, o taip pat yra daromi pakeitimai, atliekami korekciniai ir/ar prevenciniai veiksmai, šalinami defektai?",
+    "cor":"projekto vykdymo",
+    "uncor1":"projekto valdymo plano rengimo",
+    "uncor2":"keitimų kontrolės",
+    "uncor3":"informacijos platinimo"
+},
+{
+    "question":"Tiekėjų konferencija suprantama kaip",
+    "cor":"galimų tiekėjų susirinkimas",
+    "uncor1":"atrinktų tiekėjų susirinkimas",
+    "uncor2":"konkursą laimėjusių tiekėjų susirinkimas",
+    "uncor3":"projekto grupės narių susirinkimas kiekvieno potencialaus tiekėjo privalumams aptarti"
+},
+{
+    "question":"Kuris iš žemiau išvardintų dalykų nėra traktuojamas kaip darbų eigos informacija, kuri renkama projekto vykdymo procese?",
+    "cor":"visų projekto grupės narių tabeliai (darbo valandų lentelės)",
+    "uncor1":"darbų grafike numatyti darbai, kurie nebuvo pradėti",
+    "uncor2":"atlikti darbai",
+    "uncor3":"detali informacija apie išteklių panaudojimą"
+},
+{
+    "question":"Jūs nagrinėjate kliento užsakyto projekto plėtros klausimą. Klientas paprašė jūsų padaryti pakeitimus projekte. Tie pakeitimai neturi įtakos projekto kainai, tačiau projekto pabaigą gali tekti nukelti trimis savaitėmis. Ką jūs, kaip projekto vadovas, visų pirma darysite?",
+    "cor":"įvertinsite prašomų pakeitimų poveikį projektui ir informuosite klientą apie tai",
+    "uncor1":"aptarsite prašomus pakeitimus su projekto grupe",
+    "uncor2":"kreipsitės į aukštesnius projektų vadovus",
+    "uncor3":"pakeisite darbų grafiką taip, kad ir padarius pakeitimus projektas būtų įvykdytas numatytu laiku"
+},
+{
+    "question":"Pareigų paskirstymas projekte, žmonių įdarbinimo planas ir turimi ištekliai yra vieno iš žemiau nurodytų procesų įeities duomenys. Kurio?",
+    "cor":"projekto grupės plėtros (ugdymo)",
+    "uncor1":"projekto grupės rinkimo (acquire)",
+    "uncor2":"žmoniškųjų išteklių planavimo",
+    "uncor3":"informacijos plėtros"
+},
+{
+    "question":"Kuris iš žemiau išvardintų dalykų nėra virtualios grupės teikiamas privalumas?",
+    "cor":"grupės nariai gali efektyviau komunikuoti",
+    "uncor1":"galima imtis projektų, kurių kitaip imtis neapsimokėtų",
+    "uncor2":"į projektą gali būti įtraukti judėjimo negalią turintys asmenys",
+    "uncor3":"specialių įgūdžių nariai gali būti įtraukti į projektą, nežiūrint jų geografinės buvimo vietos"
+},
+{
+    "question":"Kuriame bendrojo projektų valdymo plano procese sutinkami (naudojami) leidimai pradėti darbus?",
+    "cor":"projekto vykdymo valdymo",
+    "uncor1":"projekto grupės plėtros (ugdymo)",
+    "uncor2":"keitimų kontrolės sistemoje",
+    "uncor3":"bendrojo projekto plano rengimo"
+},
+{
+    "question":"Kuris iš žemiau išvardintų dalykų nėra projekto grupės plėtros (ugdymo) proceso įeities duomenys?",
+    "cor":"projekto biudžetas",
+    "uncor1":"darbuotojų valdymo planas",
+    "uncor2":"turimi žmoniškieji ištekliai",
+    "uncor3":"projekto darbuotojų pareigos"
+},
+{
+    "question":"Jūs vertinate potencialių tiekėjų pasiūlymus. Tam parengėte procedūrų rinkinį ankstesniems tiekėjų darbų rezultatams ir kokybei įvertinti. Kokį tiekėjų atrankos instrumentą jūs naudojate?",
+    "cor":"tiekėjų reitingavimo sistemą",
+    "uncor1":"vertinimo balais sistemą",
+    "uncor2":"atrankos (atmetimo) sistemą",
+    "uncor3":"nepriklausomų asmenų įverčius"
+},
+{
+    "question":"Projekto įrašai (faktų aprašymai), ataskaitos ir pristatymai yra vieno iš žemiau išvardintų procesų rezultatas. Kurio?",
+    "cor":"informacijos platinimo",
+    "uncor1":"projekto vykdymo valdymo",
+    "uncor2":"ataskaitų apie darbą rengimo",
+    "uncor3":"komunikacijų planavimo"
+},
+{
+    "question":"Projekto grupės išdėstymas (co-location) apima žemiau išvardintus dalykus, išskyrus vieną iš jų:",
+    "cor":"apmokėjimo už darbus paskirstymą grupelėms, dirbančioms skirtingose vietovėse",
+    "uncor1":"visiems arba aktyviausiems projekto grupės nariams darbo vietų suteikimas toje pačioje vietovėje",
+    "uncor2":"pagalbą projekto grupės nariams dirbti vienoje vietoje, nes grupiniam darbui tai turi teigiamos įtakos",
+    "uncor3":"patalpos paskyrimą projekto grupės narių susirinkimams"
+},
+{
+    "question":"Projekto grupės formavime yra naudojami žemiau išvardinti veiksmai, išskyrus vieną",
+    "cor":"kolektyviniai veiksmai, kad vadovybė patenkintų projekto grupės reikalavimus",
+    "uncor1":"veiksmai akcininkų tarpusavio ryšiams pagerinti",
+    "uncor2":"individualūs veiksmai atskirų narių ir visos grupės našumui pagerinti",
+    "uncor3":"valdymo veiksmai grupės našumui pagerinti"
+},
+{
+    "question":"Kuri iš žemiau išvardintų priežasčių, pasitaikančių projekto grupės rinkimo (acquire) procese, yra mažiausiai svarbi, dėl kurios reikėtų keisti projekto grupės valdymo planą?",
+    "cor":"grupės narys išvyko į kitą šalį",
+    "uncor1":"grupės narys organizacijoje buvo pakeltas į aukštesnes pareigas ir daugiau nebebus grupėje",
+    "uncor2":"grupės narys, atidirbęs organizacijoje 30 metų, išėjo į pensiją",
+    "uncor3":"grupės narys sunkiai susirgo ir neaišku, kiek laiko negalės grįžti į darbą"
+},
+{
+    "question":"Kokia kokybės užtikrinimo procese naudota informacija gali būti įtraukta į projekto valdymo planą?",
+    "cor":" panaudotų naujų arba pagerintų kokybės užtikrinimo būdų informacija",
+    "uncor1":"gautos pamokos",
+    "uncor2":"prašymai daryti pakeitimus, atsiradę vykdant kokybės užtikrinimo veiklas",
+    "uncor3":"naudotos kokybės metrikos"
+},
+{
+    "question":"Žemiau išvardinti dalykai yra projekto grupės ugdymo proceso įeities duomenys,išskyrus",
+    "cor":"grupės darbo našumo įvertį.",
+    "uncor1":"personalo valdymo planą",
+    "uncor2":"išteklių buvimą",
+    "uncor3":"pareigų paskirstymą projekto vykdytojams"
+},
+{
+    "question":"Taisyklių projekto grupei nustatymo tikslas yra",
+    "cor":"aiškiai apibrėžti grupės narių galimybes, lūkesčius",
+    "uncor1":"dokumentuoti pareigų paskirstymą grupėje",
+    "uncor2":"informuoti grupės narius apie pareigas projekte",
+    "uncor3":"sukurti darnius ryšius tarp grupės narių"
+},
+{
+    "question":"Kai kuriems projekto darbams atlikti Jūs nutarėte samdyti paslaugų tiekėją iš šalies. Tam įsidiegėte svorinę sistemą potencialių tiekėjų eilei sudaryti. Jūs nustatėte kiekvieno vertinimo kriterijaus svorį ir nustatėte kiekvienam potencialiam tiekėjui kriterijų reikšmes. Koks bus kitas jūsų žingsnis?",
+    "cor":"kiekvieno potencialaus tiekėjo kriterijų reikšmių dauginimas iš atitinkamų svorių",
+    "uncor1":"kriterijų svorių reikšmių sumavimas",
+    "uncor2":"kiekvieno potencialaus tiekėjo kriterijų reikšmių vidurkio radimas",
+    "uncor3":"potencialaus tiekėjo įvardinimas, remiantis tik didžiausią svorį turinčio vertinimo kriterijaus reikšme"
+},
+{
+    "question":"Neseniai jūs pradėjote dirbti projektų vadovu IT kompanijoje. Gavę projektą, jūs rengiatės pirmajam (kickoff) susirinkimui. Projekto plane numatytų ištekliųporeikis jau buvo perduotas kompanijos vadovybei. Eidami pas išteklius tvarkantį direktorių, kokio tipo įgaliojimais jūs vadovausitės?",
+    "cor":"formaliais",
+    "uncor1":"nuopelnais grindžiamų",
+    "uncor2":"referento",
+    "uncor3":"eksperto"
+},
+{
+    "question":"Jūs nutarėte taikyti kai kuriuos pripažinimo ar skatinimo būdus grupės narių darnai ir motyvacijai padidinti. Kokie veiksmai tam būtų geriausi?",
+    "cor":" įsteigti paskatinamąjį fondą grupės nariams už gerai ir laiku atliktą darbą",
+    "uncor1":"įdiegti nulinės sumos apdovanojimą (atpildą)",
+    "uncor2":"visiems grupės nariams padovanoti leidimus nemokamai lankytis krepšinio rungtynėse",
+    "uncor3":"įdiegti "mėnesio Darbuotojo" programą, padedančią išryškinti geriausiai dirbantį grupės narį kiekvieną mėnesį"
+},
+{
+    "question":"Kurio proceso išdava yra pasiūlymai?",
+    "cor":"prašymo tiekėjams teikti pasiūlymus",
+    "uncor1":"sandorių planavimo",
+    "uncor2":"pirkimų planavimo",
+    "uncor3":"sandorių valdymo"
+},
+{
+    "question":"Kuri priemonė ar būdas nėra naudojama projekto grupės plėtros (ugdymo) procese?",
+    "cor":"informacija apie darbų eigą",
+    "uncor1":"projekto grupės išdėstymas",
+    "uncor2":"grupės formavimo veiklos",
+    "uncor3":"paskatinimų sistemos"
+},
+{
+    "question":"Kurio proceso rezultatas yra projekto grupės narių pareigos, tinkami žmoniškieji ištekliai ir darbuotojų valdymo plano atnaujinimai? ",
+    "cor":" projekto grupės rinkimo",
+    "uncor1":"projekto grupės plėtros (ugdymo)",
+    "uncor2":"informacijos platinimo",
+    "uncor3":"žmoniškųjų išteklių planavimo"
+},
+{
+    "question":"Kuriame procese kaip priemonė yra naudojamas kokybės auditas",
+    "cor":"kokybės užtikrinimo",
+    "uncor1":"kokybės kontrolės",
+    "uncor2":"kokybės planavimo",
+    "uncor3":"reakcijos į kokybę planavimo"
+},
+{
+    "question":"Kuriame projektų valdymo procese naudojami kokybės matavimų rezultatai? ",
+    "cor":"kokybės užtikrinimo",
+    "uncor1":"išlaidų kontrolės",
+    "uncor2":"darbų grafiko laikymosi kontrolės",
+    "uncor3":"kokybės planavimo"
+},
+{
+    "question":"Kuris iš žemiau nurodytų dalykų yra informacijos platinimo proceso rezultatas",
+    "cor":"projekto būsena",
+    "uncor1":"projekto planas",
+    "uncor2":"projekto nuostatai",
+    "uncor3":"komunikacijų valdymo planas"
+},
+{
+    "question":"Jūs esate paskirtas projekto vadovu. Pradėdami formuoti projekto grupę (acquire project group), jūs norite įvardinti žmones, kuriuos galėtumėte įtraukti į projektą. Ką reikėtų naudoti šiame procese",
+    "cor":" įmonės aplinkos duomenis",
+    "uncor1":"žmoniškųjų išteklių histogramą",
+    "uncor2":"reikiamų specialistų lentelę (RAM – Responsibility Assignment Matrix)",
+    "uncor3":"projekto suskaidytų darbų lentelę (WBS)"
+},
+{
+    "question":"Jūs esate projektų vadovas kompanijoje, ir neseniai jums buvo pavesta vadovauti naujam projektui. Jūs kreipėtės į kompanijos pirkimų departamentą norėdami gauti sąrašą subrangovų, kuriuos galima būtų pasitelkti kai kuriems projekto darbams atlikti. Pirkimų departamento vadovas nėra informuotas apie projektą ir atsisako bendradarbiauti sakydamas, kad negali padėti remdamasis vien jūsų prašymu. Kas gali padėti užkirsti kelią tokiems atsitikimams?",
+    "cor":" įgaliojimų suteikimo vykdyti darbą sistema (tvarka)",
+    "uncor1":"organizacijos taisyklės",
+    "uncor2":"informacijos platinimas",
+    "uncor3":"gera projektų valdymo informacinė sistema"
+},
+{
+    "question":"Kuris iš teiginių yra teisingas, kai kalbama apie komunikavimo būdus?",
+    "cor":"iškilus sudėtingiems projekto klausimams, jūs turite naudoti formalų komunikavimo raštu būdą",
+    "uncor1":"sudėtingais projekto atvejais jūs turite naudoti situaciją geriausiai atitinkantį komunikavimo būdą",
+    "uncor2":"iškilus sudėtingiems projekto klausimams, jūs turite naudoti formalų komunikavimo raštu arba neformalų komunikavimo balsu (pasikalbėjimo) būdą",
+    "uncor3":"iškilus sudėtingiems projekto klausimams, jūs turite naudoti formalų komunikavimo balsu (pasikalbėjimo) būdą"
+},
+{
+    "question":"Kada ypač svarbūs yra komunikacijų klausimai?",
+    "cor":"informacijos platinimo procese",
+    "uncor1":"sandorių sudarymo metu",
+    "uncor2":"rengiant darbų eigos ataskaitas",
+    "uncor3":"komunikacijų planavimo procese"
+},
+{
+    "question":"Jūs gavote potencialių tiekėjų pasiūlymus. Išanalizavę juos pastebėjote didelį siūlomų produktų specifikacijų skirtumą. Kokia yra viso to priežastis?",
+    "cor":"pirkimo dokumentai buvo neaiškūs ir neišbaigti",
+    "uncor1":"pirkimo dokumentuose netikusiai buvo apibrėžtas pasiūlymų formatas",
+    "uncor2":"tiekėjai nesuprato reikalavimų",
+    "uncor3":"pirkimo dokumentuose nebuvo apibrėžti pasiūlymų vertinimo kriterijai"
+},
+{
+    "question":"Jūs rengiate kompetentingų tiekėjų sąrašą savo projektui. Kuris iš žemiau išvardintų šaltinių nenaudotinas, renkant informaciją apie potencialius tiekėjus?",
+    "cor":"interviu su potencialių tiekėjų konkurentais",
+    "uncor1":"verslininkų asociacijos",
+    "uncor2":"verslo publikacijos",
+    "uncor3":"interneto puslapiai"
+},
+{
+    "question":"Visi žemiau išvardinti dalykai yra tiekėjų atrankos proceso priemonės ar būdai, išskyrus",
+    "cor":"vertinimo kriterijus",
+    "uncor1":"pasvertąją (weighting) sistemą",
+    "uncor2":"atmetimo (screening) sistemą",
+    "uncor3":"sandorių derybos"
+},
+{
+    "question":"Tiekėjų atrankos proceso rezultatas yra",
+    "cor":"sandoris",
+    "uncor1":"tiekėjų sąskaitos",
+    "uncor2":"darbo užduotis",
+    "uncor3":"vertinimo kriterijai"
+},
+{
+    "question":"Prašymo tiekėjams teikti pasiūlymus procese gali būti susiduriama su visais žemiau išvardintais dalykais, išskyrus",
+    "cor":"vertinimo kriterijus",
+    "uncor1":"pasiūlymus",
+    "uncor2":"skelbimus",
+    "uncor3":"tiekėjų konferencijas"
+},
+{
+    "question":"Kokie projekto vadovo įgūdžiai yra svarbiausi?",
+    "cor":"komunikavimo žodžiu ir raštu",
+    "uncor1":"techniniai",
+    "uncor2":"projekto grupės formavimo",
+    "uncor3":"bendravimo stilius"
+},
+{
+    "question":"Kurio proceso įeities duomenys yra pirkimo dokumentai ir kompetentingų tiekėjų sąrašas?",
+    "cor":"tiekėjų atrankos",
+    "uncor1":"sandorių planavimo",
+    "uncor2":"pirkimų planavimo",
+    "uncor3":"sandorių administravimo"
+},
+{
+    "question":"Projekto grupės plėtros (team-building) veiklų tikslas yra",
+    "cor":"didinti grupės darbo našumą",
+    "uncor1":"gerinti grupės narių santykius",
+    "uncor2":"kalbinti grupės narius dirbti viršvalandžius",
+    "uncor3":"laikytis projektų valdymo gairių"
+},
+{
+    "question":"Kurio proceso rezultatas yra projekto grupės darbo našumo įverčiai?",
+    "cor":"projekto grupės plėtros",
+    "uncor1":"projekto grupės rinkimo",
+    "uncor2":"informacijos platinimo",
+    "uncor3":"žmoniškųjų išteklių planavimo"
+},
+{
+    "question":"Pagrindinių darbo ir elgesio taisyklių (ground rules) nustatymas projekto ankstyvojoje stadijoje yra naudingas dėl žemiau išvardintų priežasčių, išskyrus",
+    "cor":"jos sudaro sąlygas projekto nariams susipažinti",
+    "uncor1":"jos padeda išvengti netvarkos grupėje",
+    "uncor2":"jos padeda grupei dirbti našiau",
+    "uncor3":"jos suteikia grupės nariams aiškumo, ką jie gali daryti ir ko ne"
+},
+{
+    "question":"Kuris iš žemiau išvardintų dalykų yra projekto vykdymo valdymo proceso rezultatas?",
+    "cor":"prašomi pakeitimai",
+    "uncor1":"projekto valdymo planas",
+    "uncor2":"patvirtinti korekciniai veiksmai",
+    "uncor3":"patvirtinti defektų šalinimai"
+},
+{
+    "question":"Visi žemiau išvardinti dalykai yra informacijos platinimo proceso rezultatai, išskyrus",
+    "cor":"projekto planą",
+    "uncor1":"projekto ataskaitas",
+    "uncor2":"projekto įrašus",
+    "uncor3":"projekto pristatymus"
+},
+{
+    "question":"Kurio proceso įeities duomenys yra vertinimo kriterijai",
+    "cor":"tiekėjų atrankos",
+    "uncor1":"produkto dokumentavimo",
+    "uncor2":"sandorių planavimo",
+    "uncor3":"pirkimų planavimo"
+},
+{
+    "question":"Jūs esate didelio mokomojo projekto internetu projekto vadovas. Renkate projekto grupę ir manote suformuoti virtualią grupę iš įvairiuose žemynuose dirbančių žmonių. Tokios virtualios grupės efektyviame valdyme kuris dalykas jums neturėtų rūpėti?",
+    "cor":"išankstinis pareigų paskyrimas",
+    "uncor1":"dažnas grupės narių įtraukimas į sprendimų priėmimą",
+    "uncor2":"darbo ir elgesio taisyklės (ground rules) grupės nariams",
+    "uncor3":"komunikacijų standartai"
+},
+{
+    "question":"Projekto vykdymo valdymo proceso charakteringi bruožai yra visi žemiau išvardinti dalykai, išskyrus",
+    "cor":"projekto pabaigos susirinkimas",
+    "uncor1":"projekto produkto kūrimas",
+    "uncor2":"nustatyti projekto stovio apžvalgų terminai",
+    "uncor3":"panaudojama didžioji projekto biudžeto dalis"
+},
+{
+    "question":"Kuris iš žemiau išvardintų dalykų yra prašymo tiekėjams teikti pasiūlymus proceso įeities duomenys?",
+    "cor":"pirkimo dokumentai",
+    "uncor1":"sandoris",
+    "uncor2":"pasiūlymai",
+    "uncor3":"darbo užduotis (SOW)"
+},
+{
+    "question":"Projekto stovio svarstymo susirinkime klientas išreiškė pageidavimą, kad kuriamoje programų sistemoje būtų papildomų, anksčiau neplanuotų funkcijų. Jūs su klientu apsvarstėte jo pageidavimą ir pasiūlėte reikiamus projekto specifikacijos pakeitimus. Kurio proceso darbai tai yra?",
+    "cor":"projekto vykdymo valdymo",
+    "uncor1":"projekto valdymo plano rengimo",
+    "uncor2":"keitimų kontrolės sistemos",
+    "uncor3":"sandorio derybų"
+},
+{
+    "question":"Atlyginimo už darbą ir darbuotojus skatinančios sistemos yra žemiau išvardinti dalykai, išskyrus vieną iš jų",
+    "cor":"netiesioginės išmokos darbuotojams, siekiant apsaugoti juos nuo privalomų mokesčių",
+    "uncor1":"sistemos, kurios skatina žmones elgtis pageidaujamu būdu",
+    "uncor2":"įprasti vadybiniai veiksmai, kuriais siekiama padidinti grupės našumą",
+    "uncor3":"veiksmai, kurie padeda pasiekti norimus grupės narių darbo rezultatus"
+}
+]
+}
