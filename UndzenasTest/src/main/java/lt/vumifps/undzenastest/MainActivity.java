@@ -17,6 +17,7 @@ import org.json.JSONObject;
 
 import java.util.Collections;
 import java.util.LinkedList;
+import android.os.Handler;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 
@@ -97,14 +98,20 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
         LinkedList<Answer> answers = question.getAnswers();
         Collections.shuffle(answers);
-
         answerLayout.removeAllViews();
-        mainScrollView.fullScroll(View.FOCUS_UP);
 
         for (Answer answer : answers) {
             AnswerTextView answerTextView = getAnswerTextView(answer);
             answerLayout.addView(answerTextView);
         }
+
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                mainScrollView.smoothScrollTo(0, 0);
+            }
+        }, 100);
 
     }
 
