@@ -14,6 +14,8 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"
             android:name="lt.vumifps.undzenastest.StartingActivity"
             android:label="@string/app_name" >
             <intent-filter>
@@ -23,6 +25,8 @@
             </intent-filter>
         </activity>
         <activity
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"
             android:name="lt.vumifps.undzenastest.MainActivity"
             android:label="@string/app_name"
             android:parentActivityName="com.example.myfirstapp.StartingActivity" >
@@ -31,6 +35,8 @@
                 android:value="com.example.myfirstapp.StartingActivity" />
         </activity>
         <activity
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"
             android:name="lt.vumifps.undzenastest.ResultsActivity"
             android:label="@string/app_name"
             android:parentActivityName="com.example.myfirstapp.MainActivity" >
