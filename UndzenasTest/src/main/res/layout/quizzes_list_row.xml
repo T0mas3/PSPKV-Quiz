@@ -7,7 +7,6 @@
     <TextView
         android:id="@+id/titleTextView"
         android:textSize="30sp"
-        android:text="labas"
         android:layout_height="wrap_content"
         android:layout_toLeftOf="@+id/startButton"
         android:layout_width="fill_parent" />
