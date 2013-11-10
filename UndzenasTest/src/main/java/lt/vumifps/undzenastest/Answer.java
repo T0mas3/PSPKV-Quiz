@@ -21,6 +21,11 @@ public class Answer {
         return text;
     }
 
+    public String getTextFormatted() {
+        String formattedText = text.trim();
+        return Character.toUpperCase(formattedText.charAt(0)) + formattedText.substring(1);
+    }
+
     public void setText(String text) {
         this.text = text;
     }

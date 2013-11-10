@@ -47,7 +47,7 @@ public class AnswerTextView extends TextView implements View.OnClickListener {
     public void setAnswer(Answer answer){
 
         this.correct = answer.getCorrect();
-        this.setText(answer.getText());
+        this.setText(answer.getTextFormatted());
         this.answer = answer;
 
     }
