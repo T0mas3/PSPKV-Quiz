@@ -30,6 +30,8 @@ public class AnswerTextView extends TextView implements View.OnClickListener {
     public void init(){
         this.setOnClickListener(this);
 
+        this.setBackgroundColor(this.getResources().getColor(R.color.answer_background));
+
         this.setMinLines(2);
         this.setGravity(Gravity.CENTER_VERTICAL);
     }

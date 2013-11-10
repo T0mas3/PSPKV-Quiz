@@ -121,7 +121,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
         linearLayoutParams.setMargins(0, 10, 0, 10);
         answerTextView.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 20);
-        answerTextView.setBackgroundColor(Color.parseColor("#E0E0E0"));
 
         answerTextView.setLayoutParams(linearLayoutParams);
 
