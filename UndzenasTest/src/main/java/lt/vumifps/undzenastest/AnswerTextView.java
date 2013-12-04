@@ -3,8 +3,8 @@ package lt.vumifps.undzenastest;
 import android.content.Context;
 import android.graphics.Color;
 import android.util.AttributeSet;
+import android.view.Gravity;
 import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
 
 import java.util.LinkedList;
@@ -18,13 +18,22 @@ public class AnswerTextView extends TextView implements View.OnClickListener {
 
     public AnswerTextView(Context context) {
         super(context);
-        this.setOnClickListener(this);
+        this.init();
     }
 
     public AnswerTextView(Context context, AttributeSet attrs) {
         super(context, attrs);
+        this.init();
+
+    }
+
+    public void init(){
         this.setOnClickListener(this);
 
+        this.setBackgroundResource(R.drawable.answer_button);
+
+        this.setMinLines(2);
+        this.setGravity(Gravity.CENTER_VERTICAL);
     }
 
     public boolean isCorrect() {
@@ -38,7 +47,7 @@ public class AnswerTextView extends TextView implements View.OnClickListener {
     public void setAnswer(Answer answer){
 
         this.correct = answer.getCorrect();
-        this.setText(answer.getText());
+        this.setText(answer.getTextFormatted());
         this.answer = answer;
 
     }

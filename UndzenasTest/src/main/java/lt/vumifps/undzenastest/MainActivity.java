@@ -2,9 +2,7 @@ package lt.vumifps.undzenastest;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
-import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
 import android.view.Window;
@@ -19,6 +17,7 @@ import org.json.JSONObject;
 
 import java.util.Collections;
 import java.util.LinkedList;
+import android.os.Handler;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 
@@ -99,14 +98,20 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
         LinkedList<Answer> answers = question.getAnswers();
         Collections.shuffle(answers);
-
         answerLayout.removeAllViews();
-        mainScrollView.fullScroll(View.FOCUS_UP);
 
         for (Answer answer : answers) {
             AnswerTextView answerTextView = getAnswerTextView(answer);
             answerLayout.addView(answerTextView);
         }
+
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                mainScrollView.smoothScrollTo(0, 0);
+            }
+        }, 100);
 
     }
 
@@ -121,7 +126,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
         linearLayoutParams.setMargins(0, 10, 0, 10);
         answerTextView.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 20);
-        answerTextView.setBackgroundColor(Color.parseColor("#E0E0E0"));
 
         answerTextView.setLayoutParams(linearLayoutParams);
 
