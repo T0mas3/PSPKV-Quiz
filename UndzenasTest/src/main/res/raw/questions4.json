@@ -1,0 +1,425 @@
+{
+"title":"Ketvirtas testas",
+"questions":[
+{
+"question":"Problemų priežasčių rikiavimas pagal jų pasireiškimo dažnį naudojamas rengiant korekcinius veiksmus. Tai yra pagrindinis principas, kuriuo remiasi",
+"cor":"Pareto diagramos",
+"uncor1":"inspektavimai",
+"uncor2":"tendencijų analizė",
+"uncor3":"kontroliniai grafikai"
+},
+{
+"question":"Jūs esate internetinio puslapio kūrimo projekto vadovas. Baigiamojoje priėmimo testavimo stadijoje užsakovo atstovas pareiškė, kad sukurtame produkte trūksta pradiniuose reikalavimuose numatytos funkcijos. Kokių veiksmų jūs imsitės?",
+"cor":"peržiūrėsit suskaidytų darbų lentelę (WBS) ir tuomet priimsite arba atmesite užsakovo atstovo pretenzijas",
+"uncor1":"peržiūrėsite projekto nuostatus (charter) ir pasitikrinsite, ar juose tai buvo numatyta",
+"uncor2":"peržiūrėsite projekto apimties (scope) valdymo planą ir tuomet priimsite arba atmesite užsakovo atstovo pretenzijas",
+"uncor3":"peržiūrėsite susirinkimų protokolus, kad įsitikintumėte, ar tos funkcijos buvo reikalaujama, ir tuomet nuspręsite, ar ji buvo projekto apimties (scope) dalis"
+},
+{
+"question":"Projekto rizikos valdymas ir kontrolė apima visus žemiau išvardintus dalykus, išskyrus",
+"cor":"sprendimų medžio analizę",
+"uncor1":"projekto riziką",
+"uncor2":"reakcijos į riziką plano naujinimus",
+"uncor3":"reakcijos į riziką veiksmų atlikimas"
+},
+{
+"question":"Kuris iš žemiau pateiktų sakinių teisingai apibūdina dvigubos atskaitomybės santykius projektų efektyvaus valdymo kontekste?",
+"cor":"paprastai tai priklauso nuo projekto vadovo",
+"uncor1":"tai yra esminis grupės plėtros (ugdymo) veiksnys",
+"uncor2":"tai nėra kritiška projekto sėkmei",
+"uncor3":"tai yra organizacijos funkcinio padalinio vadovo reikalas"
+},
+{
+"question":"Jūs esate vadovas projekto, kurio trukmė pradiniame darbų grafike buvo numatyta 12 mėn. Pradinis projekto biudžetas buvo 486 000 Lt arba 40 500 Lt kiekvieną mėnesį. Mėnesio gale jūs vertinate projekto eigą. Atlikta 40 proc. projekto darbų, o pinigų liko 90 000 Lt. Kokia yra likusių projekto darbų prognozuojama kaina (ETC – Estimate To Complete)?",
+"cor":"595 836,73 Lt",
+"uncor1":"194 000 Lt",
+"uncor2":"396 000 Lt",
+"uncor3":"991 836,73 Lt"
+},
+{
+"question":"Kurio pirkimų valdymo proceso dalis yra atsiskaitymų sistema?",
+"cor":"sandorio administravimo",
+"uncor1":"prašymo tiekėjams teikti pasiūlymus",
+"uncor2":"tiekėjų atrankos",
+"uncor3":"sandorio užbaigimo"
+},
+{
+"question":"Kurį iš žemiau parodytų rodiklių jūs galite apskaičiuoti žinodami atliktų darbų vertę (BCWP - Budgeted Cost of Work Performed; EV - Earned Value; BCWP = EV) ir darbų indeksą (SPI – schedule performance index)?",
+"cor":"SV (darbų nuokrypį; SV – schedule variance)",
+"uncor1":"CPI (išlaidų indeksą; CPI – Cost Performance Index)",
+"uncor2":"EAC (viso projekto patikslintos kainos įvertį duotu laiku; EAC – Estimate At Completion)",
+"uncor3":"ROI (atsipirkimų normą; ROI – Return Of Investment)"
+},
+{
+"question":"Klientui pakeitus kokybės reikalavimus jūs pakeitėte projekto apimtį. Atitinkamai pakoregavote projekto planą ir rezultatų priėmimo kriterijus. Koks turėtų būti kitas jūsų žingsnis?",
+"cor":"informuoti akcininkus nustatytu būdu",
+"uncor1":"parengti pakeitimų ataskaitos versiją",
+"uncor2":"peržiūrėti kompanijos kokybės valdymo vadovą",
+"uncor3":"gauti formalų pritarimą iš jūsų sponsoriaus ir užsakovo"
+},
+{
+"question":"Jūs esate sportinės bazės statybos projekto vadovas, kuris vyksta pagal numatytą grafiką. Įprasto kasmėnesinio susirinkimo metu projekto stoviui su klientais aptarti vadovybė formaliai informavo, kad nori stabdyti projektą neapibrėžtam laikui dėl lėšų stokos. Jūs grįžote iš susirinkimo ir paprašėte savo grupės parengti ataskaitą apie iki šios dienos atliktus darbus, taip pat paprašėte savo teisės departamento pateikti sandorio kopiją. Kuris iš žemiau esančių sakinių geriausiai apibūdina šią situaciją?",
+"cor":"jūs pradėjote apimties tikrinimo veiklas, kad nustatytumėte projekto užbaigtumo laipsnį",
+"uncor1":"jūs pradėjote projekto užbaigimo veiklas",
+"uncor2":"jūs pradėjote sandorio užbaigimo veiklas",
+"uncor3":"jūs pradėjote darbų ataskaitų rengimo veiklas"
+},
+{
+"question":"Projekto viduryje jūs atlikote nukrypimų analizę ir pastebėjote, kad SPI (Shedule Performance Index, darbų indeksas) yra lygus 0,8 ir SV (Shedule Variance, darbų nuokrypis) yra -2000 Lt. Kokios yra EV (Earned Value, atliktų darbų vertė) ir PV (Planned Value, duotam laikotarpiui skirta suma) reikšmės tuo metu?",
+"cor":"8 000 Lt ir 10 000 Lt",
+"uncor1":"800 Lt ir 2 800 Lt",
+"uncor2":"10 000 Lt ir 8 000 Lt",
+"uncor3":"iš turimų duomenų šių reikšmių negalima apskaičiuoti"
+},
+{
+"question":"Darbų ataskaitų rengimo proceso rezultatai kaip įeities duomenys nėra naudojami viename iš žemiau išvardintų procesų. Kuriame?",
+"cor":"darbų grafiko rengimo",
+"uncor1":"sandorių administravimo",
+"uncor2":"integruotosios keitimų kontrolės",
+"uncor3":"išlaidų kontrolės"
+},
+{
+"question":"Duotu momentu jūsų projekto EV (Earned Value, atliktų darbų vertė) yra 750 000 Lt, AC (Actual Cost, tikrosios projekto išlaidos) yra 600 000 Lt, PV (Planned Value, duotam laikotarpiui skirta suma) yra 500 000 Lt. Koks yra jūsų projekto SPI (Schedule Performance Index, darbų indeksas)?",
+"cor":"1.5",
+"uncor1":"-3.0",
+"uncor2":"-1.5",
+"uncor3":"3.0"
+},
+{
+"question":"Jūs nagrinėjate rinkinį prašymų daryti apimties pakeitimus projekto, kurį perėmėte iš pasitraukusio projekto vadovo. Projekto apimties pakeitimo laipsniui įvertinti su kuriuo projekto dokumentu jūs turite palyginti prašymus daryti projekto apimties pakeitimus?",
+"cor":"WBS (Work Breackdown Structure, suskaidytų darbų lentelė)",
+"uncor1":"projekto valdymo planu",
+"uncor2":"projekto veiklų atributais",
+"uncor3":"apimties valdymo planu"
+},
+{
+"question":"Integruotoji keitimų kontrolė apima visus žemiau išvardintus dalykus, išskyrus",
+"cor":"sąskaitų kontrolę",
+"uncor1":"išlaidų kontrolę",
+"uncor2":"apimties keitimo kontrolę",
+"uncor3":"darbų grafiko kontrolę"
+},
+{
+"question":"Kuris iš žemiau išvardintų yra specifinių projekto rezultatų tikrinimo procesas, kurio metu nustatoma, ar rezultatai atitinka kokybės standartus, ir įvardijami keliai nesėkmių priežastims pašalinti?",
+"cor":"kokybės kontrolės",
+"uncor1":"kokybės planavimo",
+"uncor2":"kokybės užtikrinimo",
+"uncor3":"kokybės valdymo"
+},
+{
+"question":"Projekto vadovas kontroliniame grafike rado septynias iš eilės einančias reikšmes, kurios yra didesnės (mažesnės) už vidutinę. Kokia tikimybė, kad taip nutiko dėl atsitiktinių priežasčių?",
+"cor":"1.56%",
+"uncor1":"0%",
+"uncor2":"2.56%",
+"uncor3":"3.12%"
+},
+{
+"question":"Užsakovas, jūsų organizacijos vadovybė ir kiti pagrindiniai akcininkai yra sutarę dėl kuriamos sistemos reikalavimų. Projektas vyksta pagal grafiką. Tačiau išėję nauji reguliaciniai aktai verčia daryti vieną projekto specifikacijos keitimą. Ką jūs visų pirma turėtumėte daryti, kad šis pakeitimas būtų įtrauktas į projekto planą?",
+"cor":"perengti prašymą daryti pakeitimą",
+"uncor1":"susitikti su vadovybe reikalui aptarti",
+"uncor2":"keisti WBS (Work Breackdown Structure, suskaidytų darbų lentelę), projekto darbų grafiką ir projekto planą, kuriuose būtų atspindėti naujas reikalavimas",
+"uncor3":"nedelsdami informuoti visus akcininkus apie numatomą pakeitimą projekte"
+},
+{
+"question":"Visi žemiau išvardinti dalykai yra darbų grafiko kontrolės proceso įeities duomenys, išskyrus",
+"cor":"suskaidytų darbų lentelė (WBS)",
+"uncor1":"patvirtinti prašymai daryti pakeitimus",
+"uncor2":"suplanuotas darbų grafikas",
+"uncor3":"darbų eigos ataskaitos"
+},
+{
+"question":"Pareto diagrama padeda projekto grupei",
+"cor":"koncentruotis ties svarbiausiomis problemų priežastimis",
+"uncor1":"prognozuoti galimas problemas",
+"uncor2":"analizuoti problemų priežastis",
+"uncor3":"parodyti, kad procesas yra kontroliuojamas"
+},
+{
+"question":"Dėl kai kurių darbų vėlavimo jums prireikė koreguoti projekto darbų grafiką. Ko jūs neturėtumėte daryti?",
+"cor":"perskaičiuoti SPI (Shedule Performance Index, darbų indekso)",
+"uncor1":"keisti suplanuoto projekto darbų grafiko",
+"uncor2":"informuoti akcininkų",
+"uncor3":"atnaujinti projekto valdymo plano"
+},
+{
+"question":"Kuris iš žemiau pateiktų sakinių teisingai apibūdina keitimų kontrolės tarybą (KKT)?",
+"cor":"KKT yra atsakinga už prašymų daryti keitimus tvirtinimą ar atmetimą",
+"uncor1":"KKT nurodo keitimus, kuriuos gali tekti daryti projekte",
+"uncor2":"KKT rengia ataskaitas apie projekte padarytus pakeitimus",
+"uncor3":"KKT vadovauja projekto vadovas"
+},
+{
+"question":"Integruotoji keitimų kontrolė apima visas žemiau išvardintas veiklas, išskyrus",
+"cor":"pradinio išlaidų plano (cost baseline) rengimą projekto eigai stebėti",
+"uncor1":"pradinės projekto apimties keitimą",
+"uncor2":"keitimų darymą pradiniame projekto plane",
+"uncor3":"integralumo (suderinamumo) tarp projekto elementų palaikymą"
+},
+{
+"question":"Jūs esate didelio infrastruktūros plėtros projekto vadovas. Šiame projekte teko keisti apimtį (project scope), kam pritarė akcininkai, ir buvo atnaujinta suskaidytų darbų lentelė (WBS). Ką toliau reikėtų peržiūrėti?",
+"cor":"darbų grafiką",
+"uncor1":"darbų grafiko valdymo planą",
+"uncor2":"kokybės valdymo planą",
+"uncor3":"apimtį"
+},
+{
+"question":"Jūs rengiate grupės nario darbo įvertinimą. Kuris iš žemiau pateiktų sakinių yra teisingas kalbant apie tokius įvertinimus?",
+"cor":"darbo įvertinimas gali būti panaudotas grupės nario pareigų ir atsakomybės pakeitimams pagrįsti",
+"uncor1":"darbo įvertinime turi būti tik teigiami atsiliepimai",
+"uncor2":"darbo įvertinimas visada turi būti parengtas raštu",
+"uncor3":"duomenys darbui įvertinti turi būti gaunami tik iš tiesioginio grupės nario viršininko"
+},
+{
+"question":"Jūs įvertinote savo projekto darbų nuokrypį (SV – Schedule Variance) ir pasiūlėte daryti darbų grafiko pakeitimus. Jūsų pasiūlymui buvo pritarta. Ką nedelsdami jūs turėtumėte daryti toliau?",
+"cor":"pakoreguoti pradinį darbų grafiką",
+"uncor1":"parengti naują darbų grafiką",
+"uncor2":"parengti prašymą daryti pakeitimą",
+"uncor3":"parengti darbų ataskaitą"
+},
+{
+"question":"Vietoje to, kad naudotų suskaidytų darbų lentelę (WBS – Work Breackdown Structure), jūsų grupė parengė darbų užduotį (SOW – Statement Of Work) projekto darbo komponentams apibrėžti. Tokį SOW dokumentą peržiūrėjęs klientas pastebėjo, kad reikia daryti projekto apimties pakeitimus ir parengė atitinkamą prašymą. Visa tai yra prašymo daryti pakeitimą pavyzdys, kurio priežastis buvo",
+"cor":"projekto apimties apibrėžimo klaida",
+"uncor1":"kuriamo produkto savybių apibrėžimo klaida",
+"uncor2":"pridėtinės vertės didinimas",
+"uncor3":"išorinis įvykis"
+},
+{
+"question":"Jūs esate programinės įrangos kūrimo projekto vadovas. Projekto biudžetas yra 1 230 000 Lt, o projekto trukmė 10 mėn. Darbų grafikui parengti jūs sudarėte suskaidytų darbų lentelę (WBS) ir įvertinote atskirų darbų apimtis (trukmę, kainą). Darbai buvo paskirstyti jūsų grupės nariams. Praėjus trims mėnesiams pasirodė, kad darbai vyksta ne taip, kaip buvo planuota. Pagal jūsų planą buvo numatyta išleisti 36 000 Lt, o išleidote 45 000 Lt. Projektas atsilieka nuo darbų grafiko. Kas buvo negerai?",
+"cor":"netinkamai jūs įvertinote atskirų darbų apimtis (trukmę, kainą)",
+"uncor1":"nebuvo naudotas Monte Karlo metodas",
+"uncor2":"netinkamai sudaryta darbų eilė",
+"uncor3":"negerai sudaryta WBS"
+},
+{
+"question":"Projekto metu užsakovas primygtinai pareikalavo užbaigti projektą anksčiau. Projekto eigai paspartinti jūs nutarėte pasitelkti subrangovą. Tačiau subrangovas nepajėgė prisiderinti prie jūsų darbų grafiko. Laikydamiesi sandorio su juo sąlygų, jūs nusprendėte iš jo išieškoti numatyto dydžio baudą. Ką jūs turėtumėte daryti toliau?",
+"cor":"prašyti pateikti darbų ataskaitą",
+"uncor1":"nusileisti prašymui daryti sandorio pakeitimą",
+"uncor2":"inicijuoti atsiskaitymą",
+"uncor3":"informuoti subrangovą apie įsipareigojimų nevykdymą"
+},
+{
+"question":"Kas yra projekto apimties keitimo kontrolės sistema?",
+"cor":"procedūrų rinkinys, kaip turėtų būti keičiama projekto apimtis, apimantis popierinių dokumentų tvarkymą, stebėjimo sistemas ir keitimams nagrinėti ir tvirtinti įgaliotus asmenis",
+"uncor1":"formalių dokumentų ir procedūrų rinkinys oficialiems projekto dokumentams keisti",
+"uncor2":"procedūrų rinkinys sandorio darbų užduočiai (SOW – Statement Of Work) taisyti ir sandoriui keisti",
+"uncor3":"procedūrų rinkinys projekto darbų grafikui keisti"
+},
+{
+"question":"Visi žemiau išvardinti dalykai yra konfliktų sprendimo būdai, išskyrus",
+"cor":"diskusijas",
+"uncor1":"konfrontavimą (ginčus)",
+"uncor2":"konfliktų vengimą",
+"uncor3":"kompromisus"
+},
+{
+"question":"Atliktų darbų vertės analizė (Earned Value Analysis) yra dažniausiai naudojamas projekto eigos vertinimo būdas. Jame naudojami indikatoriai, kuriems gauti būtini žemiau išvardinti dalykai, išskyrus",
+"cor":"tikroji darbų vertė (ACWS - Actual Cost of Work Scheduled)",
+"uncor1":"planuotų atlikti darbų vertė (BCWS - Budgeted Cost of Work Scheduled; PV)",
+"uncor2":"tikrosios išlaidos atliktiems darbams (ACWP-Actual Cost of Work Performed; AC)",
+"uncor3":"atliktų darbų vertė (BCWP - Budgeted Cost of Work Performed; EV)"
+},
+{
+"question":"Kuris iš žemiau išvardintų dalykų nėra išlaidų kontrolės proceso rezultatas?",
+"cor":"išlaidų planas (cost baseline)",
+"uncor1":"biudžeto atnaujinimai (updates)",
+"uncor2":"peržiūrėti kainų įverčiai",
+"uncor3":"patikslintas viso projekto kainos įvertis"
+},
+{
+"question":"Kuris iš žemiau išvardintų dalykų nėra akcininkų valdymo proceso rezultatas?",
+"cor":"darbų ataskaitos",
+"uncor1":"išspręsti klausimai (ginčai)",
+"uncor2":"įmonės organizacinių dokumentų atnaujinimai",
+"uncor3":"patvirtinti korekciniai veiksmai"
+},
+{
+"question":"Kuris iš žemiau išvardintų dalykų nėra kokybės kontrolės proceso įeities duomenys?",
+"cor":"standartai ir reglamentai (taisyklės)",
+"uncor1":"gauti rezultatai",
+"uncor2":"kokybės valdymo planas",
+"uncor3":"kokybės metrikos"
+},
+{
+"question":"Projekto A darbo laisvojo svyravimo (FF – Free Float) dydis yra 12 dienų, o bendrojo svyravimo (TF – Total Float) – 15 dienų. Jei A darbo anksčiausias pradžios laikas pavėlinamas 15 dienų, kaip tai atsilieps projektui?",
+"cor":"kito iš eilės einančio B darbo anksčiausias pradžios laikas bus pavėlintas trimis dienomis, bet projekto pabaigos datai tai neturės įtakos",
+"uncor1":"kito iš eilės einančio B darbo anksčiausias pradžios laikas bus pavėlintas dviem dienomis, bet projekto pabaigos datai tai neturės įtakos",
+"uncor2":"kito iš eilės einančio B darbo anksčiausias pradžios laikas bus pavėlintas tris dienas, o projekto pabaigos data bus dviem dienomis vėlesnė",
+"uncor3":"kito iš eilės einančio B darbo anksčiausias pradžios laikas bus pavėlintas tris dienas, o projekto pabaigos data bus trimis dienomis vėlesnė"
+},
+{
+"question":"Jūs esate sudėtingo ašuonių mėnesių trukmės projekto vadovas. Projekto visas biudžetas yra 800 000 Lt arba po 100 000 Lt kiekvienam mėnesiui. Per tris mėnesius jūs atlikote 30% darbų ir išleidote 200 000 Lt. Koks yra jūsų projekto išlaidų nuokrypis (CV – Cost Variance)?",
+"cor":"+40 000Lt",
+"uncor1":"-40 000 Lt",
+"uncor2":"+25 000 Lt",
+"uncor3":"-20 000 Lt"
+},
+{
+"question":"Projekto vykdymo etape jūs įvardinote rizikos veiksnius, kurie nebuvo numatyti rizikos planavimo procese. Kurį iš žemiau išvardintų darbų jūs turėtumėte atlikti, kad galėtumėte suvaldyti šiuos rizikos veiksnius?",
+"cor":"papildomą reakcijos į rizikos veiksnius planavimą",
+"uncor1":"rizikos veiksnių poveikio vertinimą",
+"uncor2":"rizikos veiksnių klasifikavimą",
+"uncor3":"kiekybinį rizikos veiksnių vertinimą"
+},
+{
+"question":"Projekto stoviui įvertinti jūs sušaukėte projekto grupės susirinkimą ir išanalizavote projekto eigą, remdamiesi tuo metu turima atliktų darbų verte. Jūs pastebėjote, kad kai kurie darbai atsilieka nuo darbų grafiko ir kad organizacija kitiems darbams išleidžia daugiau lėšų nei buvo planuota. Koks turėtų būti šio susirinkimo rezultatas?",
+"cor":"prašymai daryti pakeitimus",
+"uncor1":"perdarymai",
+"uncor2":"gautos pamokos (lessons learned)",
+"uncor3":"patvirtinti korekciniai veiksmai"
+},
+{
+"question":"Programinės įrangos kūrimo projekto prastas planavimas buvo priežastis, dėl kurios projekto rezultatai neatitiko kliento specifikacijos. Tai buvo pastebėta tikrinimo metu, ir projekto grupė buvo priversta iš naujo atlikti kai kuriuos darbus. Tie perdarymai kompanijai atsiėjo apie 25 000 Lt. Kokia šių nuostolių dalis priskirtina prastam vadovavimui?",
+"cor":"21 250 Lt",
+"uncor1":"0 Lt",
+"uncor2":"3750 Lt",
+"uncor3":"12 500 Lt"
+},
+{
+"question":"Kuris iš žemiau pateiktų atsakymų dėl projekto yra teisingas, jei organizacija priversta daryti išlaidas dėl darbų grafiko žlugimo?",
+"cor":"CV yra neigiamas, o SV – teigiamas",
+"uncor1":"CV yra teigiamas, o SV – neigiamas",
+"uncor2":"CV ir SV yra neigiami",
+"uncor3":"išlaidų nuokrypis (CV – Cost Variance) ir darbų nuokrypis (SV – Schedule Variance) yra teigiami"
+},
+{
+"question":"Išlaidų kontrolės procesas projekto finansų valdyme apima visus žemiau išvardintus dalykus, išskyrus",
+"cor":"išlaidų plano (cost baseline) projekto eigai stebėti sudarymą",
+"uncor1":"akcininkų informavimą apie leistinus pakeitimus",
+"uncor2":"išlaidų stebėjimą jų nuokrypiams aptikti",
+"uncor3":"tinkamą kainų pasikeitimų registravimą"
+},
+{
+"question":"Jūs esate vadovas projekto, kurio planuota trukmė yra 12 mėnesių. Planuotas biudžetas yra 486 000 Lt arba 40 500 Lt kiekvienam mėnesiui. Mėnesio gale jūs įvertinote padėtį ir pastebėjote, kad yra atlikta 40% projekto darbų ir yra likę 90 000 Lt. Kokia yra tuo metu patikslinta viso projekto kaina (EAC – Estimate At Compltion)?",
+"cor":"991 836,73 Lt",
+"uncor1":"595 836,73 Lt",
+"uncor2":"396 000 Lt",
+"uncor3":"194 000 Lt"
+},
+{
+"question":"Projekto grupę valdyti yra sunkiau, kai",
+"cor":"grupės nariai asmeniškai yra atskaitingi ir funkcinio padalinio vadovui, ir projekto vadovui",
+"uncor1":"grupėje yra daugiau kaip penki nariai",
+"uncor2":"grupės nariai asmeniškai yra atskaitingi projekto vadovui",
+"uncor3":"grupės nariai asmeniškai yra atskaitingi funkcinio padalinio vadovui"
+},
+{
+"question":"Projekto eigos ataskaitų rengimo procese darbo laiko apskaitos sistema gali būti naudojama gauti ir dokumentuoti",
+"cor":"projekto darbams sugaištą laiką",
+"uncor1":"grupės narių valandinius atlyginimus",
+"uncor2":"projekto darbų anksčiausius ir vėliausius pradžios laikus",
+"uncor3":"prognozuojamus projekto užbaigimo laikus"
+},
+{
+"question":"Projekto šešto mėnesio pabaigoje jūs pastebėjote, kad atliktų darbų vertė (EV - Earned Value) yra 40 000 Lt, tikrosios išlaidos (AC – Actual Cost) yra 45 000 Lt, o planuotų darbų vertė (PV – Planned Value) buvo 38 000 Lt. Kaip apibūdinamas toks projekto stovis?",
+"cor":"projektas lenkia (viršija) darbų grafiką ir viršija biudžetą",
+"uncor1":"projektas atsilieka nuo darbų grafiko ir viršija biudžetą",
+"uncor2":"projektas atsilieka nuo darbų grafiko ir yra biudžeto ribose",
+"uncor3":"projektas lenkia (viršija) darbų grafiką ir yra biudžeto ribose"
+},
+{
+"question":"Jums reikia kontroliuoti pastebėtų klaidų (defektų) kiekį ir neištaisytų klaidų kiekį. Ką jūs darysite?",
+"cor":"atliksite tendencijų analizę",
+"uncor1":"naudosite kontrolinį sąrašą (checklist)",
+"uncor2":"darysite auditą",
+"uncor3":"planuosite eksperimentą"
+},
+{
+"question":"Visi žemiau išvardinti dalykai yra projekto apimties (scope) keitimo priežastys, išskyrus",
+"cor":"atsiradęs poreikis įvertinti projekto kainą iš apačios į viršų metodu",
+"uncor1":"Vyriausybės reglamentų pasikeitimai",
+"uncor2":"naujų technologijų, kurios nebuvo žinomos apibrėžiant pradinę projekto apimtį, atsiradimas",
+"uncor3":"nesėkmingos pastangos įtraukti reikiamą savybę į telekomunikacijų sistemos projektą (design)"
+},
+{
+"question":"Kokios informacijos neturėtų būti ataskaitose apie darbų eigą, rengiamose projekto darbų grafiko kontrolės procese?",
+"cor":"prognozės dėl nebaigtų darbų",
+"uncor1":"pradinės darbų pradžios datos",
+"uncor2":"procentinės atliktų darbų statistikos",
+"uncor3":"likusio laiko nebaigtiems darbams atlikti"
+},
+{
+"question":"Jūsų projekto nukrypimų analizė rodo, kad tikrosios išlaidos (AC – Actual Cost) skiriasi nuo planuotųjų. Jūs peržiūrėjote planavimo dokumentus ir pamatėte, kad pradiniai įverčiai buvo neteisingi. Tarkime, kad yra tokie skaičiai: AC = 34 000 Lt; padinė projekto kaina (BAC – Budget At Completion) BAC = 60 000 Lt; likusių darbų prognozuojama projekto kaina (ETC – Estimate To Completion) ETC = 38 000 Lt. Koks yra patikslintos projekto kainos nukrypimas nuo pradinės projekto kainos (VAC – Variance At Completion) procentais?",
+"cor":"-20%",
+"uncor1":"-6.67%",
+"uncor2":"6.67%",
+"uncor3":"20%"
+},
+{
+"question":"Keturiems mėnesiams planuota projekto išlaidų suma buvo 100 000 Lt. Tačiau iš tikro buvo išleista 120 000 Lt. Koks yra projekto stovis?",
+"cor":"trūksta informacijos išvadai padaryti",
+"uncor1":"viršija darbų grafiką",
+"uncor2":"yra sunkumų, nes viršytos planuotos išlaidos",
+"uncor3":"projektas bus užbaigtas neviršijus pradžioje numatyto biudžeto"
+},
+{
+"question":"Kuris iš žemiau išvardintų dalykų yra kokybės planavimo proceso rezultatas (output) ir kokybės kontrolės proceso įeities duomenys (input)?",
+"cor":"kokybės metrikos",
+"uncor1":"produkto aprašas",
+"uncor2":"projekto apimties aprašas",
+"uncor3":"kokybės taisyklės (quality policy)"
+},
+{
+"question":"Jūs savo organizacijoje vienu metu vadovaujate trims (A, B ir C) projektams. Projektų eigos nukrypimo analizė rodo, kad A projekto darbų nuokrypis SV (Schedule Variance) yra teigiamas, B projekto darbų indeksas SPI (Schedule Performance Index) yra mažesnis už 1, o C projekto darbų nuokrypis SV yra neigiamas. Kuriems iš šių projektų jūs imsitės korekcinių veiksmų, kad pasivytumėte projekto darbų grafiką?",
+"cor":"B ir C projektams",
+"uncor1":"A ir B projektams",
+"uncor2":"tik B projektui",
+"uncor3":"tik A projektui"
+},
+{
+"question":"Jūs esate etape, kurio metu siekiate gauti iš akcininkų projekto apimties formalų patvirtinimą. Koks būdas naudojamas šiame procese?",
+"cor":"inspektavimas (tikrinimas)",
+"uncor1":"dekompozicija",
+"uncor2":"produkto analizė",
+"uncor3":"darbų eigos matavimai"
+},
+{
+"question":"Visi žemiau išvardinti tikrinimo būdai yra naudojami kokybės kontrolės procese, išskyrus",
+"cor":"lyginamąją analizę (benchmarking)",
+"uncor1":"nuodugnias peržiūras",
+"uncor2":"apžvalgas",
+"uncor3":"auditą"
+},
+{
+"question":"Jūs esate vadovas projekto, kuriame kuriate užsakovo individualius poreikius atitinkančią programinę įrangą. Planuota projekto darbų grafiko trukmė yra šeši mėnesiai, o viso projekto planuota kaina BAC (Budget At Completion) yra 100 000 Lt. Praėjus keturiems mėnesiams jūs pastebėjote, kad realiai atliktų darbų vertė EV (Earned Value) yra 68 000 Lt, tam laikui planuotų atlikti darbų vertė PV (Planned Value) buvo 70 000 Lt, o tikrosios išlaidos AC (Actual Cost) yra 72 000 Lt. Jei jūs manote, kad ateityje panašių nukrypimų nuo plano nebebus, tai kokia bus viso projekto patikslinta kaina EAC (Estimate At Completion)?",
+"cor":"104 000 Lt",
+"uncor1":"102 00 Lt",
+"uncor2":"105 000 Lt",
+"uncor3":"turint šią informaciją, apskaičiuoti EAC neįmanoma"
+},
+{
+"question":"Pareto principas reiškia, kad",
+"cor":"80% problemų atsiranda dėl 20% priežasčių",
+"uncor1":"20% problemų atsiranda 80% priežasčių",
+"uncor2":"nuo 20% iki 80% problemų priežastis yra procesų keitimai",
+"uncor3":"80% procesų reikalauja, kad jų trukmė būtų keičiama mažiausiai 20%"
+},
+{
+"question":"Jūs manote, kad kai kurie projekto darbai nebus atlikti laiku ir bus pažeistas projekto darbų grafikas. Kokių veiksmų jūs imsitės paskutinėje eilėje?",
+"cor":"tikslinsite suplanuotą darbų grafiką (schedule baseline)",
+"uncor1":"atliksite nukrypimų analizę",
+"uncor2":"parengsite ir išsiuntinėsite darbų grafiko atnaujinimus akcininkams",
+"uncor3":"imsitės korekcinių veiksmų, kad darbų eiga atitiktų suplanuotą darbų grafiką"
+},
+{
+"question":"Kokius instrumentus ar metodus reikėtų naudoti integruotosios keitimų kontrolės procese?",
+"cor":"konfigūracijos valdymą",
+"uncor1":"darbų išdėstymo diagramas",
+"uncor2":"sprendimų medžio analizę",
+"uncor3":"parametrinį modeliavimą"
+},
+{
+"question":"Jūs esate didelio infrastruktūros plėtros projekto vadovas. Projekto vykdymo fazėje jūs supratote, kad projektui užbaigti reikės daugiau laiko, nei buvo numatyta. Koks būtų geriausias jūsų sprendimas?",
+"cor":"įvertinti projekto įvykdymo termino pažeidimo arba darbų vykdymo pagreitinimo pasekmes ir kreiptis į vadovybę dėl sprendimo priėmimo",
+"uncor1":"pažeisti projekto įvykdymo terminą arba pagreitinti darbų vykdymą",
+"uncor2":"atsisakyti kai kurių projekto apimtyje numatytų užduočių",
+"uncor3":"informuoti užsakovą, kad bus vėluojama užbaigti projektą"
+},
+{
+"question":"Jūsų užsakovas pareikalavo padaryti produkto specifikacijos pakeitimus, dėl ko trimis savaitėmis pailgės projekto darbų sekos kritinis kelias. Kokių veiksmų jūs, kaip projekto vadovas, imsitės?",
+"cor":"aptarsite pakeitimų poveikį su užsakovu",
+"uncor1":"pagreitinsite darbų vykdymą, kad kompensuotumėte tris savaites",
+"uncor2":"trimis savaitėmis pažeisite projekto darbų grafiką",
+"uncor3":"atsisakysite daryti pakeitimus"
+}
+]
+}
