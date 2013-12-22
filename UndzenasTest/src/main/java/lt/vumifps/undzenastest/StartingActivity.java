@@ -20,7 +20,7 @@ public class StartingActivity extends Activity implements OnQuizListItemClickLis
         setContentView(R.layout.activity_starting);
 
         TestLoader loader = new TestLoader(this);
-        quizzes = loader.loadAllQuizzes();
+        quizzes = loader.loadAllQuizzes(this.getResources());
 
         ListView quizzesListView = (ListView) this.findViewById(R.id.quizzesListView);
         QuizzesListViewAdapter quizzesListViewAdapter = new QuizzesListViewAdapter(this, quizzes);
