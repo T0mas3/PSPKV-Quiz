@@ -3,6 +3,7 @@ package lt.vumifps.undzenastest;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.util.TypedValue;
 import android.view.View;
 import android.view.Window;
@@ -17,7 +18,6 @@ import org.json.JSONObject;
 
 import java.util.Collections;
 import java.util.LinkedList;
-import android.os.Handler;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 
