@@ -1,6 +1,7 @@
 package lt.vumifps.undzenastest;
 
 import android.content.Context;
+import android.content.res.Resources;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -42,7 +43,7 @@ public class TestLoader {
     }
 
 
-    public LinkedList<Quiz> loadAllQuizzes(){
+    public LinkedList<Quiz> loadAllQuizzes(Resources resources){
 
         LinkedList<Quiz> quizzes = new LinkedList<Quiz>();
 
@@ -51,8 +52,9 @@ public class TestLoader {
 
             try {
                 int rid = field.getInt(field);
-
-                quizzes.add(this.loadSingleQuiz(rid));
+                if (resources.getResourceName(rid).contains("question")) {
+                    quizzes.add(this.loadSingleQuiz(rid));
+                }
 
             } catch (IllegalAccessException e) {
                 e.printStackTrace();
