@@ -7,18 +7,20 @@ import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.EditText;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
-public class ExamConfigActivity extends Activity implements View.OnClickListener {
+public class ExamConfigActivity extends Activity implements View.OnClickListener, CompoundButton.OnCheckedChangeListener {
 
     private static final int DEFAULT_NUM_QUESTIONS = 20;
     private Quiz filteredQuiz;
     private CheckBox shouldRandomizeCheckBox;
-    private EditText questionsCountTextView;
+    private EditText questionsCountEditText;
     private CheckBox showAllCheckBox;
+    private String oldQuestionsCountValue;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,8 +39,9 @@ public class ExamConfigActivity extends Activity implements View.OnClickListener
 
         shouldRandomizeCheckBox = (CheckBox) findViewById(R.id.randomizeCheckBox);
         showAllCheckBox = (CheckBox) findViewById(R.id.showAllCheckBox);
-        questionsCountTextView = (EditText) findViewById(R.id.questionsCountEditText);
-        questionsCountTextView.setText(String.valueOf(DEFAULT_NUM_QUESTIONS));
+        showAllCheckBox.setOnCheckedChangeListener(this);
+        questionsCountEditText = (EditText) findViewById(R.id.questionsCountEditText);
+        questionsCountEditText.setText(String.valueOf(DEFAULT_NUM_QUESTIONS));
 
 
         Button startExamButton = (Button) findViewById(R.id.startButton);
@@ -58,8 +61,8 @@ public class ExamConfigActivity extends Activity implements View.OnClickListener
         if (!showAllCheckBox.isChecked()) {
             int questionsCount = DEFAULT_NUM_QUESTIONS;
 
-            if (questionsCountTextView.getText() != null) {
-                String questionsCountString = questionsCountTextView.getText().toString();
+            if (questionsCountEditText.getText() != null) {
+                String questionsCountString = questionsCountEditText.getText().toString();
 
                 try {
                     questionsCount = Integer.parseInt(questionsCountString);
@@ -80,5 +83,23 @@ public class ExamConfigActivity extends Activity implements View.OnClickListener
         intent.putExtra(MainActivity.QUIZ_JSON_KEY, filteredQuiz.toJson().toString());
         intent.putExtra(MainActivity.SHOULD_RANDOMIZE_KEY, shouldRandomize);
         startActivity(intent);
+    }
+
+    @Override
+    public void onCheckedChanged(CompoundButton compoundButton, boolean checked) {
+
+        if (compoundButton == showAllCheckBox) {
+            if (checked) {
+                if (questionsCountEditText.getText() != null) {
+                    oldQuestionsCountValue = questionsCountEditText.getText().toString();
+                }
+
+                questionsCountEditText.setText(String.valueOf(filteredQuiz.getQuestions().size()));
+                questionsCountEditText.setEnabled(false);
+            } else {
+                questionsCountEditText.setEnabled(true);
+                questionsCountEditText.setText(oldQuestionsCountValue);
+            }
+        }
     }
 }
