@@ -48,6 +48,16 @@ public class Quiz {
         resourceId = -1;
     }
 
+
+    public void appendQuiz(Quiz quiz) {
+        LinkedList<Question> newQuestions = quiz.getQuestions();
+        if (newQuestions.size() > 0) {
+            for (Question newQuestion : newQuestions) {
+                this.questions.add(newQuestion);
+            }
+        }
+    }
+
     public JSONObject toJson(){
         JSONObject jsonObject = new JSONObject();
         try {

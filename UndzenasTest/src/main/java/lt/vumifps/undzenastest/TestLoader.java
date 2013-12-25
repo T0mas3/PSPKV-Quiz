@@ -82,4 +82,14 @@ public class TestLoader {
 
         return null;
     }
+
+    public Quiz getCombinedQuiz(LinkedList<Quiz> quizzes) {
+        Quiz combinedQuiz = new Quiz("Egzui");
+
+        for (Quiz quiz : quizzes) {
+            combinedQuiz.appendQuiz(quiz);
+        }
+
+        return combinedQuiz;
+    }
 }

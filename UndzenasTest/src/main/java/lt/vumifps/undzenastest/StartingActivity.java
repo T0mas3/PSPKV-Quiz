@@ -21,6 +21,7 @@ public class StartingActivity extends Activity implements OnQuizListItemClickLis
 
         TestLoader loader = new TestLoader(this);
         quizzes = loader.loadAllQuizzes(this.getResources());
+        quizzes.add(loader.getCombinedQuiz(quizzes));
 
         ListView quizzesListView = (ListView) this.findViewById(R.id.quizzesListView);
         QuizzesListViewAdapter quizzesListViewAdapter = new QuizzesListViewAdapter(this, quizzes);
