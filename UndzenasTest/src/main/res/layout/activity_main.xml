@@ -1,111 +1,116 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:id="@+id/parentLayout">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
 
-    <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="30dp"
-        android:paddingLeft="2dp"
-        android:paddingRight="2dp"
-        android:background="@android:color/black">
-
-        <Button
-            android:id="@+id/homeButton"
-            android:layout_height="25dp"
-            android:layout_width="25dp"
-            android:background="@drawable/home"
-            />
-
-    </RelativeLayout>
-
-
-    <ScrollView
-
-        android:id="@+id/mainScrollView"
-        android:layout_width="fill_parent"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
-        android:layout_height="0dp"
-        android:layout_weight="1">
-        <LinearLayout
-            android:orientation="vertical"
+        <RelativeLayout
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="30dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:background="@android:color/black">
 
-            <TextView
-                android:id="@+id/questionTextView"
-                android:layout_width="fill_parent"
-                android:textStyle="bold"
-                android:textSize="25dp"
-                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/homeButton"
+                android:layout_height="25dp"
+                android:layout_width="25dp"
+                android:background="@drawable/home"
+                />
 
-            <View
-                android:layout_width="fill_parent"
-                android:layout_height="2dp"
-                android:background="@android:color/black"
-                android:layout_marginBottom="5dp"
-                android:layout_marginTop="5dp">
-            </View>
+        </RelativeLayout>
 
+
+        <ScrollView
+
+            android:id="@+id/mainScrollView"
+            android:layout_width="fill_parent"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_height="0dp"
+            android:layout_weight="1">
             <LinearLayout
                 android:orientation="vertical"
-                android:id="@+id/answersLinearLayout"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content">
 
+                <TextView
+                    android:id="@+id/questionTextView"
+                    android:layout_width="fill_parent"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:layout_height="wrap_content"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:background="@android:color/black"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp">
+                </View>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@+id/answersLinearLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                </LinearLayout>
+
             </LinearLayout>
+        </ScrollView>
 
-        </LinearLayout>
-    </ScrollView>
-
-    <Button
-        android:id="@+id/nextButton"
-        android:layout_width="fill_parent"
-        android:layout_height="40dp"
-        android:text="@string/moar">
-    </Button>
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:text="@string/moar">
+        </Button>
 
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_height="20dp"
-        android:layout_width="fill_parent"
-        android:paddingLeft="2dp"
-        android:paddingRight="2dp"
-        android:gravity="center_vertical"
-        android:weightSum="1">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="20dp"
+            android:layout_width="fill_parent"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:gravity="center_vertical"
+            android:weightSum="1">
 
-        <ProgressBar
-            android:id="@+id/progressBar"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="fill_parent"
-            style="?android:attr/progressBarStyleHorizontal"
-            android:layout_marginBottom="2dp"
-            android:layout_gravity="center_vertical"
-            android:progress="1" />
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_marginBottom="2dp"
+                android:layout_gravity="center_vertical"
+                android:progress="1" />
 
-        <TextView
-            android:id="@+id/scoreTextView"
-            android:layout_height="fill_parent"
-            android:layout_width="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:layout_marginLeft="2dp"
-            android:layout_marginBottom="2dp"
-            android:textColor="@color/sea_green"
-            android:textAlignment="center"/>
+            <TextView
+                android:id="@+id/scoreTextView"
+                android:layout_height="fill_parent"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="2dp"
+                android:layout_marginBottom="2dp"
+                android:textColor="@color/sea_green"
+                android:textAlignment="center"/>
 
-        <TextView
-            android:id="@+id/progressTextView"
-            android:layout_height="fill_parent"
-            android:layout_width="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:layout_marginLeft="2dp"
-            android:layout_marginBottom="2dp"
-            android:textAlignment="center"/>
+            <TextView
+                android:id="@+id/progressTextView"
+                android:layout_height="fill_parent"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="2dp"
+                android:layout_marginBottom="2dp"
+                android:textAlignment="center"/>
         </LinearLayout>
 
-</LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
