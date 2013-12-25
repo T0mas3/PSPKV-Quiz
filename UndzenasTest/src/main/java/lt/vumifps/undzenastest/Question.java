@@ -5,9 +5,6 @@ import org.json.JSONObject;
 
 import java.util.LinkedList;
 
-/**
- * Created by tomas on 9/29/13.
- */
 public class Question {
 
     String question;

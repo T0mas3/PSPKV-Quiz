@@ -1,8 +1,5 @@
 package lt.vumifps.undzenastest;
 
-/**
- * Created by tomas on 9/29/13.
- */
 public class Answer {
 
     String text;
