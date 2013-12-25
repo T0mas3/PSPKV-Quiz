@@ -51,7 +51,6 @@ public class StartingActivity extends Activity implements
         intent.putExtra(MainActivity.QUIZ_JSON_KEY, quizToLoad.toJson().toString());
         intent.putExtra(MainActivity.SHOULD_RANDOMIZE_KEY, shouldRandomize);
         startActivity(intent);
-        finish();
     }
 
     @Override
