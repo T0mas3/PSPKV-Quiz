@@ -34,8 +34,14 @@ public class StartingActivity extends Activity implements OnQuizListItemClickLis
     public void onQuizClick(int index, int resId, boolean shouldRandomize) {
         Intent intent = new Intent(this, MainActivity.class);
 
+        Quiz quizToLoad = quizzes.get(index);
+
+        if (shouldRandomize) {
+            quizToLoad.shuffleQuestions();
+        }
+
         intent.putExtra(MainActivity.JSON_RES_ID_KEY, resId);
-        intent.putExtra(MainActivity.QUIZ_JSON_KEY, quizzes.get(index).toJson().toString());
+        intent.putExtra(MainActivity.QUIZ_JSON_KEY, quizToLoad.toJson().toString());
         intent.putExtra(MainActivity.SHOULD_RANDOMIZE_KEY, shouldRandomize);
         startActivity(intent);
         finish();

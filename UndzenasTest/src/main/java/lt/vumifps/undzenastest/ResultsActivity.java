@@ -16,9 +16,9 @@ public class ResultsActivity extends Activity {
     public static final String RESULTS_KEY = "results";
     public static final String WRONGLY_ANSWERED_QUESTIONS_JSON_KEY = "wrongly_answered_questions_json";
     public static final String WAS_RANDOMIZED_KEY = "was_randomized";
-    private String wronglyAnsweredJson;
     private boolean wasRandomized;
     private Button quizForUnansweredButton;
+    private Quiz wronglyAnsweredQuestionsQuiz;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,15 +31,16 @@ public class ResultsActivity extends Activity {
         Intent intent = getIntent();
         String result = intent.getStringExtra(ResultsActivity.RESULTS_KEY);
 
-        wronglyAnsweredJson = intent.getStringExtra(ResultsActivity.WRONGLY_ANSWERED_QUESTIONS_JSON_KEY);
+        String wronglyAnsweredJson = intent.getStringExtra(ResultsActivity.WRONGLY_ANSWERED_QUESTIONS_JSON_KEY);
         wasRandomized = intent.getBooleanExtra(ResultsActivity.WAS_RANDOMIZED_KEY, false);
         TextView textView = (TextView) findViewById(R.id.resultText);
         textView.setTextSize(20);
         textView.setText(result);
 
         try {
-            Quiz quiz = new Quiz(new JSONObject(wronglyAnsweredJson), -1);
-            if (quiz.getNumberOfquestions() == 0){
+
+            wronglyAnsweredQuestionsQuiz = new Quiz(new JSONObject(wronglyAnsweredJson), -1);
+            if (wronglyAnsweredQuestionsQuiz.getNumberOfquestions() == 0){
                 quizForUnansweredButton.setVisibility(View.GONE);
             }
         } catch (JSONException e) {
@@ -51,12 +52,23 @@ public class ResultsActivity extends Activity {
     public void quizForUnanswered(View view){
         Intent intent = new Intent(this, MainActivity.class);
 
-        intent.putExtra(MainActivity.QUIZ_JSON_KEY, wronglyAnsweredJson);
-        intent.putExtra(MainActivity.SHOULD_RANDOMIZE_KEY, wasRandomized);
+        if (wronglyAnsweredQuestionsQuiz != null)
+        {
+            if (wasRandomized) {
+                wronglyAnsweredQuestionsQuiz.shuffleQuestions();
+            }
 
-        startActivity(intent);
+            intent.putExtra(MainActivity.QUIZ_JSON_KEY,
+                    wronglyAnsweredQuestionsQuiz.toJson().toString()
+            );
+
+            intent.putExtra(MainActivity.SHOULD_RANDOMIZE_KEY, wasRandomized);
+
+            startActivity(intent);
+
+        }
+
         finish();
-
     }
 
     public void restartQuiz(View view) {

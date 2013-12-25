@@ -78,9 +78,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
             Button nextButton = (Button) this.findViewById(R.id.nextButton);
             nextButton.setOnClickListener(this);
-            if (shouldRandomize) {
-                quiz.shuffleQuestions();
-            }
 
             showQuestion(quiz.getQuestion(0));
 
@@ -178,12 +175,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
         currentIndex++;
 
         if (currentIndex+1 > quiz.getNumberOfquestions()) {
-            if (shouldRandomize) {
-                quiz.shuffleQuestions();
-            }
 
             currentIndex = 0;
-            //Toast.makeText(this, "Fsio, rodau iš naujo random tvarka", Toast.LENGTH_LONG).show();
             progressBar.setProgress(0);
             Intent resultsIntent = new Intent(this, ResultsActivity.class);
             String results = correctCount + "/" + numberOfQuestions;
