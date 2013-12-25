@@ -10,5 +10,8 @@
     <string name="shouldRandomize">Atsitiktine tvarka?</string>
     <string name="wrongly_answered">Blogai atsakyti</string>
     <string name="quizforUnanswered">Pakartoti su klaidingais</string>
+    <string name="questions_count">Klausimų skaičius:</string>
+    <string name="start_exam">Pradėti Egzą</string>
+    <string name="showAll">Rodyti visus?</string>
 
 </resources>

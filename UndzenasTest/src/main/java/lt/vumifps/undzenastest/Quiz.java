@@ -1,5 +1,7 @@
 package lt.vumifps.undzenastest;
 
+import android.widget.LinearLayout;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -55,6 +57,18 @@ public class Quiz {
             for (Question newQuestion : newQuestions) {
                 this.questions.add(newQuestion);
             }
+        }
+    }
+
+    public void truncateTo(int count) {
+        if ((count < this.questions.size()) && (count >= 0)) {
+            LinkedList<Question> newQuestions = new LinkedList<Question>();
+
+            for (int i = 0; i < count; i++) {
+                newQuestions.add(this.questions.get(i));
+            }
+
+            this.questions = newQuestions;
         }
     }
 

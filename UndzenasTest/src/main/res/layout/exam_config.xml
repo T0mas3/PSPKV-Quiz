@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@+id/questionsCountWrapper"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/questions_count"/>
+        <EditText
+            android:id="@+id/questionsCountEditText"
+            android:layout_width="fill_parent"
+            android:numeric="integer"
+            android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/showAllCheckBox"
+        android:layout_below="@+id/questionsCountWrapper"
+        android:text="@string/showAll"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/randomizeCheckBox"
+        android:layout_below="@+id/showAllCheckBox"
+        android:text="@string/shouldRandomize"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:layout_width="wrap_content" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/randomizeCheckBox"
+        android:layout_marginTop="10dp"
+        android:text="@string/start_exam"/>
+</RelativeLayout>

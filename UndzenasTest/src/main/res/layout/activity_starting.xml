@@ -7,10 +7,17 @@
 
     <ListView
         android:id="@+id/quizzesListView"
-        android:layout_height="wrap_content"
-        android:layout_width="fill_parent">
+        android:layout_height="0px"
+        android:layout_width="fill_parent"
+        android:layout_weight="1">
     </ListView>
 
+    <Button
+        android:id="@+id/examButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Egzas">
 
+    </Button>
 
 </LinearLayout>
