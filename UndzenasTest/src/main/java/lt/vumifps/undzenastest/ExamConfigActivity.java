@@ -16,6 +16,10 @@ import org.json.JSONObject;
 public class ExamConfigActivity extends Activity implements View.OnClickListener, CompoundButton.OnCheckedChangeListener {
 
     private static final int DEFAULT_NUM_QUESTIONS = 20;
+    private static final String EXAM_QUESTIONS_COUNT_KEY = "exam_questions_count";
+
+    private SharedPreferencesHelper sharedPreferencesHelper;
+
     private Quiz filteredQuiz;
     private CheckBox shouldRandomizeCheckBox;
     private EditText questionsCountEditText;
@@ -27,6 +31,8 @@ public class ExamConfigActivity extends Activity implements View.OnClickListener
         super.onCreate(savedInstanceState);
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.exam_config);
+
+        sharedPreferencesHelper = new SharedPreferencesHelper(this);
 
         Intent intent = getIntent();
         String quizJsonString= intent.getStringExtra(MainActivity.QUIZ_JSON_KEY);
@@ -43,6 +49,10 @@ public class ExamConfigActivity extends Activity implements View.OnClickListener
         questionsCountEditText = (EditText) findViewById(R.id.questionsCountEditText);
         questionsCountEditText.setText(String.valueOf(DEFAULT_NUM_QUESTIONS));
 
+        String savedQuestionsCount = sharedPreferencesHelper.loadString(EXAM_QUESTIONS_COUNT_KEY);
+        if (savedQuestionsCount.length() > 0) {
+            questionsCountEditText.setText(savedQuestionsCount);
+        }
 
         Button startExamButton = (Button) findViewById(R.id.startButton);
         startExamButton.setOnClickListener(this);
@@ -63,6 +73,8 @@ public class ExamConfigActivity extends Activity implements View.OnClickListener
 
             if (questionsCountEditText.getText() != null) {
                 String questionsCountString = questionsCountEditText.getText().toString();
+
+                sharedPreferencesHelper.saveString(EXAM_QUESTIONS_COUNT_KEY, questionsCountString);
 
                 try {
                     questionsCount = Integer.parseInt(questionsCountString);
