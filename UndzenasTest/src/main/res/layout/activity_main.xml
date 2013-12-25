@@ -23,6 +23,49 @@
                 android:background="@drawable/home"
                 />
 
+            <TextView
+                android:id="@+id/correctlyAnsweredLabelTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="14dp"
+                android:textSize="12dp"
+                android:layout_toRightOf="@id/homeButton"
+                android:layout_marginLeft="20dp"
+                android:text="@string/correctly_answered"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:id="@+id/correctlyAnsweredNumberTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="14dp"
+                android:textSize="12dp"
+                android:layout_toRightOf="@id/correctlyAnsweredLabelTextView"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:id="@+id/incorrectlyAnsweredLabelTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="14dp"
+                android:textSize="12dp"
+                android:layout_toRightOf="@id/homeButton"
+                android:layout_below="@id/correctlyAnsweredLabelTextView"
+                android:layout_marginLeft="20dp"
+                android:text="@string/incorrectly_answered"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:id="@+id/incorrectlyAnsweredNumberTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="14dp"
+                android:textSize="12dp"
+                android:layout_toRightOf="@id/incorrectlyAnsweredLabelTextView"
+                android:layout_below="@+id/correctlyAnsweredLabelTextView"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/white"
+                />
+
         </RelativeLayout>
 
 

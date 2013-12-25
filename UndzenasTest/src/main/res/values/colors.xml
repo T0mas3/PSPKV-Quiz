@@ -3,4 +3,5 @@
     <color name="sea_green">#2E8B57</color>
     <color name="answer_background">#E0E0E0</color>
     <color name="answer_on_press">#9B9B9B</color>
+    <color name="white">#FFFFFF</color>
 </resources>

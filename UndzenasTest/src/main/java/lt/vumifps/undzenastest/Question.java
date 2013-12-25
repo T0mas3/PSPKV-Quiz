@@ -64,4 +64,8 @@ public class Question {
 
         return jsonObject;
     }
+
+    public int getCustomUniqueId() {
+        return this.question.toLowerCase().replaceAll("\\s+", "").hashCode();
+    }
 }

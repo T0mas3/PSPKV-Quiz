@@ -24,6 +24,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
     public static final String SHOULD_RANDOMIZE_KEY = "should_randomize";
     public static final String QUIZ_JSON_KEY = "quiz_json";
     private boolean shouldRandomize;
+    private TextView statsCorrectCountTextView;
+    private TextView statsIncorrectCountTextView;
 
     private enum QuestionState {Unanswered, Correct, Wrong}
 
@@ -33,7 +35,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
     LinearLayout answerLayout;
     ScrollView mainScrollView;
     ProgressBar progressBar;
+
     private TextView progressTextView, scoreTextView;
+
+    StatsManager statsManager;
 
     int currentIndex;
     int numberOfQuestions;
@@ -46,6 +51,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main);
+
+        statsManager = new StatsManager(this);
 
         answeredWrong = new Quiz(getString(R.string.wrongly_answered));
 
@@ -66,10 +73,12 @@ public class MainActivity extends Activity implements View.OnClickListener {
             progressBar = (ProgressBar) findViewById(R.id.progressBar);
             progressBar.setMax(numberOfQuestions);
             progressTextView = (TextView) findViewById(R.id.progressTextView);
-            progressTextView.setText(getProgressText(numberOfQuestions, currentIndex+1));
-
             scoreTextView = (TextView) findViewById(R.id.scoreTextView);
-            scoreTextView.setText(getcurrentScoreText(correctCount));
+
+            statsCorrectCountTextView = (TextView) findViewById(R.id.correctlyAnsweredNumberTextView);
+            statsIncorrectCountTextView = (TextView) findViewById(R.id.incorrectlyAnsweredNumberTextView);
+
+            updateScoreViews();
 
             answerLayout = (LinearLayout) this.findViewById(R.id.answersLinearLayout);
             mainScrollView = (ScrollView) this.findViewById(R.id.mainScrollView);
@@ -139,22 +148,28 @@ public class MainActivity extends Activity implements View.OnClickListener {
         if (view instanceof AnswerTextView){
             AnswerTextView answerTextView = (AnswerTextView) view;
             if (this.questionState == QuestionState.Unanswered){
+                Question question = answerTextView.getAnswer().getParent();
                 if (answerTextView.isCorrect()){
                     this.questionState = QuestionState.Correct;
                     correctCount++;
-                    scoreTextView.setText(getcurrentScoreText(correctCount));
+                    statsManager.increaseCorrect(question);
                 } else {
                     this.questionState = QuestionState.Wrong;
-                    answeredWrong.addQuestion(answerTextView.getAnswer().getParent());
+                    answeredWrong.addQuestion(question);
+                    statsManager.increaseIncorrect(question);
                 }
             }
         }
+
+        updateScoreViews();
 
         switch (view.getId()){
             case R.id.nextButton:
 
                 if (this.questionState == QuestionState.Unanswered) {
-                    answeredWrong.addQuestion(quiz.getQuestion(currentIndex));
+                    Question question = quiz.getQuestion(currentIndex);
+                    answeredWrong.addQuestion(question);
+                    statsManager.increaseIncorrect(question);
                 }
 
                 this.showNextQuestion();
@@ -188,7 +203,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         } else {
             showQuestion(quiz.getQuestion(currentIndex));
 
-            progressTextView.setText(getProgressText(numberOfQuestions, currentIndex+1));
+            updateScoreViews();
         }
     }
 
@@ -196,7 +211,27 @@ public class MainActivity extends Activity implements View.OnClickListener {
         return current + " / " + total;
     }
 
-    private String getcurrentScoreText(int current) {
+    private String getCurrentScoreText(int current) {
         return "[" + current + "]";
+    }
+
+    private void updateScoreViews() {
+        scoreTextView.setText(getCurrentScoreText(correctCount));
+        progressTextView.setText(getProgressText(numberOfQuestions, currentIndex+1));
+
+        Question currentQuestion = quiz.getQuestion(currentIndex);
+
+        QuestionStatistics questionStatistics = statsManager.loadStats(
+                currentQuestion.getCustomUniqueId()
+        );
+
+        statsCorrectCountTextView.setText(
+                String.valueOf(questionStatistics.getAnsweredCorrectly())
+        );
+
+        statsIncorrectCountTextView.setText(
+                String.valueOf(questionStatistics.getAnsweredIncorrectly())
+        );
+
     }
 }

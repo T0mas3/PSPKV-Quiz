@@ -13,5 +13,7 @@
     <string name="questions_count">Klausimų skaičius:</string>
     <string name="start_exam">Pradėti Egzą</string>
     <string name="showAll">Rodyti visus?</string>
+    <string name="correctly_answered">Tesingai atsakyta:</string>
+    <string name="incorrectly_answered">Neteisingai atsakyta:</string>
 
 </resources>
