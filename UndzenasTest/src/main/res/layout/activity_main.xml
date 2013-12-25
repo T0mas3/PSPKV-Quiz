@@ -112,7 +112,7 @@
             android:id="@+id/nextButton"
             android:layout_width="fill_parent"
             android:layout_height="40dp"
-            android:text="@string/moar">
+            android:text="@string/next">
         </Button>
 
 

@@ -4,15 +4,15 @@
     <string name="app_name">UndzenasTest</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-    <string name="moar">Kitas</string>
+    <string name="next">Kitas</string>
     <string name="again">Iš naujo</string>
-    <string name="Result">Surinkta</string><string name="Testas1">Testas nr. 1</string><string name="Testas2">Testas nr. 2</string>
-    <string name="shouldRandomize">Atsitiktine tvarka?</string>
+    <string name="result">Surinkta</string><string name="Testas1">Testas nr. 1</string><string name="Testas2">Testas nr. 2</string>
+    <string name="should_randomize">Atsitiktine tvarka?</string>
     <string name="wrongly_answered">Blogai atsakyti</string>
-    <string name="quizforUnanswered">Pakartoti su klaidingais</string>
+    <string name="quiz_for_unanswered">Pakartoti su klaidingais</string>
     <string name="questions_count">Klausimų skaičius:</string>
     <string name="start_exam">Pradėti Egzą</string>
-    <string name="showAll">Rodyti visus?</string>
+    <string name="show_all">Rodyti visus?</string>
     <string name="correctly_answered">Tesingai atsakyta:</string>
     <string name="incorrectly_answered">Neteisingai atsakyta:</string>
 
