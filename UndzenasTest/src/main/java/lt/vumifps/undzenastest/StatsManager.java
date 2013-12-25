@@ -8,31 +8,21 @@ import org.json.JSONObject;
 
 public class StatsManager {
 
-    private static final String SHARED_PREFERENCES_KEY = "PSPKV-Quiz";
     private static final String PREFIX = "question:";
 
-
-    private Context context;
+    private SharedPreferencesHelper sharedPreferencesHelper;
 
     public StatsManager(Context context) {
 
-        this.context = context;
-
+        this.sharedPreferencesHelper = new SharedPreferencesHelper(context);
     }
 
     public QuestionStatistics loadStats(int questionUniqueId) {
 
-        SharedPreferences sharedPreferences = this.context.getSharedPreferences(
-                SHARED_PREFERENCES_KEY,
-                Context.MODE_PRIVATE
-        );
-
         try {
-
-            String jsonString = sharedPreferences.getString(getKeyForQuestion(questionUniqueId), "");
+            String jsonString = sharedPreferencesHelper.loadString(getKeyForQuestion(questionUniqueId));
 
             return new QuestionStatistics(new JSONObject(jsonString));
-
         } catch (JSONException e) {
             e.printStackTrace();
         }
@@ -43,20 +33,11 @@ public class StatsManager {
 
     public void saveStats(QuestionStatistics questionStatistics) {
 
-        SharedPreferences sharedPreferences = this.context.getSharedPreferences(
-                SHARED_PREFERENCES_KEY,
-                Context.MODE_PRIVATE
-        );
-
         try {
-            SharedPreferences.Editor editor = sharedPreferences.edit();
-
-            editor.putString(
+            sharedPreferencesHelper.saveString(
                     getKeyForQuestion(questionStatistics.getQuestionUniqueId()),
                     questionStatistics.toJson().toString()
             );
-
-            editor.commit();
         } catch (JSONException e) {
             e.printStackTrace();
         }
