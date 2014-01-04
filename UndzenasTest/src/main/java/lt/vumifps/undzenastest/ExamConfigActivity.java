@@ -65,7 +65,7 @@ public class ExamConfigActivity extends Activity implements View.OnClickListener
     public void onClick(View view) {
 
         boolean shouldRandomize = shouldRandomizeCheckBox.isChecked();
-        boolean shouldAskWorst = askWorstCheckBox.isChecked();
+        boolean shouldAskWorst = askWorstCheckBox.isChecked() && askWorstCheckBox.isEnabled();
 
         if (shouldAskWorst) {
             StatsManager statsManager = new StatsManager(this);
@@ -120,9 +120,13 @@ public class ExamConfigActivity extends Activity implements View.OnClickListener
 
                 questionsCountEditText.setText(String.valueOf(filteredQuiz.getQuestions().size()));
                 questionsCountEditText.setEnabled(false);
+
+                askWorstCheckBox.setEnabled(false);
             } else {
                 questionsCountEditText.setEnabled(true);
                 questionsCountEditText.setText(oldQuestionsCountValue);
+
+                askWorstCheckBox.setEnabled(true);
             }
         }
     }
