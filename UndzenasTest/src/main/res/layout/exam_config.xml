@@ -35,11 +35,19 @@
         android:checked="true"
         android:layout_width="wrap_content" />
 
+    <CheckBox
+        android:id="@+id/askWorstCheckBox"
+        android:layout_below="@+id/randomizeCheckBox"
+        android:text="@string/should_ask_worst"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:layout_width="wrap_content" />
+
     <Button
         android:id="@+id/startButton"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/randomizeCheckBox"
+        android:layout_below="@id/askWorstCheckBox"
         android:layout_marginTop="10dp"
         android:text="@string/start_exam"/>
 </RelativeLayout>

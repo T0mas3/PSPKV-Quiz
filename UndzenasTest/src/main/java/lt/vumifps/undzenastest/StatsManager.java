@@ -2,6 +2,7 @@ package lt.vumifps.undzenastest;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.util.Log;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -19,10 +20,14 @@ public class StatsManager {
 
     public QuestionStatistics loadStats(int questionUniqueId) {
 
+        String jsonString = sharedPreferencesHelper.loadString(getKeyForQuestion(questionUniqueId));
         try {
-            String jsonString = sharedPreferencesHelper.loadString(getKeyForQuestion(questionUniqueId));
+            if (jsonString.length() < 1) {
+                return new QuestionStatistics(questionUniqueId);
+            } else {
+                return new QuestionStatistics(new JSONObject(jsonString));
+            }
 
-            return new QuestionStatistics(new JSONObject(jsonString));
         } catch (JSONException e) {
             e.printStackTrace();
         }

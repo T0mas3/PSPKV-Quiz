@@ -25,6 +25,7 @@ public class ExamConfigActivity extends Activity implements View.OnClickListener
     private EditText questionsCountEditText;
     private CheckBox showAllCheckBox;
     private String oldQuestionsCountValue;
+    private CheckBox askWorstCheckBox;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +45,7 @@ public class ExamConfigActivity extends Activity implements View.OnClickListener
         }
 
         shouldRandomizeCheckBox = (CheckBox) findViewById(R.id.randomizeCheckBox);
+        askWorstCheckBox = (CheckBox) findViewById(R.id.askWorstCheckBox);
         showAllCheckBox = (CheckBox) findViewById(R.id.showAllCheckBox);
         showAllCheckBox.setOnCheckedChangeListener(this);
         questionsCountEditText = (EditText) findViewById(R.id.questionsCountEditText);
@@ -63,8 +65,14 @@ public class ExamConfigActivity extends Activity implements View.OnClickListener
     public void onClick(View view) {
 
         boolean shouldRandomize = shouldRandomizeCheckBox.isChecked();
+        boolean shouldAskWorst = askWorstCheckBox.isChecked();
 
-        if (shouldRandomize) {
+        if (shouldAskWorst) {
+            StatsManager statsManager = new StatsManager(this);
+            filteredQuiz.moveWorstAnsweredQuestionsToBeginning(statsManager);
+        }
+
+        if (shouldRandomize && !shouldAskWorst) {
             filteredQuiz.shuffleQuestions();
         }
 
@@ -86,6 +94,10 @@ public class ExamConfigActivity extends Activity implements View.OnClickListener
             if ((questionsCount < filteredQuiz.getQuestions().size()) && (questionsCount > 0)) {
                 filteredQuiz.truncateTo(questionsCount);
             }
+        }
+
+        if (shouldRandomize && shouldAskWorst) {
+            filteredQuiz.shuffleQuestions();
         }
 
 

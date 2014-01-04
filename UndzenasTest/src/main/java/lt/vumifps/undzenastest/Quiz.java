@@ -103,6 +103,12 @@ public class Quiz {
         Collections.shuffle(this.questions);
     }
 
+    public void moveWorstAnsweredQuestionsToBeginning(StatsManager statsManager) {
+        BadAnswerComparator badAnswerComparator = new BadAnswerComparator(statsManager);
+
+        Collections.sort(this.questions, badAnswerComparator);
+    }
+
     public String getTitle() {
         return title;
     }
