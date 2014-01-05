@@ -89,6 +89,18 @@
                     android:textSize="25dp"
                     android:layout_height="wrap_content"/>
 
+                <HorizontalScrollView
+                    android:id="@+id/questionImageScrollView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <ImageView
+                        android:id="@+id/questionImage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </HorizontalScrollView>
+
+
                 <View
                     android:layout_width="fill_parent"
                     android:layout_height="2dp"

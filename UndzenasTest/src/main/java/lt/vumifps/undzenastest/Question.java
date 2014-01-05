@@ -10,6 +10,7 @@ public class Question {
     String question;
     LinkedList<Answer> answers;
 
+    String imageName;
 
     public Question(JSONObject jsonObject) throws JSONException {
 
@@ -20,6 +21,10 @@ public class Question {
         answers.add(new Answer(jsonObject.getString("uncor1"), false, this));
         answers.add(new Answer(jsonObject.getString("uncor2"), false, this));
         answers.add(new Answer(jsonObject.getString("uncor3"), false, this));
+
+        if (jsonObject.has("image")) {
+            imageName = jsonObject.getString("image");
+        }
 
     }
 
@@ -45,6 +50,11 @@ public class Question {
         JSONObject jsonObject = new JSONObject();
         try {
             jsonObject.put("question", this.question);
+
+            if (this.imageName != null) {
+                jsonObject.put("image", this.imageName);
+            }
+
             int i = 1;
             for (Answer answer : answers) {
 
@@ -60,6 +70,14 @@ public class Question {
         }
 
         return jsonObject;
+    }
+
+    public String getImageName() {
+        return imageName;
+    }
+
+    public void setImageName(String imageName) {
+        this.imageName = imageName;
     }
 
     public int getCustomUniqueId() {

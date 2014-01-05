@@ -4,10 +4,13 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
+import android.widget.HorizontalScrollView;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.ScrollView;
@@ -26,6 +29,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private boolean shouldRandomize;
     private TextView statsCorrectCountTextView;
     private TextView statsIncorrectCountTextView;
+    private HorizontalScrollView imageScrollView;
+    private ImageView questionImage;
 
     private enum QuestionState {Unanswered, Correct, Wrong}
 
@@ -88,6 +93,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
             Button nextButton = (Button) this.findViewById(R.id.nextButton);
             nextButton.setOnClickListener(this);
 
+            imageScrollView = (HorizontalScrollView) findViewById(R.id.questionImageScrollView);
+            questionImage = (ImageView) findViewById(R.id.questionImage);
+
             showQuestion(quiz.getQuestion(0));
 
 
@@ -109,6 +117,20 @@ public class MainActivity extends Activity implements View.OnClickListener {
         for (Answer answer : answers) {
             AnswerTextView answerTextView = getAnswerTextView(answer);
             answerLayout.addView(answerTextView);
+        }
+
+
+        if (question.getImageName() != null) {
+            imageScrollView.setVisibility(View.VISIBLE);
+            try {
+                int id = getResources().getIdentifier(question.getImageName(), "drawable", getPackageName());
+                questionImage.setImageResource(id);
+            } catch (Exception ex){
+                imageScrollView.setVisibility(View.GONE);
+            }
+
+        } else {
+            imageScrollView.setVisibility(View.GONE);
         }
 
         Handler handler = new Handler();

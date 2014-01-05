@@ -184,6 +184,14 @@
       "uncor3": "rizikos veiksnys (priežastis)"
       },
       {
+      "question": "Organizacijos  vadovybė  paprašė  jūsų  įvertinti  keletą  potencialių  projektų  ir rekomenduoti  vieną  iš  jų  vykdyti.  Naudodami  vertinimo  balais  metodą,  imant  balų reikšmes nuo 1 iki 10, jūs parengėte lentelę. Kurį projektą jūs rekomenduosite:",
+      "image": "q_missing",
+      "cor": "projektas C",
+      "uncor1": "projektas A",
+      "uncor2": "projektas B",
+      "uncor3": "projektas D"
+      },
+      {
       "question": "Jūs dirbate projekto vadovu didelėje organizacijoje. Vadovybė neseniai sužinojo apie naujus pasaulinio pozicionavimo sistemos atradimus, kas įgalintų ir jūsų organizaciją teikti papildomas paslaugas klientams. Jūsų paprašė vadovauti naujų paslaugų kūrimo projektui, ir organizacijos vadovybė nori pristatyti naują paslaugą prekybos parodoje kitų metų pirmąjį ketvirtį. Kokia šio projekto inicijavimo priežastis",
       "cor": "technologijų pažanga",
       "uncor1": "socialiniai poreikiai",
