@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
+import android.widget.Button;
 import android.widget.ListView;
 
 import java.util.LinkedList;
@@ -16,6 +17,8 @@ public class StartingActivity extends Activity implements
 
     private LinkedList<Quiz> quizzes;
     private TestLoader loader;
+    private Button examButton;
+    private Button clearStatsButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,8 +35,11 @@ public class StartingActivity extends Activity implements
         quizzesListViewAdapter.setOnQuizListItemClickListener(this);
         quizzesListView.setAdapter(quizzesListViewAdapter);
 
-        View examButton = findViewById(R.id.examButton);
+
+        examButton = (Button) findViewById(R.id.examButton);
         examButton.setOnClickListener(this);
+        clearStatsButton = (Button) findViewById(R.id.clearStats);
+        clearStatsButton.setOnClickListener(this);
     }
 
 
@@ -55,13 +61,20 @@ public class StartingActivity extends Activity implements
 
     @Override
     public void onClick(View view) {
-        Intent intent = new Intent(this, ExamConfigActivity.class);
 
-        Quiz combinedQuiz = loader.getCombinedQuiz(quizzes);
+        if (view == examButton) {
+            Intent intent = new Intent(this, ExamConfigActivity.class);
 
-        intent.putExtra(MainActivity.JSON_RES_ID_KEY, -1);
-        intent.putExtra(MainActivity.QUIZ_JSON_KEY, combinedQuiz.toJson().toString());
-        startActivity(intent);
+            Quiz combinedQuiz = loader.getCombinedQuiz(quizzes);
+
+            intent.putExtra(MainActivity.JSON_RES_ID_KEY, -1);
+            intent.putExtra(MainActivity.QUIZ_JSON_KEY, combinedQuiz.toJson().toString());
+            startActivity(intent);
+        } else if (view == clearStatsButton) {
+            StatsManager statsManager = new StatsManager(this);
+            statsManager.clearStats();
+        }
+
     }
 }
 

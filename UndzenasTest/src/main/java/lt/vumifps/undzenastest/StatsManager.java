@@ -71,4 +71,7 @@ public class StatsManager {
         return PREFIX + String.valueOf(questionId);
     }
 
+    public void clearStats() {
+        sharedPreferencesHelper.clearAll();
+    }
 }
