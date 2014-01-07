@@ -191,7 +191,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 if (this.questionState == QuestionState.Unanswered) {
                     Question question = quiz.getQuestion(currentIndex);
                     answeredWrong.addQuestion(question);
-                    statsManager.increaseIncorrect(question);
                 }
 
                 this.showNextQuestion();
