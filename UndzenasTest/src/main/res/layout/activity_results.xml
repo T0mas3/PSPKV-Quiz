@@ -19,12 +19,21 @@
         android:gravity="center" />
 
     <TextView
+        android:id="@+id/resultText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/resultMessageTextView"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_centerHorizontal="true"
-        android:id="@+id/resultText" />
+         />
+
+    <TextView
+        android:id="@+id/durationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resultText"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:id="@+id/restartButton"

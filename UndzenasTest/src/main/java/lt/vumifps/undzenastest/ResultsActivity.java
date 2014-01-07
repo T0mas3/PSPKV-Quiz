@@ -16,6 +16,7 @@ public class ResultsActivity extends Activity {
     public static final String RESULTS_KEY = "results";
     public static final String WRONGLY_ANSWERED_QUESTIONS_JSON_KEY = "wrongly_answered_questions_json";
     public static final String WAS_RANDOMIZED_KEY = "was_randomized";
+    public static final String DURATION_KEY = "duration";
     private boolean wasRandomized;
     private Button quizForUnansweredButton;
     private Quiz wronglyAnsweredQuestionsQuiz;
@@ -31,11 +32,22 @@ public class ResultsActivity extends Activity {
         Intent intent = getIntent();
         String result = intent.getStringExtra(ResultsActivity.RESULTS_KEY);
 
+        Long durationMills = intent.getLongExtra(ResultsActivity.DURATION_KEY, 0);
+        int durationSeconds = (int) (durationMills / 1000);
+        int showSeconds = durationSeconds % 60;
+        int showMinutes = durationSeconds / 60;
+
         String wronglyAnsweredJson = intent.getStringExtra(ResultsActivity.WRONGLY_ANSWERED_QUESTIONS_JSON_KEY);
         wasRandomized = intent.getBooleanExtra(ResultsActivity.WAS_RANDOMIZED_KEY, false);
         TextView textView = (TextView) findViewById(R.id.resultText);
         textView.setTextSize(20);
         textView.setText(result);
+
+        TextView durationTextView = (TextView) findViewById(R.id.durationTextView);
+        String durationText = getResources().getText(R.string.duration) +
+                ": " + showMinutes + ":" + showSeconds;
+        durationTextView.setText(durationText);
+
 
         try {
 

@@ -16,5 +16,6 @@
     <string name="correctly_answered">Tesingai atsakyta:</string>
     <string name="incorrectly_answered">Neteisingai atsakyta:</string>
     <string name="should_ask_worst">Tik blogiausiai atsakyti?</string>
+    <string name="duration">Trukmė</string>
 
 </resources>
