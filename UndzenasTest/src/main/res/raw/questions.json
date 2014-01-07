@@ -79,7 +79,8 @@
       "uncor3": "projekto vadovas"
       },
       {
-      "question": "Kurį iš lentelėje parodytų projektų jūs rekomenduotumėte vykdyti? // IRR (Internal Rate of Return, vidinės grąžos norma)\nA: Atsipirkimas(mėn.) - 38 IRR - 25%\nB: Atsipirkimas(mėn.) - 24 IRR - 25%\nC: Atsipirkimas(mėn.) - 28 IRR - 18%\nD: Atsipirkimas(mėn.) - 24 IRR - 12%\nD: Atsipirkimas(mėn.) - 36 IRR - 21%",
+      "question": "Kurį iš lentelėje parodytų projektų jūs rekomenduotumėte vykdyti? // IRR (Internal Rate of Return, vidinės grąžos norma)",
+      "image": "ab",
       "cor": "projektą B",
       "uncor1": "projektą A",
       "uncor2": "projektą C",
@@ -121,7 +122,8 @@
       "uncor3": "išlaidos be perstojo auga viso projekto metu, kol nepasiekiama užbaigimo fazė"
       },
       {
-      "question": "Jūsų organizacijos vadovybė planuoja vykdyti keturis projektus kitais metais. Dėl ribotų išteklių pradėti visus projektus vienu metu neįmanoma. Projektai charakterizuojami taip (NPV - Net Present Value):\nA: Atsipirkimo periodas(mėn.) - 20 NPV - 30000 Lt\nB: Atsipirkimo periodas(mėn.) 24 NPV - 27500 Lt\nC: Atsipirkimo periodas(mėn.) - 18 NPV 25000 Lt\nD: Atsipirkimo periodas(mėn.) -  36 NPV 30000 Lt",
+      "question": "Jūsų organizacijos vadovybė planuoja vykdyti keturis projektus kitais metais. Dėl ribotų išteklių pradėti visus projektus vienu metu neįmanoma. Projektai charakterizuojami taip: (NPV - Net Present Value):",
+      "image": "ah",
       "cor": "projektą A",
       "uncor1": "projektą B",
       "uncor2": "projektą C",
@@ -185,7 +187,7 @@
       },
       {
       "question": "Organizacijos  vadovybė  paprašė  jūsų  įvertinti  keletą  potencialių  projektų  ir rekomenduoti  vieną  iš  jų  vykdyti.  Naudodami  vertinimo  balais  metodą,  imant  balų reikšmes nuo 1 iki 10, jūs parengėte lentelę. Kurį projektą jūs rekomenduosite:",
-      "image": "q_missing",
+      "image": "bg",
       "cor": "projektas C",
       "uncor1": "projektas A",
       "uncor2": "projektas B",
