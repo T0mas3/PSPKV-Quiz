@@ -80,7 +80,7 @@
       },
       {
       "question": "Kurį iš lentelėje parodytų projektų jūs rekomenduotumėte vykdyti? // IRR (Internal Rate of Return, vidinės grąžos norma)",
-      "image": "kl12",
+      "image": "ab",
       "cor": "projektą B",
       "uncor1": "projektą A",
       "uncor2": "projektą C",
@@ -123,7 +123,7 @@
       },
       {
       "question": "Jūsų organizacijos vadovybė planuoja vykdyti keturis projektus kitais metais. Dėl ribotų išteklių pradėti visus projektus vienu metu neįmanoma. Projektai charakterizuojami taip: (NPV - Net Present Value):",
-      "image": "kl18",
+      "image": "ah",
       "cor": "projektą A",
       "uncor1": "projektą B",
       "uncor2": "projektą C",
@@ -187,7 +187,7 @@
       },
       {
       "question": "Organizacijos  vadovybė  paprašė  jūsų  įvertinti  keletą  potencialių  projektų  ir rekomenduoti  vieną  iš  jų  vykdyti.  Naudodami  vertinimo  balais  metodą,  imant  balų reikšmes nuo 1 iki 10, jūs parengėte lentelę. Kurį projektą jūs rekomenduosite:",
-      "image": "kl27",
+      "image": "bg",
       "cor": "projektas C",
       "uncor1": "projektas A",
       "uncor2": "projektas B",
