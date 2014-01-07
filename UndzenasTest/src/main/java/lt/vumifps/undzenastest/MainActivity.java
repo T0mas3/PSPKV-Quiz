@@ -31,6 +31,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private TextView statsIncorrectCountTextView;
     private HorizontalScrollView imageScrollView;
     private ImageView questionImage;
+    private long startTime;
 
     private enum QuestionState {Unanswered, Correct, Wrong}
 
@@ -98,6 +99,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
             showQuestion(quiz.getQuestion(0));
 
+            startTime = System.currentTimeMillis();
 
         } catch (JSONException e) {
             e.printStackTrace();
@@ -174,11 +176,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 if (answerTextView.isCorrect()){
                     this.questionState = QuestionState.Correct;
                     correctCount++;
-                    statsManager.increaseCorrect(question);
                 } else {
                     this.questionState = QuestionState.Wrong;
                     answeredWrong.addQuestion(question);
-                    statsManager.increaseIncorrect(question);
                 }
             }
         }
@@ -209,15 +209,24 @@ public class MainActivity extends Activity implements View.OnClickListener {
     }
 
     private void showNextQuestion() {
+
+        if (questionState == QuestionState.Unanswered || questionState == QuestionState.Wrong) {
+            statsManager.increaseIncorrect(quiz.getQuestion(currentIndex));
+        } else {
+            statsManager.increaseCorrect(quiz.getQuestion(currentIndex));
+        }
+
         currentIndex++;
 
         if (currentIndex+1 > quiz.getNumberOfquestions()) {
 
             currentIndex = 0;
+            long duration  = System.currentTimeMillis() - startTime;
             progressBar.setProgress(0);
             Intent resultsIntent = new Intent(this, ResultsActivity.class);
             String results = correctCount + "/" + numberOfQuestions;
             resultsIntent.putExtra(ResultsActivity.RESULTS_KEY, results);
+            resultsIntent.putExtra(ResultsActivity.DURATION_KEY, duration);
             resultsIntent.putExtra(ResultsActivity.WRONGLY_ANSWERED_QUESTIONS_JSON_KEY, this.answeredWrong.toJson().toString());
             resultsIntent.putExtra(ResultsActivity.WAS_RANDOMIZED_KEY, this.shouldRandomize);
             startActivity(resultsIntent);
