@@ -9,14 +9,14 @@
       "uncor3": "nei reglamentų, nei standartų"
       },
       {
-      "question": "Ką reiškia programa, kai kalbama apie projektus",
+      "question": "Ką reiškia programa, kai kalbama apie projektus",
       "cor": "kelių koordinuojamų projektų grupę",
       "uncor1": "vieną projektą, kuriuo siekiama tam tikrų tikslų",
       "uncor2": "numatomų rezultatų rinkinį, kurie padėtų pasiekti specifinius projekto tikslus",
       "uncor3": "vieną projektą, padalintą į smulkesnes, lengviau valdomas dalis"
       },
       {
-      "question": "Kuris iš teiginių yra teisingas, kai projekto BCR (Benefit Cost Ratio – naudos ir kainos santykis) didesnis už 1",
+      "question": "Kuris iš teiginių yra teisingas, kai projekto BCR (Benefit Cost Ratio – naudos ir kainos santykis) didesnis už 1",
       "cor": "išlaidos projektui yra mažesnės už numatomą gauti naudą",
       "uncor1": "projektas yra ypatingai rizikingas",
       "uncor2": "išlaidos projektui neatsipirks",
@@ -80,7 +80,7 @@
       },
       {
       "question": "Kurį iš lentelėje parodytų projektų jūs rekomenduotumėte vykdyti? // IRR (Internal Rate of Return, vidinės grąžos norma)",
-      "image": "ab",
+      "image": "kl12",
       "cor": "projektą B",
       "uncor1": "projektą A",
       "uncor2": "projektą C",
@@ -88,7 +88,7 @@
       },
       {
       "question": "Jūs esate vadovas projekto, kurio atsipirkimo periodas yra 13 mėnesių. Kuris iš teiginių yra teisingas?",
-      "cor": "per 13 mėn. atsipirks į projektą investuotos lėšos",
+      "cor": "per 13 mėn. atsipirks į projektą investuotos lėšos",
       "uncor1": "projektas gali būti užbaigtas per 13 mėn.",
       "uncor2": "projektas pradės duoti pajamas po 13 mėn.",
       "uncor3": "projektas pradės duoti pelną 13-tą mėnesį"
@@ -108,7 +108,7 @@
       "uncor3": "priemonė, kuria siekiama sumažinti projekto apimties (reikalavimų) keitimus"
       },
       {
-      "question": "monės aplinkos duomenys naudojami rengiant projekto nuostatus ir daugelyje kitokių procesų. Kuris iš žemiau išvardintų dalykų yra įmonės aplinkos duomuo?",
+      "question": "Įmonės aplinkos duomenys naudojami rengiant projekto nuostatus ir daugelyje kitokių procesų. Kuris iš žemiau išvardintų dalykų yra įmonės aplinkos duomuo?",
       "cor": "komercinė (skelbimų, čekių, kt.) duomenų bazė",
       "uncor1": "bendrosios komunikavimo taisyklės",
       "uncor2": "informacijos apie kompanijos projektus duomenų bazė",
@@ -123,7 +123,7 @@
       },
       {
       "question": "Jūsų organizacijos vadovybė planuoja vykdyti keturis projektus kitais metais. Dėl ribotų išteklių pradėti visus projektus vienu metu neįmanoma. Projektai charakterizuojami taip: (NPV - Net Present Value):",
-      "image": "ah",
+      "image": "kl18",
       "cor": "projektą A",
       "uncor1": "projektą B",
       "uncor2": "projektą C",
@@ -187,7 +187,7 @@
       },
       {
       "question": "Organizacijos  vadovybė  paprašė  jūsų  įvertinti  keletą  potencialių  projektų  ir rekomenduoti  vieną  iš  jų  vykdyti.  Naudodami  vertinimo  balais  metodą,  imant  balų reikšmes nuo 1 iki 10, jūs parengėte lentelę. Kurį projektą jūs rekomenduosite:",
-      "image": "bg",
+      "image": "kl27",
       "cor": "projektas C",
       "uncor1": "projektas A",
       "uncor2": "projektas B",
