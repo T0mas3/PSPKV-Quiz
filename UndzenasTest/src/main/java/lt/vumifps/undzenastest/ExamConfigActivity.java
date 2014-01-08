@@ -107,6 +107,7 @@ public class ExamConfigActivity extends Activity implements View.OnClickListener
         intent.putExtra(MainActivity.QUIZ_JSON_KEY, filteredQuiz.toJson().toString());
         intent.putExtra(MainActivity.SHOULD_RANDOMIZE_KEY, shouldRandomize);
         startActivity(intent);
+        this.finish();
     }
 
     @Override
