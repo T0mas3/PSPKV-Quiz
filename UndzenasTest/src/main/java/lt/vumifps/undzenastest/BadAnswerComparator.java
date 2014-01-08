@@ -34,7 +34,7 @@ public class BadAnswerComparator implements Comparator<Question> {
         float totalAsked = answeredCorrectly + answeredIncorrectly;
 
         if (totalAsked == 0) {
-            return 0;
+            return 99999;
         } else if (totalAsked == answeredIncorrectly) {
             return answeredIncorrectly;
         } else {
