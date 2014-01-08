@@ -1,6 +1,8 @@
 package lt.vumifps.undzenastest;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -71,8 +73,17 @@ public class StartingActivity extends Activity implements
             intent.putExtra(MainActivity.QUIZ_JSON_KEY, combinedQuiz.toJson().toString());
             startActivity(intent);
         } else if (view == clearStatsButton) {
-            StatsManager statsManager = new StatsManager(this);
-            statsManager.clearStats();
+            new AlertDialog.Builder(this)
+                    .setTitle(StartingActivity.this.getResources().getString(R.string.clear_stats_dialog_title))
+                    .setMessage(StartingActivity.this.getResources().getString(R.string.clear_stats) + "?")
+                    .setIcon(android.R.drawable.ic_dialog_alert)
+                    .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+
+                        public void onClick(DialogInterface dialog, int whichButton) {
+                            StatsManager statsManager = new StatsManager(StartingActivity.this);
+                            statsManager.clearStats();
+                        }})
+                    .setNegativeButton(android.R.string.no, null).show();
         }
 
     }
