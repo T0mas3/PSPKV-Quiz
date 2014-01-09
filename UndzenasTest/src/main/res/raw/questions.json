@@ -158,7 +158,7 @@
       "uncor3": "vertinimo balais modelis"
       },
       {
-      "question": "Organizacijos vadovybė paprašė jūsų įvertinti keturis potencialius projektus. Kurį projektą jūs rekomenduotumėte",
+      "question": "Organizacijos vadovybė paprašė jūsų įvertinti keturis potencialius projektus. Kurį projektą jūs rekomenduotumėte",
       "cor": "projektą A, kurio BCR (Benefit Cost Ratio, naudos ir kainos santykis) yra 2.1",
       "uncor1": "projektą B, kurio BCR – 1.2",
       "uncor2": "projektą C, kurio BCR – -2.1",
@@ -194,7 +194,7 @@
       "uncor3": "projektas D"
       },
       {
-      "question": "Jūs dirbate projekto vadovu didelėje organizacijoje. Vadovybė neseniai sužinojo apie naujus pasaulinio pozicionavimo sistemos atradimus, kas įgalintų ir jūsų organizaciją teikti papildomas paslaugas klientams. Jūsų paprašė vadovauti naujų paslaugų kūrimo projektui, ir organizacijos vadovybė nori pristatyti naują paslaugą prekybos parodoje kitų metų pirmąjį ketvirtį. Kokia šio projekto inicijavimo priežastis",
+      "question": "Jūs dirbate projekto vadovu didelėje organizacijoje. Vadovybė neseniai sužinojo apie naujus pasaulinio pozicionavimo sistemos atradimus, kas įgalintų ir jūsų organizaciją teikti papildomas paslaugas klientams. Jūsų paprašė vadovauti naujų paslaugų kūrimo projektui, ir organizacijos vadovybė nori pristatyti naują paslaugą prekybos parodoje kitų metų pirmąjį ketvirtį. Kokia šio projekto inicijavimo priežastis",
       "cor": "technologijų pažanga",
       "uncor1": "socialiniai poreikiai",
       "uncor2": "verslo poreikiai",
@@ -250,21 +250,21 @@
       "uncor3": "atitikimo išoriniams teisės aktams reikalavimas"
       },
       {
-      "question": "Jūs rengiate preliminarų projekto biudžetą (biudžeto metmenis). Projekto kaina negali viršyti 475000 Lt. Todėl jūs rengdami projekto planą turite atsižvelgti į šį apribojimą. Kokį kainos vertinimo būdą jūs naudosite",
+      "question": "Jūs rengiate preliminarų projekto biudžetą (biudžeto metmenis). Projekto kaina negali viršyti 475000 Lt. Todėl jūs rengdami projekto planą turite atsižvelgti į šį apribojimą. Kokį kainos vertinimo būdą jūs naudosite",
       "cor": "iš viršaus į apačią",
       "uncor1": "iš apačios į viršų",
       "uncor2": "parametrinį",
       "uncor3": "tiesinės regresijos"
       },
       {
-      "question": "Įmonės organizaciniai dokumentai (enterprise organiztional process assets) yra įeities duomenys projekto nuostatų rengimo ir kitiems procesams. Kuris iš žemiau išvardintų dalykų nėra įmonės organizacinis dokumentas",
+      "question": "Įmonės organizaciniai dokumentai (enterprise organizational process assets) yra įeities duomenys projekto nuostatų rengimo ir kitiems procesams. Kuris iš žemiau išvardintų dalykų nėra įmonės organizacinis dokumentas",
       "cor": "įmonės organizacinė struktūra ir nuostatai",
       "uncor1": "įmonės anksčiau vykdytų projektų archyvas",
       "uncor2": "įmonės kokybės kontrolės katalogas (kontrolinis sąrašas)",
       "uncor3": "įmonės nurodymai projektams užbaigti"
       },
       {
-      "question": "Jūsų paprašė atrinkti vieną iš trijų projektų, kurie charakterizuojami taip:\n- projekto A rodiklis NPV (Net Presnt Value, grynoji dabartinė vertė) yra 80 000 Lt ir projektui įvykdyti reikia 5 metų; \n- projekto B NPV yra 100 000 Lt ir projektui įvykdyti reikia 2 metų;\n- projekto C NPV yra 100 000 Lt ir projektui įvykdyti reikia 3 metų. Kuris iš projektų yra perspektyviausias",
+      "question": "Jūsų paprašė atrinkti vieną iš trijų projektų, kurie charakterizuojami taip:\n- projekto A rodiklis NPV (Net Presnt Value, grynoji dabartinė vertė) yra 80 000 Lt ir projektui įvykdyti reikia 5 metų; \n- projekto B NPV yra 100 000 Lt ir projektui įvykdyti reikia 2 metų;\n- projekto C NPV yra 100 000 Lt ir projektui įvykdyti reikia 3 metų. Kuris iš projektų yra perspektyviausias",
       "cor": "projektas B",
       "uncor1": "projektas A",
       "uncor2": "projektas C",
@@ -301,7 +301,7 @@
       {
       "question": "Kuris iš projekto kainos vertinimo būdų kitaip dar yra vadinamas analogiškuoju",
       "cor": "iš viršaus į apačią",
-      "uncor1": "iš apačios į viršų",
+      "uncor1": "iš apačios į viršų",
       "uncor2": "parametrinis",
       "uncor3": "pavyzdinis (definitive)"
       },
@@ -324,10 +324,10 @@
       "cor": "prašyti sponsorių finansuoti galimybių studiją (feasibility study)",
       "uncor1": "sudaryti naujo projekto darbuotojų grupę",
       "uncor2": "nagrinėti naujas technologijas kiekvienos projekto prastovos metu",
-      "uncor3": "rengti preliminarų projekto apimties aprašą (project scope statement)"
+      "uncor3": "rengti preliminarų projekto apimties aprašą (project scope statement)"
       },
       {
-      "question": "Įmonės vadovybė paprašė jūsų išanalizuoti projektą, kurio ketinama imtis. Yra 75% tikimybė, kad projektas atneš 500000 Lt naudą. Tačiau yra ir 40% tikimybė patirti 400000 Lt nuostolį. Kokia yra projekto tikėtina nauda",
+      "question": "Įmonės vadovybė paprašė jūsų išanalizuoti projektą, kurio ketinama imtis. Yra 75% tikimybė, kad projektas atneš 500000 Lt naudą. Tačiau yra ir 40% tikimybė patirti 400000 Lt nuostolį. Kokia yra projekto tikėtina nauda",
       "cor": "215000Lt",
       "uncor1": "100000Lt",
       "uncor2": "185000Lt",
@@ -349,7 +349,7 @@
       },
       {
       "question": "Kada parametrinio modeliavimo būdas duoda labiausiai patikimus projekto kainos įverčius",
-      "cor": "kai anksčiau vykdytų projektų informacija (historical informatio), kuriais remiamasi vertinimo metu, yra tiksli",
+      "cor": "kai anksčiau vykdytų projektų informacija (historical information), kuriais remiamasi vertinimo metu, yra tiksli",
       "uncor1": "kai yra nedidelės apimties projektas",
       "uncor2": "kai projekto grupėje yra daug žmonių",
       "uncor3": "kai smulkių darbų įverčiai, esantys įmonėje, yra naudojami vertinant viso projekto kainą"
@@ -404,7 +404,7 @@
       "uncor3": "surinkti ir išanalizuoti akcininkų pageidavimus ir įgyvendinti tuos, kuriuos išreiškė visi"
       },
       {
-      "question": "Jūs esate naujos programinės įrangos kūrimo savo organizacijai projekto vadovas. Žinodami projekto tikslus ir uždavinius, jūs turite apibrėžti projektui reikiamus išteklius. Kuris iš žemiau išvardintų dalykų nėra priskirtinas projekto ištekliams",
+      "question": "Jūs esate naujos programinės įrangos kūrimo savo organizacijai projekto vadovas. Žinodami projekto tikslus ir uždavinius, jūs turite apibrėžti projektui reikiamus išteklius. Kuris iš žemiau išvardintų dalykų nėra priskirtinas projekto ištekliams",
       "cor": "užduotys programinės įrangos moduliams sukurti",
       "uncor1": "programinės įrangos kūrėjams reikalingos tinklo jungtys",
       "uncor2": "rangovai specialioms programavimo užduotims atlikti",
